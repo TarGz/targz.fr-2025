@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Blended Squares n°21"
+date: 2021-10-18
+category: portfolio
+tags: [pen-plotter, art]
+image: /assets/images/blended-squares-n-21-preview.png
+original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-21
+---
+
+![Blended Squares n°21](/assets/images/blended-squares-n-21-02.png)
+
+# Blended Squares n°21
+October 18, 2021
+
+2021 -42 × 59.4 cm  - Bristol Paper & Ink
