@@ -1,6 +1,6 @@
 domain: github.io
-url: https://targz.github.io/targz.fr-2025/
-baseurl: "/wind"
+url: https://targz.github.io/
+baseurl: "/targz.fr-2025"
 
 title: Wind
 email: wind@example.com
