@@ -2,31 +2,31 @@
 title: about
 layout: page
 ---
-## Modo nostra
 
-Lorem markdownum mihi; hic sonantem tenebat telum successu mollierant inani
-avoque. Harena et laedor bisque moenia veniat facit lebetes tum non?
 
-> Iunctissima lapsus illis; venit protervis exequialia absit tristia et
-> **locum** cum ut ad convertor tamen. Ad mea cui! Pedibus sit inque quaerit [ac
-> eadem](http://clamavit.io/), quid, aurum quam videt ille. Aiax harenam, et
-> salices equos, captis, Iovis.
+![A picture of Targz]({{ '/assets/images/about-targz.webp' | relative_url }})
 
-## Cumque ardor
+Hi, my artist name is Targz (pronounced “Tar-gz”). I'm exploring the mix of digital and physical worlds through coding and analog pen plotter techniques.
+ 
+ 
+###### Starting Point
+My passion for Lego, my taste for geometric shapes, and my career in creative programming have led me to generative art. The pioneers of Op Art and pen plotting, such as Vera Molnar and Bridget Riley, have greatly inspired and influenced the direction of my work.
 
-Suspiria seque sui quot, stare non profuso adsensere ignibus. Nata nomen rude
-veniam. Colore alta avido, relicta obnoxia vivosque Ereboque animosque meae,
-festas, Cythereia tu stare scitusque. Indefessus urbes eodem tuo liceat dives
-Telamonius nobis aetheriae, illam, in heu idemque **an**.
+###### Practice
+My practice is strongly influenced by my love for abstract art. This interest is not only about the appearance but especially about how my brain finds meaning in abstract forms, a process likely akin to pareidolia.
+In constant search, I evolve my techniques in pursuit of that moment when I can no longer not see the image emerging from the abstract.
+In parallel, since 2019, I have been sharing my work by documenting my process and producing immersive videos. These videos, shared on TikTok and Instagram, have met with some success, contributing to increasing my visibility and online reputation.
 
-    key(gigabyteHoverClick - kilohertz, latencyPad);
-    process_password(heap_barcraft_file(matrix - dos_icio_blacklist,
-            exploitScsiVdu), activex * raid, cdmaVfatNvram + direct);
-    if (2 != surgeMemeConstant + 4) {
-        enterprise_so_gps += -1;
-        task(19 + primary_dvd_ruby, oasis_drive);
-    } else {
-        networking_path_box = protocolAndStack(5, 1, drop_rom) + dns_tft(29, -3,
-                emulation);
-    }
+###### Technique
+To create my works, I use my own code (JavaScript, Processing) and a custom-made pen plotter. Seeking a balance between randomness and deliberate design, my work involves transferring my digital creations into the analog world through the choice of media, materials, and colors.
 
+> Version Française
+
+Je suis Targz (prononcé “Tar-gz”), un artiste qui explore le mélange des mondes digital et analogique. Ma passion pour les Lego, mon goût pour les formes géométriques, et ma carrière dans la programmation créative m’ont conduit à l’art génératif. Les pionnières de l’Op Art et du pen plotting, comme Vera Molnar et Bridget Riley ont beaucoup inspiré et influencé l’orientation de mon travail.
+
+##Pratique
+Ma pratique est fortement influencée par mon amour pour l’art abstrait. Cet intérêt ne concerne pas seulement l’apparence, mais surtout la façon dont mon cerveau trouve un sens dans des formes abstraites, un processus sans doute proche de la paréidolie. En perpétuelle recherche, je fais évoluer mes techniques à la recherche de ce moment où je ne peux plus ne pas voir l’image qui émerge de l’abstrait.
+En parallèle, depuis 2019, je partage mon travail en documentant mon processus et en produisant des vidéos immersives. Ces vidéos, diffusées sur TikTok et Instagram, ont rencontré un certain succès, ce qui a contribué à accroître ma visibilité et ma notoriété en ligne.
+
+###### Technique
+Pour créer mes œuvres, j’utilise mon propre code (Javascript, Processing) et un traceur (Pen Plotter) fabriqué sur mesure. À la recherche d’un équilibre entre le hasard et la conception délibérée, mon travail implique de transférer mes créations digitales dans le monde analogique au travers du choix des médias, des matériaux et des couleurs.

@@ -12,7 +12,6 @@ August 31, 2022
 
 **Commission/Exhibition**
 
-![Chunk of Maze Overview]({{ '/assets/images/chucnkofmaze-preview.webp' | relative_url }})
 
 A commissioned work exploring maze-like patterns and algorithmic structures. This exhibition presents intricate labyrinths generated through code, where each path represents a possible solution in a complex system.
 

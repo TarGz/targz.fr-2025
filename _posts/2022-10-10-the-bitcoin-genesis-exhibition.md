@@ -10,7 +10,6 @@ image: /assets/images/The_Bitcoin_genesis-preview.webp
 # The Bitcoin Genesis Exhibition
 October 10, 2022
 
-![The Bitcoin Genesis Exhibition]({{ '/assets/images/The_Bitcoin_genesis-preview.webp' | relative_url }})
 
 Exhibition featuring the Bitcoin Genesis artwork, exploring the intersection of cryptocurrency and generative art. This piece visualizes the genesis block of Bitcoin through algorithmic patterns, creating a physical manifestation of digital currency's foundational moment.
 

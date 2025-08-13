@@ -12,7 +12,6 @@ November 1, 2018
 
 **Interactive Exhibition**
 
-![Fill The Blank Overview]({{ '/assets/images/Fill_The_Blank-preview.webp' | relative_url }})
 
 Interactive installation using Billund Mono Sans font, engaging viewers in the creative process. This exhibition transforms typography into a participatory experience, where visitors contribute to the completion of letterforms and textual compositions.
 
