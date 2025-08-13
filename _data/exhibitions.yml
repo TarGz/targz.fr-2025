@@ -1,0 +1,38 @@
+- title: "A Plot in the Wild"
+  date: 2025-05-25
+  end_date: 2025-05-31
+  location: "25 cities across 7 countries"
+  type: "Global Video Art Exhibition"
+  description: "Part of Project / Forward: 2049. A global video art exhibition screened in public spaces, taking art out of galleries and into the wild. Features artists from Australia, Indonesia, India, Nigeria, Norway, Spain, and the United States."
+
+- title: "Grand Palais"
+  date: 2025-03-09
+  location: "Grand Palais, Paris"
+  type: "Group Exhibition"
+  description: "Constructivism group exhibition featuring generative, pen-plotted art in one of Paris's most iconic venues. A surreal and deeply meaningful experience bringing computational art to this historical space."
+
+- title: "Behind The Lines"
+  date: 2025-05-31
+  location: "Ô Marches du Palais, Lodève"
+  type: "Live Installation"
+  description: "A transparent glass installation revealing the creative process behind pen plotting, showcasing the artistic decision-making that goes into each piece."
+
+- title: "The Bitcoin Genesis"
+  date: 2022-10-10
+  type: "Exhibition"
+  description: "Exhibition featuring the Bitcoin Genesis artwork, exploring the intersection of cryptocurrency and generative art."
+
+- title: "Chunk of Maze"
+  date: 2022-08-31
+  type: "Commission/Exhibition"
+  description: "A commissioned work exploring maze-like patterns and algorithmic structures."
+
+- title: "Blended Squares"
+  date: 2021-11-10
+  type: "Exhibition"
+  description: "Exhibition featuring the Blended Squares series, showcasing poster and pen plotter art."
+
+- title: "Fill The Blank"
+  date: 2018-11-01
+  type: "Interactive Exhibition"
+  description: "Interactive installation using Billund Mono Sans font, engaging viewers in the creative process."
