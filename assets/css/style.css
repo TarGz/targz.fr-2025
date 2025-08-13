@@ -178,6 +178,14 @@ nav a:hover img {
   background: #f5f5f5 !important;
 }
 
+/* Remove article card effect and padding */
+article {
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
 /* Home page grid */
 .home-grid {
   display: grid;
