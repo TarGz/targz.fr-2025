@@ -286,3 +286,11 @@ article {
   color: var(--pico-muted-color);
   font-size: 0.75rem;
 }
+
+/* Text flow around images on about page only */
+.prose img {
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+  max-width: 300px;
+  height: auto;
+}
