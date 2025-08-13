@@ -1,57 +1,107 @@
-{%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.header_pages | default: default_paths -%}
-{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-{%- assign current_page_url = page.url | relative_url -%}
+{%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths =
+site.header_pages | default: default_paths -%} {%- assign titles_size =
+site.pages | map: 'title' | join: '' | size -%} {%- assign current_page_url =
+page.url | relative_url -%}
 
 <nav class="py-4">
-  <div class="container mx-auto flex justify-between items-center">
-    <h5 class="text-xl md:text-2xl font-semibold"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h5>
-    <div class="my-auto hidden md:flex items-center space-x-4">
-      {%- if titles_size > 0 -%}
-      {%- for path in page_paths -%}
-      {%- assign my_page = site.pages | where: "path", path | first -%}
-      {%- if my_page.title and my_page.hide_in_nav != true -%}
-      <a class="hover:scale-105 duration-300 page-link {% if my_page.url == current_page_url %}font-bold{% endif %}"
-        href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-      {%- endif -%}
-      {%- endfor -%}
-      {%- endif -%}
-      
-      <a class="hover:scale-105 duration-300 page-link" href="https://shop.targz.fr/blogs/pen-plotter-updates" target="_blank">News</a>
-      
-      <a class="hover:scale-105 duration-300 page-link bg-black text-white px-4 py-2 rounded" href="https://shop.targz.fr" target="_blank">SHOP</a>
+    <div class="container mx-auto flex justify-between items-center">
+        <h5 class="text-xl md:text-2xl font-semibold">
+            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </h5>
+        <div class="my-auto hidden md:flex items-center space-x-4">
+            <a
+                class="hover:scale-105 duration-300 page-link {% if current_page_url == '/pen-plotting/' %}font-bold{% endif %}"
+                href="{{ '/pen-plotting/' | relative_url }}"
+                >Pen Plotting</a
+            >
+
+            <a
+                class="hover:scale-105 duration-300 page-link {% if current_page_url == '/other-bits/' %}font-bold{% endif %}"
+                href="{{ '/other-bits/' | relative_url }}"
+                >Other Bits</a
+            >
+
+            <a
+                class="hover:scale-105 duration-300 page-link {% if current_page_url == '/about/' %}font-bold{% endif %}"
+                href="{{ '/about/' | relative_url }}"
+                >About</a
+            >
+            <a
+                class="hover:scale-105 duration-300 page-link"
+                href="https://shop.targz.fr/blogs/pen-plotter-updates"
+                target="_blank"
+                >News</a
+            >
+
+            <a
+                class="hover:scale-105 duration-300 page-link"
+                href="https://shop.targz.fr"
+                >Shop</a
+            >
+        </div>
+
+        <div class="z-50 md:hidden flex">
+            <button
+                id="mobile-menu-button"
+                class="p-2 text-blue"
+                aria-label="Toggle menu"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    class="h-8 w-8"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h16m-7 6h7"
+                    ></path>
+                </svg>
+            </button>
+            <div
+                id="mobile-menu"
+                class="hidden absolute top-16 right-4 bg-white p-4 rounded shadow-md"
+            >
+                <a
+                    class="block text-black-700 font-semibold p-2"
+                    href="{{ '/pen-plotting/' | relative_url }}"
+                    >Pen Plotting</a
+                >
+                <a
+                    class="block text-black-700 font-semibold p-2"
+                    href="{{ '/other-bits/' | relative_url }}"
+                    >Other Bits</a
+                >
+                <a
+                    class="block text-black-700 font-semibold p-2"
+                    href="{{ '/about/' | relative_url }}"
+                    >About</a
+                >
+                <a
+                    class="block text-black-700 font-semibold p-2"
+                    href="https://shop.targz.fr/blogs/pen-plotter-updates"
+                    target="_blank"
+                    >News</a
+                >
+                <a
+                    class="block text-black-700 font-semibold p-2 bg-black text-white rounded mt-2"
+                    href="https://shop.targz.fr"
+                    target="_blank"
+                    >SHOP</a
+                >
+            </div>
+        </div>
     </div>
-
-
-
-    <div class="z-50 md:hidden flex">
-      <button id="mobile-menu-button" class="p-2 text-blue" aria-label="Toggle menu">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 w-8">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-        </svg>
-      </button>
-      <div id="mobile-menu" class="hidden absolute top-16 right-4 bg-white p-4 rounded shadow-md">
-        {%- if titles_size > 0 -%}
-        {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title and my_page.hide_in_nav != true -%}
-        <a class="block text-black-700 font-semibold p-2" href="{{ my_page.url | relative_url }}">{{ my_page.title |
-          escape }}</a>
-        {%- endif -%}
-        {%- endfor -%}
-        {%- endif -%}
-        <a class="block text-black-700 font-semibold p-2" href="https://shop.targz.fr/blogs/pen-plotter-updates" target="_blank">News</a>
-        <a class="block text-black-700 font-semibold p-2 bg-black text-white rounded mt-2" href="https://shop.targz.fr" target="_blank">SHOP</a>
-      </div>
-    </div>
-  </div>
 </nav>
 
 <script>
-  const mobileMenuButton = document.getElementById('mobile-menu-button');
-  const mobileMenu = document.getElementById('mobile-menu');
+    const mobileMenuButton = document.getElementById("mobile-menu-button");
+    const mobileMenu = document.getElementById("mobile-menu");
 
-  mobileMenuButton.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
-  });
+    mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+    });
 </script>
