@@ -1,5 +1,17 @@
 {%- assign current_page_url = page.url | relative_url -%}
 
+<div id="slide-nav-overlay" class="slide-nav-overlay">
+  <div class="container slide-nav-container">
+    <div class="slide-nav-list">
+      <a href="{{ '/exhibitions/' | relative_url }}">Exhibitions</a>
+      <a href="{{ '/other-bits/' | relative_url }}">Other Bits</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="https://shop.targz.fr/blogs/pen-plotter-updates" target="_blank">News</a>
+      <a href="https://shop.targz.fr" target="_blank">Shop</a>
+    </div>
+  </div>
+</div>
+
 <nav>
   <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
     <a href="{{ '/' | relative_url }}" style="text-decoration: none;">
@@ -7,56 +19,53 @@
     </a>
     
     <button id="burger-menu" style="background: none; border: none; cursor: pointer; padding: 0.5rem; display: flex; flex-direction: column; gap: 4px; margin-left: auto;">
-      <div style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
-      <div style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
-      <div style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
+      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
+      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
+      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
     </button>
-  </div>
-  
-  <div id="mobile-menu" style="display: none; position: absolute; top: 70px; right: 1rem; background: white; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); min-width: 200px; z-index: 1000;">
-    <a href="{{ '/pen-plotting/' | relative_url }}" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">Pen Plotting</a>
-    <a href="{{ '/exhibitions/' | relative_url }}" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">Exhibitions</a>
-    <a href="{{ '/other-bits/' | relative_url }}" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">Other Bits</a>
-    <a href="{{ '/about/' | relative_url }}" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">About</a>
-    <a href="https://shop.targz.fr/blogs/pen-plotter-updates" target="_blank" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">News</a>
-    <a href="https://shop.targz.fr" target="_blank" style="display: block; padding: 12px 16px; text-decoration: none; color: black; font-weight: bold;">Shop</a>
   </div>
 </nav>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('DOM loaded, setting up burger menu...');
-  
   const burgerMenu = document.getElementById('burger-menu');
-  const mobileMenu = document.getElementById('mobile-menu');
+  const slideNavOverlay = document.getElementById('slide-nav-overlay');
+  const body = document.body;
   
-  console.log('Burger menu:', burgerMenu);
-  console.log('Mobile menu:', mobileMenu);
-  
-  if (burgerMenu && mobileMenu) {
+  if (burgerMenu && slideNavOverlay) {
     burgerMenu.addEventListener('click', function(e) {
       e.preventDefault();
-      console.log('Burger clicked!');
       
-      if (mobileMenu.style.display === 'none' || mobileMenu.style.display === '') {
-        mobileMenu.style.display = 'block';
-        console.log('Menu opened');
+      // Toggle the navigation
+      const isActive = slideNavOverlay.classList.contains('active');
+      
+      if (isActive) {
+        // Close navigation
+        slideNavOverlay.classList.remove('active');
+        body.classList.remove('nav-active');
       } else {
-        mobileMenu.style.display = 'none';
-        console.log('Menu closed');
+        // Open navigation
+        slideNavOverlay.classList.add('active');
+        body.classList.add('nav-active');
       }
     });
 
-    // Close menu when clicking outside
-    document.addEventListener('click', function(event) {
-      if (!burgerMenu.contains(event.target) && !mobileMenu.contains(event.target)) {
-        mobileMenu.style.display = 'none';
-      }
+    // Close menu when clicking on a link
+    const navLinks = slideNavOverlay.querySelectorAll('a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        slideNavOverlay.classList.remove('active');
+        body.classList.remove('nav-active');
+      });
     });
     
-    console.log('Burger menu setup complete');
-  } else {
-    console.error('Could not find burger menu elements');
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      if (!burgerMenu.contains(event.target) && !slideNavOverlay.contains(event.target)) {
+        slideNavOverlay.classList.remove('active');
+        body.classList.remove('nav-active');
+      }
+    });
   }
 });
 </script>
