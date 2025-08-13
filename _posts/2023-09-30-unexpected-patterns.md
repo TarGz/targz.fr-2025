@@ -8,7 +8,7 @@ image: /assets/images/unexpected-patterns-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/unexpected-patterns
 ---
 
-![Unexpected Patterns](/assets/images/unexpected-patterns-02.png)
+![Unexpected Patterns]({{ site.baseurl }}/assets/images/unexpected-patterns-02.png)
 
 # Unexpected Patterns
 September 30, 2023

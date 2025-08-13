@@ -8,7 +8,7 @@ image: /assets/images/chromatic-interplay-n-6-half-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/chromatic-interplay-n-6-half
 ---
 
-![Chromatic Interplay n°6 half](/assets/images/chromatic-interplay-n-6-half-02.png)
+![Chromatic Interplay n°6 half]({{ site.baseurl }}/assets/images/chromatic-interplay-n-6-half-02.png)
 
 # Chromatic Interplay n°6 half
 May 1, 2023

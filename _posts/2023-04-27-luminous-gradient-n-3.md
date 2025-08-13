@@ -8,7 +8,7 @@ image: /assets/images/luminous-gradient-n-3-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/luminous-gradient-n-3
 ---
 
-![Luminous Gradient n°3](/assets/images/luminous-gradient-n-3-02.png)
+![Luminous Gradient n°3]({{ site.baseurl }}/assets/images/luminous-gradient-n-3-02.png)
 
 # Luminous Gradient n°3
 April 27, 2023

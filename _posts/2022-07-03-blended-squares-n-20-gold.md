@@ -8,7 +8,7 @@ image: /assets/images/blended-squares-n-20-gold-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-20-gold
 ---
 
-![Blended Squares n°20 GOLD](/assets/images/blended-squares-n-20-gold-02.png)
+![Blended Squares n°20 GOLD]({{ site.baseurl }}/assets/images/blended-squares-n-20-gold-02.png)
 
 # Blended Squares n°20 GOLD
 July 3, 2022

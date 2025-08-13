@@ -8,7 +8,7 @@ image: /assets/images/fused-duality-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/fused-duality
 ---
 
-![Fused Duality](/assets/images/fused-duality-02.png)
+![Fused Duality]({{ site.baseurl }}/assets/images/fused-duality-02.png)
 
 # Fused Duality
 August 21, 2023

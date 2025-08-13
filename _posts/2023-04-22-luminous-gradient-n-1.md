@@ -8,7 +8,7 @@ image: /assets/images/luminous-gradient-n-1-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/luminous-gradient-n-1
 ---
 
-![Luminous Gradient n°1](/assets/images/luminous-gradient-n-1-02.png)
+![Luminous Gradient n°1]({{ site.baseurl }}/assets/images/luminous-gradient-n-1-02.png)
 
 # Luminous Gradient n°1
 April 22, 2023
@@ -17,4 +17,4 @@ April 22, 2023
 
 An experiment in mixing colors to create a lighting effect.
 
-![](/assets/images/luminous-gradient-n-1-03.png)
+![]({{ site.baseurl }}/assets/images/luminous-gradient-n-1-03.png)

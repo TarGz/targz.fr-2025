@@ -8,7 +8,7 @@ image: /assets/images/blended-squares-n-17-3-colors-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-17-3-colors
 ---
 
-![Blended Squares n°17 3 colors](/assets/images/blended-squares-n-17-3-colors-02.png)
+![Blended Squares n°17 3 colors]({{ site.baseurl }}/assets/images/blended-squares-n-17-3-colors-02.png)
 
 # Blended Squares n°17 3 colors
 February 1, 2022

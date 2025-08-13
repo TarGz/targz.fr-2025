@@ -17,41 +17,41 @@ The exhibition celebrates the pioneers who turned new tools into creative medium
 
 ### Highlights of the Exhibition 🎨
 
-![](/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-01.jpg)
+![]({{ site.baseurl }}/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-01.jpg)
 
 #### Mary Martin –Permutation of Six(1966)
 
-![](/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-02.jpg)
+![]({{ site.baseurl }}/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-02.jpg)
 
 One of the pieces that stood out for me wasPermutation of Sixby Mary Martin. Made without a computer, it uses a Truchet tiling algorithm to create geometric patterns. Since I’ve spent years exploring this technique myself, this piece really hit home. It’s a timeless idea that I plan to keep working on for years. ♥️
 
 #### Katsuhiro Yamaguchi –Fujitsubo (Barnacle)(1966/2017)
 
-![](/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-03.jpg)
+![]({{ site.baseurl }}/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-03.jpg)
 
 This light sculpture mixes form and light in such a clever way. It looks like a 3D light drawing—both a sculpture and something more dynamic. I loved how it blurred the lines between physical and visual art. 💡
 
 #### Edward Zajec –RAM 2 V.3(1969)
 
-![](/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-04.jpg)
+![]({{ site.baseurl }}/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-04.jpg)
 
 This pen plotter piece, made with an IBM 1620 and ComPlot DP-1, has a great architectural feel. The dark areas create a 3D effect that’s both abstract and structured. It’s amazing to see how artists back then pushed these machines to make something so fresh. 🏰
 
 #### Nake –Matrizmultiplikation Serie 29(1967)
 
-![](/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-05.jpg)
+![]({{ site.baseurl }}/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-05.jpg)
 
 This colorful pen plotter artwork is based on matrix multiplication algorithms. The bold colors and layered grids are so inspiring. Working with vibrant palettes is something I enjoy, and this piece gave me new ideas. 🖌️
 
 #### Katsuhiro Yamaguchi – Corrugated Glass Video Installation
 
-![](/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-06.jpg)
+![]({{ site.baseurl }}/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-06.jpg)
 
 This piece uses corrugated glass to turn video into something like pixel art. I loved how it made me imagine what the original footage might have been. It’s such a simple but effective way to challenge how we see things. 🔣
 
 #### Charles Csuri – Pen Plot Portrait (1967)
 
-![](/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-07.jpg)
+![]({{ site.baseurl }}/assets/images/electric-dreams-at-tate-modern-a-journey-into-the-roots-of-art-and-technology-%E2%9C%A8-07.jpg)
 
 This portrait, made with a NASA computer and pen plotter, really got to me. My own pen plotter journey started with portraits, so this piece felt personal. It’s incredible to see where it all began. 🌟
 
@@ -62,14 +62,3 @@ Electric Dreamsisn’t just an exhibition—it’s a look at the early days of t
 The show runs until June 1, 2025. You can check it out at Tate Modern—more infohere.
 
 If you’ve been to the exhibit or have a favorite piece from it, let me know in the comments! 🙌
-
-## Leave a comment
-
-Name
-                  *
-
-Email
-                  *
-
-Comment
-                *

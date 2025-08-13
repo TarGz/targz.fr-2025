@@ -8,7 +8,7 @@ image: /assets/images/a-duet-of-gold-and-red-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/a-duet-of-gold-and-red
 ---
 
-![A Duet Of Gold And Red](/assets/images/a-duet-of-gold-and-red-02.png)
+![A Duet Of Gold And Red]({{ site.baseurl }}/assets/images/a-duet-of-gold-and-red-02.png)
 
 # A Duet Of Gold And Red
 July 15, 2023

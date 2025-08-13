@@ -8,7 +8,7 @@ image: /assets/images/green-lagoon-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/green-lagoon
 ---
 
-![Green Lagoon](/assets/images/green-lagoon-02.png)
+![Green Lagoon]({{ site.baseurl }}/assets/images/green-lagoon-02.png)
 
 # Green Lagoon
 March 24, 2024

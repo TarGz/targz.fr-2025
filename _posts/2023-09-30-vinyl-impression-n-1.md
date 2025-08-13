@@ -8,7 +8,7 @@ image: /assets/images/vinyl-impression-n-1-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/vinyl-impression-n-1
 ---
 
-![Vinyl Impression N°1](/assets/images/vinyl-impression-n-1-02.png)
+![Vinyl Impression N°1]({{ site.baseurl }}/assets/images/vinyl-impression-n-1-02.png)
 
 # Vinyl Impression N°1
 September 30, 2023

@@ -8,7 +8,7 @@ image: /assets/images/plasma-convection-right-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/plasma-convection-right
 ---
 
-![Plasma Convection Right](/assets/images/plasma-convection-right-02.png)
+![Plasma Convection Right]({{ site.baseurl }}/assets/images/plasma-convection-right-02.png)
 
 # Plasma Convection Right
 June 15, 2024

@@ -8,7 +8,7 @@ image: /assets/images/chromatic-interplay-n-6-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/chromatic-interplay-n-6
 ---
 
-![Chromatic Interplay n°6](/assets/images/chromatic-interplay-n-6-02.png)
+![Chromatic Interplay n°6]({{ site.baseurl }}/assets/images/chromatic-interplay-n-6-02.png)
 
 # Chromatic Interplay n°6
 April 29, 2023

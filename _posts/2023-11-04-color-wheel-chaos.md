@@ -8,7 +8,7 @@ image: /assets/images/color-wheel-chaos-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/color-wheel-chaos
 ---
 
-![Color Wheel Chaos](/assets/images/color-wheel-chaos-02.png)
+![Color Wheel Chaos]({{ site.baseurl }}/assets/images/color-wheel-chaos-02.png)
 
 # Color Wheel Chaos
 November 4, 2023

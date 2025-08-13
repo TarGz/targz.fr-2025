@@ -8,7 +8,7 @@ image: /assets/images/dye-with-me-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/dye-with-me
 ---
 
-![Dye With Me](/assets/images/dye-with-me-02.png)
+![Dye With Me]({{ site.baseurl }}/assets/images/dye-with-me-02.png)
 
 # Dye With Me
 February 8, 2025
@@ -19,4 +19,4 @@ A blend of fault
 
 This pen plotter piece started as a simple test—how long can an Ecoline Brush pen keep going before it dries up? As the ink faded, an unexpected but beautiful gradient appeared. It felt like it needed something more, so I ran a second path with a different color. The way the two layers blended just clicked for me—I loved the result, so I decided to keep it.
 
-![](/assets/images/dye-with-me-03.jpg)![](/assets/images/dye-with-me-04.jpg)![](/assets/images/dye-with-me-05.jpg)
+![]({{ site.baseurl }}/assets/images/dye-with-me-03.jpg)![]({{ site.baseurl }}/assets/images/dye-with-me-04.jpg)![]({{ site.baseurl }}/assets/images/dye-with-me-05.jpg)

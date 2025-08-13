@@ -8,7 +8,7 @@ image: /assets/images/figure-eight-knot-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/figure-eight-knot
 ---
 
-![Figure-eight Knot](/assets/images/figure-eight-knot-02.png)
+![Figure-eight Knot]({{ site.baseurl }}/assets/images/figure-eight-knot-02.png)
 
 # Figure-eight Knot
 April 27, 2024

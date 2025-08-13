@@ -8,7 +8,7 @@ image: /assets/images/blended-squares-n-20-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-20
 ---
 
-![Blended Squares n°20](/assets/images/blended-squares-n-20-02.png)
+![Blended Squares n°20]({{ site.baseurl }}/assets/images/blended-squares-n-20-02.png)
 
 # Blended Squares n°20
 November 7, 2021

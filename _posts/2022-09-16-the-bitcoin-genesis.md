@@ -8,7 +8,7 @@ image: /assets/images/the-bitcoin-genesis-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/the-bitcoin-genesis
 ---
 
-![The Bitcoin genesis](/assets/images/the-bitcoin-genesis-02.png)
+![The Bitcoin genesis]({{ site.baseurl }}/assets/images/the-bitcoin-genesis-02.png)
 
 # The Bitcoin genesis
 September 16, 2022

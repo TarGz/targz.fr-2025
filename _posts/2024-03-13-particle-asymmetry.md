@@ -8,7 +8,7 @@ image: /assets/images/particle-asymmetry-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/particle-asymmetry
 ---
 
-![Particle Asymmetry](/assets/images/particle-asymmetry-02.png)
+![Particle Asymmetry]({{ site.baseurl }}/assets/images/particle-asymmetry-02.png)
 
 # Particle Asymmetry
 March 13, 2024

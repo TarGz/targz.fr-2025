@@ -8,7 +8,7 @@ image: /assets/images/synapse-canvas-pen-plotter-preview.png
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/synapse-canvas-pen-plotter
 ---
 
-![Synapse Canvas](/assets/images/synapse-canvas-pen-plotter-02.png)
+![Synapse Canvas]({{ site.baseurl }}/assets/images/synapse-canvas-pen-plotter-02.png)
 
 # Synapse Canvas
 January 30, 2025
@@ -22,4 +22,4 @@ I’ve always been drawn to how abstract patterns trick the brain into seeing so
  
 
     Your browser does not support the video tag.
- ![](/assets/images/synapse-canvas-pen-plotter-03.png)![](/assets/images/synapse-canvas-pen-plotter-04.png)![](/assets/images/synapse-canvas-pen-plotter-05.png)![](/assets/images/synapse-canvas-pen-plotter-06.png)
+ ![]({{ site.baseurl }}/assets/images/synapse-canvas-pen-plotter-03.png)![]({{ site.baseurl }}/assets/images/synapse-canvas-pen-plotter-04.png)![]({{ site.baseurl }}/assets/images/synapse-canvas-pen-plotter-05.png)![]({{ site.baseurl }}/assets/images/synapse-canvas-pen-plotter-06.png)
