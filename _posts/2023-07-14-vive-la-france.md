@@ -4,11 +4,9 @@ title: "Vive La France"
 date: 2023-07-14
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/vive-la-france-preview.png
+image: /assets/images/vive-la-france-preview.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/vive-la-france
 ---
-
-![Vive La France]({{ site.baseurl }}/assets/images/vive-la-france-02.png)
 
 # Vive La France
 July 14, 2023

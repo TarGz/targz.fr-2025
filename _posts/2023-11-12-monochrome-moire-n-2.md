@@ -4,11 +4,9 @@ title: "Monochrome Moiré  N°2"
 date: 2023-11-12
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/monochrome-moire-n-2-preview.png
+image: /assets/images/monochrome-moire-n-2-preview.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/monochrome-moire-n-2
 ---
-
-![Monochrome Moiré  N°2]({{ site.baseurl }}/assets/images/monochrome-moire-n-2-02.png)
 
 # Monochrome Moiré  N°2
 November 12, 2023

@@ -4,11 +4,10 @@ title: "Particle Asymmetry"
 date: 2024-03-13
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/particle-asymmetry-preview.png
+image: /assets/images/particle-asymmetry-preview.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/particle-asymmetry
 ---
 
-![Particle Asymmetry]({{ site.baseurl }}/assets/images/particle-asymmetry-02.png)
 
 # Particle Asymmetry
 March 13, 2024

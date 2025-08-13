@@ -4,11 +4,10 @@ title: "Color Wheel Chaos"
 date: 2023-11-04
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/color-wheel-chaos-preview.png
+image: /assets/images/color-wheel-chaos-preview.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/color-wheel-chaos
 ---
 
-![Color Wheel Chaos]({{ site.baseurl }}/assets/images/color-wheel-chaos-02.png)
 
 # Color Wheel Chaos
 November 4, 2023

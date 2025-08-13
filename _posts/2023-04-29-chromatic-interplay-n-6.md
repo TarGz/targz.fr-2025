@@ -4,11 +4,10 @@ title: "Chromatic Interplay n°6"
 date: 2023-04-29
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/chromatic-interplay-n-6-preview.png
+image: /assets/images/chromatic-interplay-n-6-preview.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/chromatic-interplay-n-6
 ---
 
-![Chromatic Interplay n°6]({{ site.baseurl }}/assets/images/chromatic-interplay-n-6-02.png)
 
 # Chromatic Interplay n°6
 April 29, 2023

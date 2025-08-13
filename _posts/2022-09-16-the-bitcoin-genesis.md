@@ -4,11 +4,9 @@ title: "The Bitcoin genesis"
 date: 2022-09-16
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/the-bitcoin-genesis-preview.png
+image: /assets/images/the-bitcoin-genesis-preview.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/the-bitcoin-genesis
 ---
-
-![The Bitcoin genesis]({{ site.baseurl }}/assets/images/the-bitcoin-genesis-02.png)
 
 # The Bitcoin genesis
 September 16, 2022

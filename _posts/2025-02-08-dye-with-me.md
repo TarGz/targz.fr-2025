@@ -4,11 +4,10 @@ title: "Dye With Me"
 date: 2025-02-08
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/dye-with-me-preview.png
+image: /assets/images/dye-with-me-preview.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/dye-with-me
 ---
 
-![Dye With Me]({{ site.baseurl }}/assets/images/dye-with-me-02.png)
 
 # Dye With Me
 February 8, 2025

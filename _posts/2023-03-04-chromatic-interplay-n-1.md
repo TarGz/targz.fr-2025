@@ -4,11 +4,10 @@ title: "Chromatic Interplay N°1"
 date: 2023-03-04
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/chromatic-interplay-n-1-preview.png
+image: /assets/images/chromatic-interplay-n-1-preview.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/chromatic-interplay-n-1
 ---
 
-![Chromatic Interplay N°1]({{ site.baseurl }}/assets/images/chromatic-interplay-n-1-02.png)
 
 # Chromatic Interplay N°1
 March 4, 2023

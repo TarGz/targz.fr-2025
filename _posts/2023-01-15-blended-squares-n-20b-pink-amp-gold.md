@@ -4,11 +4,10 @@ title: "Blended Squares n°20b Pink Gold"
 date: 2023-01-15
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/blended-squares-n-20b-pink-amp-gold-preview.png
+image: /assets/images/blended-squares-n20b-pinkgold.jpeg
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-20b-pink-amp-gold
 ---
 
-![Blended Squares n°20b Pink Gold]({{ site.baseurl }}/assets/images/blended-squares-n-20b-pink-amp-gold-02.png)
 
 # Blended Squares n°20b Pink Gold
 January 15, 2023
