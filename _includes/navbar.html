@@ -1,107 +1,60 @@
-{%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths =
-site.header_pages | default: default_paths -%} {%- assign titles_size =
-site.pages | map: 'title' | join: '' | size -%} {%- assign current_page_url =
-page.url | relative_url -%}
+{%- assign current_page_url = page.url | relative_url -%}
 
-<nav class="py-4">
-    <div class="container mx-auto flex justify-between items-center">
-        <h5 class="text-xl md:text-2xl font-semibold">
-            <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        </h5>
-        <div class="my-auto hidden md:flex items-center space-x-4">
-            <a
-                class="hover:scale-105 duration-300 page-link {% if current_page_url == '/pen-plotting/' %}font-bold{% endif %}"
-                href="{{ '/pen-plotting/' | relative_url }}"
-                >Pen Plotting</a
-            >
-
-            <a
-                class="hover:scale-105 duration-300 page-link {% if current_page_url == '/other-bits/' %}font-bold{% endif %}"
-                href="{{ '/other-bits/' | relative_url }}"
-                >Other Bits</a
-            >
-
-            <a
-                class="hover:scale-105 duration-300 page-link {% if current_page_url == '/about/' %}font-bold{% endif %}"
-                href="{{ '/about/' | relative_url }}"
-                >About</a
-            >
-            <a
-                class="hover:scale-105 duration-300 page-link"
-                href="https://shop.targz.fr/blogs/pen-plotter-updates"
-                target="_blank"
-                >News</a
-            >
-
-            <a
-                class="hover:scale-105 duration-300 page-link"
-                href="https://shop.targz.fr"
-                >Shop</a
-            >
-        </div>
-
-        <div class="z-50 md:hidden flex">
-            <button
-                id="mobile-menu-button"
-                class="p-2 text-blue"
-                aria-label="Toggle menu"
-            >
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    class="h-8 w-8"
-                >
-                    <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M4 6h16M4 12h16m-7 6h7"
-                    ></path>
-                </svg>
-            </button>
-            <div
-                id="mobile-menu"
-                class="hidden absolute top-16 right-4 bg-white p-4 rounded shadow-md"
-            >
-                <a
-                    class="block text-black-700 font-semibold p-2"
-                    href="{{ '/pen-plotting/' | relative_url }}"
-                    >Pen Plotting</a
-                >
-                <a
-                    class="block text-black-700 font-semibold p-2"
-                    href="{{ '/other-bits/' | relative_url }}"
-                    >Other Bits</a
-                >
-                <a
-                    class="block text-black-700 font-semibold p-2"
-                    href="{{ '/about/' | relative_url }}"
-                    >About</a
-                >
-                <a
-                    class="block text-black-700 font-semibold p-2"
-                    href="https://shop.targz.fr/blogs/pen-plotter-updates"
-                    target="_blank"
-                    >News</a
-                >
-                <a
-                    class="block text-black-700 font-semibold p-2"
-                    href="https://shop.targz.fr"
-                    target="_blank"
-                    >Shop</a
-                >
-            </div>
-        </div>
-    </div>
+<nav>
+  <div class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
+    <strong><a href="{{ '/' | relative_url }}" style="text-decoration: none; color: inherit;">{{ site.title }}</a></strong>
+    
+    <button id="burger-menu" style="background: none; border: none; cursor: pointer; padding: 0.5rem; display: flex; flex-direction: column; gap: 4px; margin-left: auto;">
+      <div style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
+      <div style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
+      <div style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
+    </button>
+  </div>
+  
+  <div id="mobile-menu" style="display: none; position: absolute; top: 70px; right: 1rem; background: white; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); min-width: 200px; z-index: 1000;">
+    <a href="{{ '/pen-plotting/' | relative_url }}" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">Pen Plotting</a>
+    <a href="{{ '/other-bits/' | relative_url }}" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">Other Bits</a>
+    <a href="{{ '/about/' | relative_url }}" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">About</a>
+    <a href="https://shop.targz.fr/blogs/pen-plotter-updates" target="_blank" style="display: block; padding: 12px 16px; text-decoration: none; color: black; border-bottom: 1px solid #eee;">News</a>
+    <a href="https://shop.targz.fr" target="_blank" style="display: block; padding: 12px 16px; text-decoration: none; color: black; font-weight: bold;">Shop</a>
+  </div>
 </nav>
 
 <script>
-    const mobileMenuButton = document.getElementById("mobile-menu-button");
-    const mobileMenu = document.getElementById("mobile-menu");
-
-    mobileMenuButton.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('DOM loaded, setting up burger menu...');
+  
+  const burgerMenu = document.getElementById('burger-menu');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  console.log('Burger menu:', burgerMenu);
+  console.log('Mobile menu:', mobileMenu);
+  
+  if (burgerMenu && mobileMenu) {
+    burgerMenu.addEventListener('click', function(e) {
+      e.preventDefault();
+      console.log('Burger clicked!');
+      
+      if (mobileMenu.style.display === 'none' || mobileMenu.style.display === '') {
+        mobileMenu.style.display = 'block';
+        console.log('Menu opened');
+      } else {
+        mobileMenu.style.display = 'none';
+        console.log('Menu closed');
+      }
     });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      if (!burgerMenu.contains(event.target) && !mobileMenu.contains(event.target)) {
+        mobileMenu.style.display = 'none';
+      }
+    });
+    
+    console.log('Burger menu setup complete');
+  } else {
+    console.error('Could not find burger menu elements');
+  }
+});
 </script>
+
