@@ -1,35 +1,35 @@
 ---
 layout: page
-title: Updates & News
-permalink: /updates/
+title: Other Bits
+permalink: /other-bits/
 ---
 
 <style>
-.updates-grid {
+.other-bits-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
-.updates-item img {
+.other-bits-item img {
   width: 100%;
   height: auto;
   display: block;
 }
-.updates-item h2 {
+.other-bits-item h2 {
   margin: 1rem 0 0.5rem;
   font-size: 1.2rem;
 }
-.updates-item time {
+.other-bits-item time {
   color: #666;
   font-size: 0.9em;
 }
 </style>
 
-<div class="updates-grid">
+<div class="other-bits-grid">
 {% for post in site.posts %}
-  {% if post.category == "updates" %}
-  <article class="updates-item">
+  {% if post.category == "other" %}
+    <article class="other-bits-item">
       {% if post.image %}
         <a href="{{ post.url | relative_url }}">
           <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
