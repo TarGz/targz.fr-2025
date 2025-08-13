@@ -195,7 +195,7 @@ article {
   margin-block-start: 2rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .home-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -231,24 +231,6 @@ article {
   object-fit: cover;
 }
 
-/* Text flow around images on pages */
-.prose img,
-article img {
-  float: left;
-  margin: 0 1.5rem 1rem 0;
-  max-width: 300px;
-  height: auto;
-  shape-outside: margin-box;
-}
-
-@media (max-width: 576px) {
-  .prose img,
-  article img {
-    float: none;
-    margin: 1rem 0;
-    max-width: 100%;
-  }
-}
 
 /* Exhibitions titles under images instead of overlay */
 .exhibitions-grid .home-item p {
