@@ -7,9 +7,19 @@ image: /assets/images/about-targz.webp
 ---
 
 
-![A picture of Targz]({{ '/assets/images/about-targz.webp' | relative_url }})
+<br>
+<hgroup style="text-align: center">
+  <h2>I'm Targz</h2>
+  <p>Pronounced however makes you happy</p>
+</hgroup>
+<br>
+<br>
+<br>
 
-Hi, my artist name is Targz (pronounced “Tar-gz”). I'm exploring the mix of digital and physical worlds through coding and analog pen plotter techniques.
+
+<!-- ![A picture of Targz]({{ '/assets/images/about-targz.webp' | relative_url }}) -->
+
+ I'm exploring the mix of digital and physical worlds through coding and analog pen plotter techniques.
  
  
 ###### Starting Point

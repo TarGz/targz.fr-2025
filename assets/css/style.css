@@ -96,6 +96,13 @@ nav {
 
 /* Pico CSS customizations */
 
+/* About page content padding */
+.page-layout .container,
+article.prose {
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+}
+
 
 /* Portfolio grid */
 .portfolio-grid {

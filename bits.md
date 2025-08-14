@@ -7,11 +7,15 @@ permalink: /bits/
 image: /assets/images/targz.png
 ---
 
-
+<br>
 <hgroup style="text-align: center">
   <h2>Bits & Experiments</h2>
-  <p><small>A selection of my other work, from Lego<br/> to digital projects and NFT series.</small></p>
+  <p>A selection of my other work, from Lego<br/> to digital projects and NFT series.</p>
 </hgroup>
+<br>
+<br>
+<br>
+
 
 <section class="home-grid bits-grid">
     {% for post in site.posts %} {% if post.category == "bits" %}

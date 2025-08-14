@@ -7,11 +7,14 @@ permalink: /exhibitions/
 image: /assets/images/targz.png
 ---
 
+<br>
 <hgroup style="text-align: center">
   <h2>Exhibitions</h2>
-  <p><small>Exhibitions I’ve taken part in, across <br/> different places and mediums.</small></p>
+  <p>Some of my last Exhibitions</p>
 </hgroup>
-
+<br>
+<br>
+<br>
 
 <section class="home-grid exhibitions-grid">
     {% for post in site.posts %} {% if post.category == "exhibitions" %}
