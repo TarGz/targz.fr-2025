@@ -8,6 +8,9 @@ date: 2021-05-01
 category: bits
 tags: [digital-art, experimental]
 image: /assets/images/stay_yound_and_play_lego_001.png
+redirect_from:
+  - /stay-yound-and-play-lego/
+  - /stay-yound-and-play-lego
 ---
 
 Created: June 13, 2022 10:08 AM

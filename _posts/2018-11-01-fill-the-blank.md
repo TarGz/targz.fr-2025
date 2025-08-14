@@ -6,6 +6,9 @@ category: exhibitions
 tags: [exhibition, interactive, typography]
 image: /assets/images/Fill_The_Blank-preview.webp
 size: "42 x 59.4cm"
+redirect_from:
+  - /fill-the-blank/
+  - /fill-the-blank
 ---
 
 # Fill The Blank

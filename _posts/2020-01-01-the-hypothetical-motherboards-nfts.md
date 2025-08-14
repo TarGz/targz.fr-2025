@@ -1,13 +1,16 @@
 ---
 layout: post
-title: "The Hypothetical Motherboards NFT’s"
-seo-title: "The Hypothetical Motherboards NFT’s - Digital Art & Experiments | Targz"
+title: "The Hypothetical Motherboards NFT's"
+seo-title: "The Hypothetical Motherboards NFT's - Digital Art & Experiments | Targz"
 description: "Created: June 13, 2022 10:08 AM"
-keywords: "digital art, the hypothetical motherboards nft’s, experimental art, creative coding"
+keywords: "digital art, the hypothetical motherboards nft's, experimental art, creative coding"
 date: 2020-01-01
 category: bits
 tags: [digital-art, experimental]
 image: /assets/images/the_hypothetical_motherboards_nfts_001.png
+redirect_from:
+  - /the-hypothetical-motherboards/
+  - /the-hypothetical-motherboards
 ---
 
 Created: June 13, 2022 10:08 AM

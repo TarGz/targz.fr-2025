@@ -8,6 +8,9 @@ date: 2023-03-20
 category: commissions
 tags: [commission, pen-plotting]
 image: /assets/images/pen_plotter_portrait_001.png
+redirect_from:
+  - /portrait/
+  - /portrait
 ---
 
 A serie of generative art portrait designed to drawn by my AxiDraw pen plotter

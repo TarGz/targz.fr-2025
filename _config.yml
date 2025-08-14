@@ -16,6 +16,8 @@ lang: en
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
 # SEO settings
 logo: /assets/images/targz.png

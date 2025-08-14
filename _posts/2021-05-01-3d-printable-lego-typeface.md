@@ -8,6 +8,9 @@ date: 2021-05-01
 category: bits
 tags: [digital-art, experimental]
 image: /assets/images/3d_printable_lego_typeface_001.png
+redirect_from:
+  - /playing-with-3d-printable-lego-typeface/
+  - /playing-with-3d-printable-lego-typeface
 ---
 
 ![Lego wall]({{ '/assets/images/brickolage/brickfont/02.jpg' | relative_url }})

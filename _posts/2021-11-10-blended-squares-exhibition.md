@@ -5,6 +5,9 @@ date: 2021-11-10
 category: exhibitions
 tags: [exhibition, pen-plotter, poster-art]
 image: /assets/images/Blended_squares_exhibition-preview.webp
+redirect_from:
+  - /blended-squares-exhibition/
+  - /blended-squares-exhibition
 ---
 
 # Blended Squares Exhibition

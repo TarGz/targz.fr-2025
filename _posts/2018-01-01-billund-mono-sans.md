@@ -8,6 +8,9 @@ date: 2018-01-01
 category: bits
 tags: [digital-art, experimental]
 image: /assets/images/billund_mono_sans_001.png
+redirect_from:
+  - /billund-mono-sans/
+  - /billund-mono-sans
 ---
 
 Created: November 7, 2022 10:25 AM

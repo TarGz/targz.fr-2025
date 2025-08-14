@@ -8,6 +8,9 @@ date: 2019-02-01
 category: bits
 tags: [digital-art, experimental]
 image: /assets/images/twittearth_001.png
+redirect_from:
+  - /twittearth/
+  - /twittearth
 ---
 
 Created: June 13, 2022 10:08 AM
