@@ -264,6 +264,28 @@ article {
   color: var(--pico-text-color);
 }
 
+/* Commissions page - vertical images with titles under */
+.commissions-grid .home-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.commissions-grid .home-item p {
+  position: static !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: auto !important;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  font-size: 0.75rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  background: transparent;
+  color: var(--pico-text-color);
+}
+
 .home-item p {
   position: absolute;
   bottom: 4rem;
