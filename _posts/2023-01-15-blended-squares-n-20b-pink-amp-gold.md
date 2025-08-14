@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Blended Squares n°20b Pink Gold"
+seo-title: "Blended Squares n°20b Pink Gold - Algorithmic Pen Plotted Art | Targz"
+description: "Blended Squares n°20b Pink Gold: An algorithmic pen plotted artwork featuring geometric patterns. 59 x 84cm acrylic on Bristol paper."
+keywords: "pen plotting art, algorithmic art, generative art, op art, mathematical art, geometric patterns, bristol paper, precision plotting"
 date: 2023-01-15
 category: portfolio
 tags: [pen-plotter, art]

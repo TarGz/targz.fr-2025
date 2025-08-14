@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Monochrome Moiré N°1"
+seo-title: "Monochrome Moiré N°1 - Algorithmic Pen Plotted Art | Targz"
+description: "Monochrome Moiré N°1: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
+keywords: "pen plotting art, algorithmic art, generative art, op art, mathematical art, geometric patterns, bristol paper, precision plotting"
 date: 2023-05-13
 category: portfolio
 tags: [pen-plotter, art]

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Dye With Me"
+seo-title: "Dye With Me - Algorithmic Pen Plotted Art | Targz"
+description: "Dye With Me: An algorithmic pen plotted artwork featuring geometric patterns. 75 x 100cm non archival ink on Bristol paper."
+keywords: "pen plotting art, algorithmic art, generative art, op art, mathematical art, geometric patterns, bristol paper, precision plotting"
 date: 2025-02-08
 category: portfolio
 tags: [pen-plotter, art]

@@ -2,14 +2,49 @@ domain: github.io
 url: https://targz.github.io/
 baseurl: "/targz.fr-2025"
 
-title: Targz
+title: Targz - Pen Plotting & Generative Art
 email: contact@targz.fr
-author: Targz
+author: 
+  name: Targz
+  twitter: targz
+
+description: >-
+  Pen plotting artist creating algorithmic Op Art and generative artworks. 
+  Explore mathematical patterns through precision plotting on bristol paper.
 
 lang: en
 
 plugins:
   - jekyll-seo-tag
+
+# SEO settings
+logo: /assets/images/targz.png
+twitter:
+  username: targz
+  card: summary_large_image
+
+social:
+  name: Targz
+  links:
+    - https://instagram.com/targz
+    - https://reddit.com/u/_targz_
+    - https://tiktok.com/@targz
+    - https://shop.targz.fr
+
+# Default SEO values
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author: Targz
+      image: /assets/images/targz.png
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author: Targz
+      image: /assets/images/targz.png
 
 color: "#13ccf9"
 # disqus:

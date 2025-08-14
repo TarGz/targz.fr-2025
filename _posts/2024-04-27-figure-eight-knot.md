@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Figure-eight Knot"
+seo-title: "Figure-eight Knot - Algorithmic Pen Plotted Art | Targz"
+description: "Figure-eight Knot: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
+keywords: "pen plotting art, algorithmic art, generative art, op art, mathematical art, geometric patterns, bristol paper, precision plotting"
 date: 2024-04-27
 category: portfolio
 tags: [pen-plotter, art]
