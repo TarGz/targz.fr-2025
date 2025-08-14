@@ -251,7 +251,7 @@ article {
 
 .home-item p {
   position: absolute;
-  bottom: 1rem;
+  bottom: 4rem;
   left: 0;
   right: 0;
   margin: 0;
@@ -261,6 +261,20 @@ article {
   text-transform: uppercase;
   text-align: center;
   background: transparent;
+}
+
+/* Tablet range - middle position */
+@media (min-width: 769px) and (max-width: 1283px) {
+  .home-item p {
+    bottom: 2rem;
+  }
+}
+
+/* Mobile - keep titles lower */
+@media (max-width: 768px) {
+  .home-item p {
+    bottom: 1rem;
+  }
 }
 
 .home-item a p {
@@ -277,6 +291,16 @@ article {
 
 .home-item a:hover {
   color: var(--pico-text-color) !important;
+}
+
+/* Super tiny subtitle for year */
+.home-item .subtitle {
+  display: block;
+  font-size: 0.5rem;
+  margin-top: 0.2rem;
+  opacity: 0.6;
+  font-weight: normal;
+  letter-spacing: 0.05em;
 }
 
 .home-item .tags {

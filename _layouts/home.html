@@ -13,7 +13,10 @@ layout: base
         <a href="{{ post.url | relative_url }}">
             <div class="image-container">
                 <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
-                <p>{{ post.title }}</p>
+                <p>
+                    {{ post.title }}
+                    <span class="subtitle">{{ post.date | date: "%Y" }}{% if post.size %} • {{ post.size }}{% endif %}{% if post.support %} • {{ post.support }}{% endif %}{% if post.ink %} • {{ post.ink }}{% endif %}</span>
+                </p>
             </div>
         </a>
     </article>

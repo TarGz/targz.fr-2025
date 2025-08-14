@@ -9,5 +9,30 @@ layout: base
     </figure>
     {% endif %}
 
-    <div class="content">{{ content }}</div>
+    <div class="content">
+        {% if page.category == "portfolio" %}
+        <style>
+        .post-metadata {
+            display: block;
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: normal;
+        }
+        </style>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const h1 = document.querySelector('.content h1');
+            if (h1) {
+                const metadata = document.createElement('span');
+                metadata.className = 'post-metadata';
+                metadata.innerHTML = '{{ page.date | date: "%B %d, %Y" }}{% if page.size %} • {{ page.size }}{% endif %}{% if page.support %} • {{ page.support }}{% endif %}{% if page.ink %} • {{ page.ink }}{% endif %}';
+                h1.appendChild(metadata);
+            }
+        });
+        </script>
+        {% endif %}
+        {{ content }}
+    </div>
 </div>
