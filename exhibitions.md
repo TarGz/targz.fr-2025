@@ -7,7 +7,7 @@ permalink: /exhibitions/
 image: /assets/images/targz.png
 ---
 
-
+Exhibitions I’ve taken part in, across different places and mediums.
 
 <section class="home-grid exhibitions-grid">
     {% for post in site.posts %} {% if post.category == "exhibitions" %}
