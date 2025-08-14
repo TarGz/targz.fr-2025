@@ -327,7 +327,10 @@ article {
   left: 0;
   width: 100%;
   height: 100px;
-  background: rgba(0, 0, 0, 0.9);
+  background-image: url('../images/headertargz.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 500;
   transition: top 0.3s ease-in-out;
 }
