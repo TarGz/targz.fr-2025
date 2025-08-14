@@ -7,7 +7,11 @@ permalink: /exhibitions/
 image: /assets/images/targz.png
 ---
 
-Exhibitions I’ve taken part in, across different places and mediums.
+<hgroup style="text-align: center">
+  <h2>Exhibitions</h2>
+  <p><small>Exhibitions I’ve taken part in, across <br/> different places and mediums.</small></p>
+</hgroup>
+
 
 <section class="home-grid exhibitions-grid">
     {% for post in site.posts %} {% if post.category == "exhibitions" %}

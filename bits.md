@@ -7,7 +7,11 @@ permalink: /bits/
 image: /assets/images/targz.png
 ---
 
-A selection of my other work, from Lego-based typography and digital art experiments to interactive projects and NFT series. These early explorations shaped the creative approach I use today.
+
+<hgroup style="text-align: center">
+  <h2>Bits & Experiments</h2>
+  <p><small>A selection of my other work, from Lego<br/> to digital projects and NFT series.</small></p>
+</hgroup>
 
 <section class="home-grid bits-grid">
     {% for post in site.posts %} {% if post.category == "bits" %}

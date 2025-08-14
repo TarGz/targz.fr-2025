@@ -7,7 +7,10 @@ permalink: /commissions/
 image: /assets/images/targz.png
 ---
 
-
+<hgroup style="text-align: center">
+  <h2>Commissions</h2>
+  <p><small>A selection of my last pen plotter commissions</small></p>
+</hgroup>
 
 <section class="home-grid commissions-grid">
     {% for post in site.posts %} {% if post.category == "commissions" %}
