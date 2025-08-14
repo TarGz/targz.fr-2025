@@ -126,7 +126,7 @@ nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.75rem 0;
 }
 
 nav ul {
@@ -142,6 +142,21 @@ nav a {
   padding: 0.5rem 1rem;
   border-radius: var(--pico-border-radius);
   transition: background-color 0.3s ease;
+}
+
+/* Remove padding from logo link */
+nav .container > a,
+nav .container > a:first-child {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Add padding to logo link below 576px */
+@media (max-width: 575px) {
+  nav .container > a,
+  nav .container > a:first-child {
+    padding-left: 1rem !important;
+  }
 }
 
 /* Remove hover effects from logo and nav links */
@@ -538,6 +553,66 @@ body.nav-active {
 .social-link svg {
   width: 28px;
   height: 28px;
+}
+
+/* Breadcrumb Navigation */
+.breadcrumb-nav {
+  margin: 0.5rem 0 0.25rem 0;
+  padding: 0;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.7rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+.breadcrumb-item {
+  color: var(--pico-muted-color);
+  position: relative;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  margin-left: 1rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "";
+  position: absolute;
+  left: -0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 3px;
+  background: var(--pico-muted-color);
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.breadcrumb-item a {
+  color: var(--pico-text-color);
+  text-decoration: none;
+  padding: 0.15rem 0.3rem;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  font-weight: 400;
+}
+
+.breadcrumb-item a:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--pico-text-color);
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: var(--pico-muted-color);
+  font-weight: 300;
+  opacity: 0.7;
 }
 
 /* Footer Avatar - taking full height */

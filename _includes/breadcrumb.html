@@ -1,0 +1,12 @@
+{% if page.category == "exhibitions" %}
+<nav aria-label="breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="{{ '/exhibitions/' | relative_url }}">Exhibitions</a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">
+      {{ page.title }}
+    </li>
+  </ol>
+</nav>
+{% endif %}
