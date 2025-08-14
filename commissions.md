@@ -6,11 +6,14 @@ keywords: pen plotting commissions, custom algorithmic art, commissioned generat
 permalink: /commissions/
 image: /assets/images/targz.png
 ---
-
+<br/>
 <hgroup style="text-align: center">
   <h2>Commissions</h2>
   <p><small>A selection of my last pen plotter commissions</small></p>
 </hgroup>
+<br/>
+<br/>
+<br/>
 
 <section class="home-grid commissions-grid">
     {% for post in site.posts %} {% if post.category == "commissions" %}
