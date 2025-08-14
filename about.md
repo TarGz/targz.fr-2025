@@ -3,6 +3,7 @@ title: About Targz - Pen Plotting & Generative Artist
 description: Meet Targz, a pen plotting artist creating algorithmic Op Art inspired by Vera Molnar and Bridget Riley. Custom code, precision plotting, and mathematical aesthetics.
 keywords: Targz artist, pen plotting artist biography, generative art process, algorithmic art technique, op art inspiration, vera molnar, bridget riley
 layout: page
+permalink: /about/
 image: /assets/images/about-targz.webp
 ---
 
