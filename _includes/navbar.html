@@ -20,10 +20,10 @@
       <img src="{{ '/assets/images/targz.webp' | relative_url }}" alt="Targz artist logo" style="height: 2rem; width: auto;">
     </a>
     
-    <button id="burger-menu" style="background: none; border: none; cursor: pointer; padding: 0.5rem; display: flex; flex-direction: column; gap: 4px; margin-left: auto;">
-      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
-      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
-      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s;"></div>
+    <button id="burger-menu" style="background: none; border: none; cursor: pointer; padding: 0.5rem; display: flex; flex-direction: column; gap: 4px; margin-left: auto; margin-right: 0.5rem;">
+      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s; transform-origin: center;"></div>
+      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s; transform-origin: center;"></div>
+      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s; transform-origin: center;"></div>
     </button>
   </div>
 </nav>
@@ -33,6 +33,33 @@ document.addEventListener('DOMContentLoaded', function() {
   const burgerMenu = document.getElementById('burger-menu');
   const slideNavOverlay = document.getElementById('slide-nav-overlay');
   const body = document.body;
+  const burgerLines = burgerMenu.querySelectorAll('.burger-line');
+  
+  function toggleBurgerIcon(isActive) {
+    if (isActive) {
+      // Transform to X
+      burgerLines[0].style.transform = 'rotate(45deg) translate(3px, 3px)';
+      burgerLines[1].style.opacity = '0';
+      burgerLines[2].style.transform = 'rotate(-45deg) translate(3px, -3px)';
+    } else {
+      // Transform back to burger
+      burgerLines[0].style.transform = 'rotate(0) translate(0, 0)';
+      burgerLines[1].style.opacity = '1';
+      burgerLines[2].style.transform = 'rotate(0) translate(0, 0)';
+    }
+  }
+  
+  function openMenu() {
+    slideNavOverlay.classList.add('active');
+    body.classList.add('nav-active');
+    toggleBurgerIcon(true);
+  }
+  
+  function closeMenu() {
+    slideNavOverlay.classList.remove('active');
+    body.classList.remove('nav-active');
+    toggleBurgerIcon(false);
+  }
   
   if (burgerMenu && slideNavOverlay) {
     burgerMenu.addEventListener('click', function(e) {
@@ -42,13 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const isActive = slideNavOverlay.classList.contains('active');
       
       if (isActive) {
-        // Close navigation
-        slideNavOverlay.classList.remove('active');
-        body.classList.remove('nav-active');
+        closeMenu();
       } else {
-        // Open navigation
-        slideNavOverlay.classList.add('active');
-        body.classList.add('nav-active');
+        openMenu();
       }
     });
 
@@ -56,16 +79,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const navLinks = slideNavOverlay.querySelectorAll('a');
     navLinks.forEach(link => {
       link.addEventListener('click', function() {
-        slideNavOverlay.classList.remove('active');
-        body.classList.remove('nav-active');
+        closeMenu();
       });
     });
     
     // Close menu when clicking outside
     document.addEventListener('click', function(event) {
       if (!burgerMenu.contains(event.target) && !slideNavOverlay.contains(event.target)) {
-        slideNavOverlay.classList.remove('active');
-        body.classList.remove('nav-active');
+        closeMenu();
       }
     });
   }

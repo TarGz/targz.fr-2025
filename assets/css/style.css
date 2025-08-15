@@ -439,7 +439,7 @@ article {
   left: 0;
   width: 100%;
   height: 100px;
-  background-image: url('../images/headertargz.png');
+  background-image: url('../images/headertargz.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -507,10 +507,10 @@ article {
   font-weight: normal;
 }
 
-/* Mobile - bigger links */
+/* Mobile - bigger links with reduced vertical spacing */
 @media (max-width: 768px) {
   .slide-nav-list a {
-    padding: 0.5rem 2.5rem;
+    padding: 0.2rem 2.5rem;
     font-size: 0.9rem;
   }
 }
