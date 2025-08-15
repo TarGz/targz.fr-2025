@@ -96,11 +96,29 @@ nav {
 
 /* Pico CSS customizations */
 
-/* About page content padding */
+/* About page content padding - responsive */
 .page-layout .container,
 article.prose {
   padding-left: 200px !important;
   padding-right: 200px !important;
+}
+
+/* iPad adjustments */
+@media screen and (max-width: 1024px) {
+  .page-layout .container,
+  article.prose {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+  .page-layout .container,
+  article.prose {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
 }
 
 /* Bits category - force full width images */
