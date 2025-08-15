@@ -7,7 +7,7 @@ keywords: "digital art, stay yound and play lego, experimental art, creative cod
 date: 2021-05-01
 category: bits
 tags: [digital-art, experimental]
-image: /assets/images/stay_yound_and_play_lego_001.png
+image: /assets/images/stayyoung-preview.jpg
 redirect_from:
   - /stay-yound-and-play-lego/
   - /stay-yound-and-play-lego
@@ -20,7 +20,8 @@ tag: lego
 
 I made a motivational Lego poster that remind me to keep playing Lego
 
-<img src="{{ '/assets/images/stay_yound_and_play_lego_004.png' | relative_url }}" alt="Stay yound and play Lego" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/stay_yound_and_play_lego_001.png' | relative_url }}" alt="Stay yound and play Lego" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+
 
 After having working of my [](https://targz.fr/keepcalm/)I feel inspired to create a Lego version. I wanted to create a poster with a size close to the original [Kepp calm poster](https://www.notion.so/Keep-Calm-8c350f5755c944af80869550d78ecb81?pvs=21). I have build four of this one, 1 for my home, 1 for my office, 1 have been build for my boss at DigitasLbi and 1 for Michael Chaize for his Adobe office.
 

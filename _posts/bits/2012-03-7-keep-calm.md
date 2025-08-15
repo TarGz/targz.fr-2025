@@ -2,22 +2,19 @@
 layout: post
 title: "Keep Calm"
 seo-title: "Keep Calm - Digital Art & Experiments | Targz"
-description: "Created: June 13, 2022 10:08 AM"
+description: " "
 keywords: "digital art, keep calm, experimental art, creative coding"
-date: 2019-01-01
+date: 2012-03-7
 category: bits
 tags: [digital-art, experimental]
-image: /assets/images/keep_calm_001.png
+image: /assets/images/keep_calm_001.png?reload
 redirect_from:
   - /keep-calm/
   - /keep-calm
 ---
 
-Created: June 13, 2022 10:08 AM
-Categorie: personnal, practice
-date: March 7, 2012
-tag: design, poster
 
+<img src="{{ '/assets/images/keep_calm_preview.jpg' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 <img src="{{ '/assets/images/keep_calm_008.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
 <img src="{{ '/assets/images/keep_calm_002.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />

@@ -3,6 +3,7 @@ layout: post
 title: "Behind The Lines"
 date: 2025-05-31
 category: exhibitions
+location: "Lodève France"
 tags: [exhibition, installation, process]
 image: /assets/images/behindthelines-lodeve-preview.webp
 ---

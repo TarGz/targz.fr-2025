@@ -7,17 +7,18 @@ keywords: "digital art, 3d printable lego typeface, experimental art, creative c
 date: 2021-05-01
 category: bits
 tags: [digital-art, experimental]
-image: /assets/images/3d_printable_lego_typeface_001.png
+image: /assets/images/brickolage/lego-letter-preview.jpg
 redirect_from:
   - /playing-with-3d-printable-lego-typeface/
   - /playing-with-3d-printable-lego-typeface
 ---
 
-![Lego wall]({{ '/assets/images/brickolage/brickfont/02.jpg' | relative_url }})
+
+
 
 I have been fan of Lego and pixel art since my childwood so I decided to create a Lego wall in my DigitasLBi Labs office. Then we started making pixel art using small bricks. I set this wall as an open canvas where everybody could create, I started with Mario Bross and then Bomberman appear with bob the sponge, space invaders, etc. And yes I also made a Lego Qr-Code :-)... Later people used the wall to display messages or font based logo. Design text message using Lego is quite chanlenging and you often end up with a deceptive result. That's where the idea of creating some "Lego" brick fontface came.
 
-![Lego wall]({{ '/assets/images/brickolage/02.jpg' | relative_url }})
+![Lego wall]({{ '/assets/images/3d_printable_lego_typeface_001.png' | relative_url }})
 
 
 ### THE FIRST POC

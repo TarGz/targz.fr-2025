@@ -7,7 +7,7 @@ keywords: "digital art, the hypothetical motherboards nft's, experimental art, c
 date: 2020-01-01
 category: bits
 tags: [digital-art, experimental]
-image: /assets/images/the_hypothetical_motherboards_nfts_001.png
+image: /assets/images/the_hypothetical_motherboards_nfts_preview.webp
 redirect_from:
   - /the-hypothetical-motherboards/
   - /the-hypothetical-motherboards
@@ -73,6 +73,7 @@ The more processor the rarest
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_009.png' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_020.png' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_022.png' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 

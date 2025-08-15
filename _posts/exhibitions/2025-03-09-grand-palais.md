@@ -3,8 +3,10 @@ layout: post
 title: "Grand Palais"
 date: 2025-03-09
 category: exhibitions
+location: "Paris France"
 tags: [exhibition, paris, constructivism]
-image: /assets/images/grandpalais2025-preview.webp
+image: /assets/images/grandpalais2025-preview.5.webp
+imageold: /assets/images/grandpalais2025-preview.webp
 ---
 
 # Grand Palais

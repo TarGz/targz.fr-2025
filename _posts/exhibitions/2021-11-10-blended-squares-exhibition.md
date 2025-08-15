@@ -5,6 +5,7 @@ date: 2021-11-10
 category: exhibitions
 tags: [exhibition, pen-plotter, poster-art]
 image: /assets/images/Blended_squares_exhibition-preview.webp
+location: "Paris France"
 redirect_from:
   - /blended-squares-exhibition/
   - /blended-squares-exhibition

@@ -3,6 +3,7 @@ layout: post
 title: "Chunk of Maze"
 date: 2022-08-31
 category: exhibitions
+location: "Montana United States"
 tags: [exhibition, commission, algorithmic]
 image: /assets/images/chucnkofmaze-preview.webp
 size: "59 x 84cm"

@@ -3,6 +3,7 @@ layout: post
 title: "A Plot in the Wild"
 date: 2025-05-25
 category: exhibitions
+location: "Worldwide"
 tags: [exhibition, video-art, global]
 image: /assets/images/aplotinthewild-preview.webp
 ---
