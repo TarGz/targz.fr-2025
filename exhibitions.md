@@ -21,7 +21,7 @@ image: /assets/images/targz.png
     <article class="home-item">
         <a href="{{ post.url | relative_url }}">
             <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
-            <p>{{ post.title }}</p>
+            <p>{{ post.title }}{% if post.location %} • {{ post.location }}{% endif %}</p>
         </a>
     </article>
     {% endif %} {% endfor %}

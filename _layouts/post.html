@@ -12,7 +12,7 @@ layout: base
     {% endif %}
 
     <div class="content">
-        {% if page.category == "portfolio" %}
+        {% if page.category == "portfolio" or page.category == "exhibitions" %}
         <style>
         .post-metadata {
             display: block;
@@ -29,7 +29,11 @@ layout: base
             if (h1) {
                 const metadata = document.createElement('span');
                 metadata.className = 'post-metadata';
+                {% if page.category == "portfolio" %}
                 metadata.innerHTML = '{{ page.date | date: "%B %d, %Y" }}{% if page.size %} • {{ page.size }}{% endif %}{% if page.support %} • {{ page.support }}{% endif %}{% if page.ink %} • {{ page.ink }}{% endif %}';
+                {% elsif page.category == "exhibitions" %}
+                metadata.innerHTML = '{{ page.date | date: "%B %d, %Y" }}{% if page.location %} • {{ page.location }}{% endif %}{% if page.size %} • {{ page.size }}{% endif %}';
+                {% endif %}
                 h1.appendChild(metadata);
             }
         });

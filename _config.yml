@@ -49,6 +49,9 @@ defaults:
       image: /assets/images/targz.png
 
 color: "#13ccf9"
+
+# Permalink structure to maintain URLs despite subfolder organization  
+permalink: /:categories/:year/:month/:day/:title.html
 # disqus:
 #   shortname: example-com
 #

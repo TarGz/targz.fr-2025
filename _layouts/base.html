@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}" data-theme="light">
   {%- include head.html -%}
 
-  <body>
+  <body{% if page.category %} class="{{ page.category }}-post"{% endif %}>
     {%- include navbar.html -%}
 
     <main class="container">
