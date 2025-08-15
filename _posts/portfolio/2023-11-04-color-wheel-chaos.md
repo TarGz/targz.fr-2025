@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2023-11-04
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/color-wheel-chaos-preview.jpeg
+image: /assets/images/color-wheel-chaos-preview.webp
 size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"

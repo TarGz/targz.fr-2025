@@ -4,7 +4,7 @@ title: Bits - Digital Art & Experiments | Targz
 description: Explore digital artworks, experimental projects, and creative coding beyond pen plotting. A collection of diverse creative explorations.
 keywords: digital art, experimental art, creative coding, generative design, typography, LEGO art
 permalink: /bits/
-image: /assets/images/targz.png
+image: /assets/images/targz.webp
 ---
 
 <br>

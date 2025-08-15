@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2023-11-12
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/monochrome-moire-n-2-preview.jpeg
+image: /assets/images/monochrome-moire-n-2-preview.webp
 size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"
@@ -21,6 +21,6 @@ This was mysecond experiment with moiré, building on what I learned from the fi
 
  
 
-![]({{ site.baseurl }}/assets/images/monochrome-moire-n-2-03.png)
+![]({{ site.baseurl }}/assets/images/monochrome-moire-n-2-03.webp)
 
-![]({{ site.baseurl }}/assets/images/monochrome-moire-n-2-04.png)
+![]({{ site.baseurl }}/assets/images/monochrome-moire-n-2-04.webp)

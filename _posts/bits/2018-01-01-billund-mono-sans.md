@@ -7,7 +7,7 @@ keywords: "digital art, billund mono sans, experimental art, creative coding"
 date: 2018-01-01
 category: bits
 tags: [digital-art, experimental]
-image: /assets/images/billund_mono_sans_002.png
+image: /assets/images/billund_mono_sans_002.webp
 redirect_from:
   - /billund-mono-sans/
   - /billund-mono-sans
@@ -23,9 +23,9 @@ I was working for a while on this idea of creating a alphabet of "Lego" bricks a
 
 This 3x5 lego unit bring a lot of constrain so it was really challenging to find a desing that meet the monospace requirement and get this "lego look" I was seeking for.
 
-<img src="{{ '/assets/images/billund_mono_sans_001.png' | relative_url }}" alt="Billund Mono Sans" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/billund_mono_sans_001.webp' | relative_url }}" alt="Billund Mono Sans" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
 For the name I need to thanks [@agumonkey](https://twitter.com/agumonkey)
  who find the name of the font folowing one on my WIP [tweet](https://twitter.com/agumonkey/status/838684273444016128)
 
-<img src="{{ '/assets/images/billund_mono_sans_002.png' | relative_url }}" alt="Billund Mono Sans" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/billund_mono_sans_002.webp' | relative_url }}" alt="Billund Mono Sans" style="width: 100%; max-width: 800px; margin: 1rem 0;" />

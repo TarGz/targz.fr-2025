@@ -7,7 +7,7 @@ keywords: "plasma convection art, algorithmic pen plotting, generative geometric
 date: 2024-06-15
 category: portfolio
 tags: [pen-plotter, art, algorithmic, geometric, acrylic]
-image: /assets/images/plasma-convection-center-preview.jpeg
+image: /assets/images/plasma-convection-center-preview.webp
 size: "59x84cm"
 support: "Bristol"
 ink: "Acrylic"

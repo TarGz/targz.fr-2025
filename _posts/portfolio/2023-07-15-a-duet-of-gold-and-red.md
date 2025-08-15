@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2023-07-15
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/a-duet-of-gold-and-red-preview.jpeg
+image: /assets/images/a-duet-of-gold-and-red-preview.webp
 size: "42x59.4cm"
 support: "Bristol"
 ink: "Non Archival Ink"

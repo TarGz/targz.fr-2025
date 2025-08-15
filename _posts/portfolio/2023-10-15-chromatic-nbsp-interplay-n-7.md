@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2023-10-15
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/chromatic-nbsp-interplay-n-7-preview.jpeg
+image: /assets/images/chromatic-nbsp-interplay-n-7-preview.webp
 size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"

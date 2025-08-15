@@ -4,7 +4,7 @@ title: Commissions - Custom Pen Plotting Art | Targz
 description: Browse commissioned pen plotted artworks. Custom algorithmic art pieces created for clients, showcasing personalized Op Art and generative designs.
 keywords: pen plotting commissions, custom algorithmic art, commissioned generative art, bespoke op art, personalized pen plotting
 permalink: /commissions/
-image: /assets/images/targz.png
+image: /assets/images/targz.webp
 ---
 <br/>
 <hgroup style="text-align: center">

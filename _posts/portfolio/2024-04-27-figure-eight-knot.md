@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2024-04-27
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/figure-eight-knot-preview.jpeg
+image: /assets/images/figure-eight-knot-preview.webp
 size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"

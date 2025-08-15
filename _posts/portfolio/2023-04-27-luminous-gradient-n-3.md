@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2023-04-27
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/luminous-gradient-n-3-preview.jpeg
+image: /assets/images/luminous-gradient-n-3-preview.webp
 size: "59 x 84cm"
 support: "Bristol"
 ink: "Non Archival Ink"

@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2022-09-16
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/the-bitcoin-genesis-preview.jpeg
+image: /assets/images/the-bitcoin-genesis-preview.webp
 size: "29 x 42cm"
 support: "Bristol"
 ink: "Black ballpoint,Gold Acrylic"

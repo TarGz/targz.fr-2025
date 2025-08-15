@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2020-11-03
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/2020-11-03-Christopher-Walken-preview.jpeg
+image: /assets/images/2020-11-03-Christopher-Walken-preview.webp
 size: "42x59.4cm"
 support: "Bristol"
 ink: "Archival Ink"
@@ -21,4 +21,4 @@ ink: "Archival Ink"
 
 
 
-![Christopher Walken Pen Plotter Portrait]({{ '/assets/images/2020-11-03-Christopher-Walken.jpeg' | relative_url }})
+![Christopher Walken Pen Plotter Portrait]({{ '/assets/images/2020-11-03-Christopher-Walken.webp' | relative_url }})

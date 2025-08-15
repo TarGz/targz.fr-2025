@@ -14,21 +14,21 @@ redirect_from:
 ---
 
 
-<img src="{{ '/assets/images/keep_calm_preview.jpg' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-<img src="{{ '/assets/images/keep_calm_008.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_preview.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_008.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/keep_calm_002.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_002.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/keep_calm_003.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_003.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/keep_calm_004.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_004.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/keep_calm_005.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_005.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/keep_calm_006.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_006.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/keep_calm_007.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_007.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/keep_calm_008.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_008.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/keep_calm_009.png' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/keep_calm_009.webp' | relative_url }}" alt="Keep Calm" style="width: 100%; max-width: 800px; margin: 1rem 0;" />

@@ -7,7 +7,7 @@ keywords: "digital art, twittearth, experimental art, creative coding"
 date: 2019-02-01
 category: bits
 tags: [digital-art, experimental]
-image: /assets/images/twittearth_001.png
+image: /assets/images/twittearth_001.webp
 redirect_from:
   - /twittearth/
   - /twittearth

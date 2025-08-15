@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2021-11-07
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/blended-squares-n-20-preview.jpeg
+image: /assets/images/blended-squares-n-20-preview.webp
 size: "42 x 59.4cm"
 support: "Bristol"
 ink: "Non Archival Ink"

@@ -5,14 +5,41 @@ layout: base
 <div style="padding: 0; margin: 0;">
     {% include breadcrumb.html %}
     
-    {% if page.image %}
+    {% if page.image and page.category != "bits" and page.category != "exhibitions" and page.category != "commissions" %}
     <figure style="text-align: center; margin: 0.5rem 0 1rem 0">
         <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" style="max-width: 100%; height: auto" />
     </figure>
     {% endif %}
 
     <div class="content">
-        {% if page.category == "portfolio" or page.category == "exhibitions" %}
+        {% if page.category == "exhibitions" or page.category == "bits" or page.category == "commissions" %}
+        <style>
+        .post-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .post-header h1 {
+            margin-bottom: 0.5rem;
+        }
+        .post-subtitle {
+            font-size: 0.9rem;
+            color: #666;
+            font-weight: normal;
+        }
+        </style>
+        <div class="post-header">
+            <h1>{{ page.title }}</h1>
+            <p class="post-subtitle">
+                {% if page.category == "exhibitions" %}
+                    {{ page.date | date: "%B %d, %Y" }}{% if page.location %} • {{ page.location }}{% endif %}
+                {% elsif page.category == "bits" %}
+                    {{ page.date | date: "%B %d, %Y" }}
+                {% elsif page.category == "commissions" %}
+                    {{ page.date | date: "%B %d, %Y" }}
+                {% endif %}
+            </p>
+        </div>
+        {% elsif page.category == "portfolio" %}
         <style>
         .post-metadata {
             display: block;
@@ -29,11 +56,7 @@ layout: base
             if (h1) {
                 const metadata = document.createElement('span');
                 metadata.className = 'post-metadata';
-                {% if page.category == "portfolio" %}
                 metadata.innerHTML = '{{ page.date | date: "%B %d, %Y" }}{% if page.size %} • {{ page.size }}{% endif %}{% if page.support %} • {{ page.support }}{% endif %}{% if page.ink %} • {{ page.ink }}{% endif %}';
-                {% elsif page.category == "exhibitions" %}
-                metadata.innerHTML = '{{ page.date | date: "%B %d, %Y" }}{% if page.location %} • {{ page.location }}{% endif %}{% if page.size %} • {{ page.size }}{% endif %}';
-                {% endif %}
                 h1.appendChild(metadata);
             }
         });

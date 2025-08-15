@@ -20,7 +20,7 @@ plugins:
   - jekyll-redirect-from
 
 # SEO settings
-logo: /assets/images/targz.png
+logo: /assets/images/targz.webp
 twitter:
   username: targz
   card: summary_large_image
@@ -40,13 +40,13 @@ defaults:
       type: posts
     values:
       author: Targz
-      image: /assets/images/targz.png
+      image: /assets/images/targz.webp
   - scope:
       path: ""
       type: pages
     values:
       author: Targz
-      image: /assets/images/targz.png
+      image: /assets/images/targz.webp
 
 color: "#13ccf9"
 

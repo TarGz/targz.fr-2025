@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2024-03-24
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/green-lagoon-preview.jpeg
+image: /assets/images/green-lagoon-preview.webp
 size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"

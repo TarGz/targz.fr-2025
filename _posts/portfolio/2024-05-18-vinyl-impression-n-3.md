@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2024-05-18
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/vinyl-impression-n-3-preview.jpeg
+image: /assets/images/vinyl-impression-n-3-preview.webp
 size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"

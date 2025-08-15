@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2023-09-30
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/unexpected-patterns-preview.jpeg
+image: /assets/images/unexpected-patterns-preview.webp
 size: "29.7 x 42cm"
 support: "Bristol"
 ink: "Non Archival Ink"

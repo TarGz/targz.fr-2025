@@ -131,6 +131,7 @@ body.bits-post figure img {
 }
 
 
+
 /* Portfolio grid */
 .portfolio-grid {
   display: grid;
@@ -303,10 +304,13 @@ article {
   color: var(--pico-text-color);
 }
 
-/* Commissions page - vertical images with titles under */
+/* Commissions page - landscape images with titles under */
 .commissions-grid .home-item img {
-  width: 100%;
-  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
   display: block;
 }
 

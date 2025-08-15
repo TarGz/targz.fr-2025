@@ -7,7 +7,7 @@ keywords: "pen plotting commission, renault twingo 30 ans, custom algorithmic ar
 date: 2023-05-12
 category: commissions
 tags: [commission, pen-plotting]
-image: /assets/images/PACKSHOT_frame_A3B-1200.jpg
+image: /assets/images/PACKSHOT_frame_A3B-1200.webp
 ---
 
 [#Twingo #penplotter #robot #generativeart #creativecoding #Twingo30 #Renault #car](https://www.tiktok.com/@renault/video/7211562201587518725?lang=en)

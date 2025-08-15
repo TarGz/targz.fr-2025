@@ -4,7 +4,7 @@ title: Exhibitions - Pen Plotting Art Shows | Targz
 description: Browse exhibitions featuring algorithmic pen plotted artworks. From solo shows to group exhibitions showcasing Op Art and generative art pieces.
 keywords: pen plotting exhibitions, op art gallery, generative art shows, algorithmic art exhibition, mathematical art display
 permalink: /exhibitions/
-image: /assets/images/targz.png
+image: /assets/images/targz.webp
 ---
 
 <br>

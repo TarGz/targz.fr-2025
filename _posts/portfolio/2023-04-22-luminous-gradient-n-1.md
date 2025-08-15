@@ -7,7 +7,7 @@ keywords: "pen plotting art, algorithmic art, generative art, op art, mathematic
 date: 2023-04-22
 category: portfolio
 tags: [pen-plotter, art]
-image: /assets/images/luminous-gradient-n-1-preview.jpeg
+image: /assets/images/luminous-gradient-n-1-preview.webp
 size: "59 x 84cm"
 support: "Bristol"
 ink: "Non Archival Ink"
@@ -20,4 +20,4 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/luminous-g
 
 An experiment in mixing colors to create a lighting effect.
 
-![]({{ site.baseurl }}/assets/images/luminous-gradient-n-1-03.png)
+![]({{ site.baseurl }}/assets/images/luminous-gradient-n-1-03.webp)
