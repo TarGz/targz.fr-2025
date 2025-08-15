@@ -1,6 +1,6 @@
 domain: github.io
-url: https://targz.github.io/
-baseurl: "/targz.fr-2025"
+url: http://www.targz.fr/
+baseurl: "/"
 
 title: Targz - Pen Plotting & Generative Art
 email: contact@targz.fr
