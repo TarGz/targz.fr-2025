@@ -340,7 +340,14 @@ article {
 /* Tablet range - middle position */
 @media (min-width: 769px) and (max-width: 1283px) {
   .home-item p {
-    bottom: 2rem;
+    bottom: 1rem;
+  }
+}
+
+/* iPad specific - lower position */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home-item p {
+    bottom: 0.5rem;
   }
 }
 
