@@ -14,7 +14,14 @@ Part of Project / Forward: 2049, this global video art exhibition takes art out 
 "What I love most about this project is that it takes art out of galleries and brings it directly to people in their everyday environments."
 The exhibition transforms urban landscapes into open-air galleries, making art accessible to everyone regardless of their proximity to traditional art institutions.
 
-![Urban Installation]({{ '/assets/images/aplotinthewild-1.webp' | relative_url }})
+
+<div class="image-columns-2">
+  <img src="{{ '/assets/images/aplotinthewild-1.webp' | relative_url }}" alt="A Plot in the Wild" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+  <img src="{{ '/assets/images/aplotinthewild-2.webp' | relative_url }}" alt="A Plot in the Wild" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+
+</div>
+
+
 ![Street Display]({{ '/assets/images/aplotinthewild-3.webp' | relative_url }})
 ![Public Space Art]({{ '/assets/images/aplotinthewild-4.webp' | relative_url }})
 ![Night View]({{ '/assets/images/aplotinthewild-5.webp' | relative_url }})
