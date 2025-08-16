@@ -19,6 +19,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
+# Markdown processing
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
 # SEO settings
 logo: /assets/images/targz.webp
 twitter:

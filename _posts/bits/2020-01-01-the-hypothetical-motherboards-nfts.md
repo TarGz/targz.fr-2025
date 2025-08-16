@@ -44,38 +44,37 @@ The more processor the rarest
 - 8 processors (≃10% of chance)
 - 16 processors (≃5% of chance)
 
-<img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_017.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+  <div class="image-columns-4">
+    <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_017.webp' | relative_url }}" alt="Pen Plotter in Action">
+    <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_019.webp' | relative_url }}" alt="Process Detail">
+    <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_018.webp' | relative_url }}" alt="Process Detail">
+    <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_016.webp' | relative_url }}" alt="Process Detail">
+  </div>
 
-<img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_019.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-<img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_018.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-
-<img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_016.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
 ## **Tiles**
 
 - 10 tiles randomly picked
+<div class="image-columns-3">
+  <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_003.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+  <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_005.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+  <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_006.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+</div>
 
-<img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_003.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-
-
-
-<img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_005.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-
-<img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_006.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-
+<div class="image-columns-3">
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_012.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_015.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_010.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+</div>
+
+<div class="image-columns-3">
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_009.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_020.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-
-
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_022.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT’s" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+</div>
+
 
 ## **Color scheme**
 
@@ -114,31 +113,85 @@ Tiles density is calculated regarding the amount of total tiles added and will b
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_002.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT's" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-{Tile density: 'Average', Color scheme: '11000 lm RGB LED', Filling Type: 'Gradient', Processor: '6/16', Special: 'Animated'}
+```json
+{
+  "Tile density": "Average",
+  "Color scheme": "11000 lm RGB LED",
+  "Filling Type": "Gradient",
+  "Processor": "6/16",
+  "Special": "Animated"
+}
+```
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_004.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT's" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-{Tile density: 'Average', Color scheme: "Barbie's motherboard", Filling Type: 'Texture', Processor: '5/16', Special: 'Heart & Animated'}
+```json
+{
+  "Tile density": "Average",
+  "Color scheme": "Barbie's motherboard",
+  "Filling Type": "Texture",
+  "Processor": "5/16",
+  "Special": "Heart & Animated"
+}
+```
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_007.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT's" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-{Tile density: 'Average', Color scheme: 'Blue Etch', Filling Type: 'Flat', Processor: '5/16'}
+```json
+{
+  "Tile density": "Average",
+  "Color scheme": "Blue Etch",
+  "Filling Type": "Flat",
+  "Processor": "5/16"
+}
+```
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_008.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT's" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-{Tile density: 'Sparse', Color scheme: 'OpenGL Freedom Stripes', Filling Type: 'Stripes', Processor: '5/16', Special: 'Animated'}
+```json
+{
+  "Tile density": "Sparse",
+  "Color scheme": "OpenGL Freedom Stripes",
+  "Filling Type": "Stripes",
+  "Processor": "5/16",
+  "Special": "Animated"
+}
+```
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_011.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT's" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-{Tile density: 'Mostly Filed', Color scheme: 'Sunny TFLOPS', Filling Type: 'Texture', Processor: '4/16'}
+```json
+{
+  "Tile density": "Mostly Filed",
+  "Color scheme": "Sunny TFLOPS",
+  "Filling Type": "Texture",
+  "Processor": "4/16"
+}
+```
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_013.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT's" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-{Tile density: 'Mostly Filed', Color scheme: 'PS/2 Medusa', Filling Type: 'Gradient', Processor: '4/16', Special: 'Animated'}
+```json
+{
+  "Tile density": "Mostly Filed",
+  "Color scheme": "PS/2 Medusa",
+  "Filling Type": "Gradient",
+  "Processor": "4/16",
+  "Special": "Animated"
+}
+```
 
 <img src="{{ '/assets/images/the_hypothetical_motherboards_nfts_014.webp' | relative_url }}" alt="The Hypothetical Motherboards NFT's" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
-{Tile density: 'Mostly Filed', Color scheme: 'Alien Copper', Filling Type: 'Texture', Processor: '6/16', Special: 'Alien & Animated'}
+```json
+{
+  "Tile density": "Mostly Filed",
+  "Color scheme": "Alien Copper",
+  "Filling Type": "Texture",
+  "Processor": "6/16",
+  "Special": "Alien & Animated"
+}
+```
 
 ## About FxHash
 
