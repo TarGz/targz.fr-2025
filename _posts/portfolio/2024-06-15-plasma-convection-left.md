@@ -13,8 +13,8 @@ ink: "Acrylic"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/plasma-convection-canvas
 ---
 
-# Plasma Convection Left
+
 
 The dance of charged matter
 
-2024-06-15 - 59x84cm - Bristol Paper & Ink
+

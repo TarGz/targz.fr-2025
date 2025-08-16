@@ -103,12 +103,134 @@ article.prose {
   padding-right: 200px !important;
 }
 
+/* Portfolio hero image - make it wider than text content */
+body.portfolio-post .portfolio-hero-image {
+  margin: 2rem auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+body.portfolio-post .portfolio-hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: calc(var(--pico-border-radius) * 2);
+}
+
+/* Portfolio detail image - full width square cropped for close view */
+.portfolio-detail-image {
+  margin: 4rem 0 0 0; /* No bottom margin to touch footer */
+  padding: 0;
+  width: 100vw; /* Full viewport width */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  height: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.portfolio-detail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transform: scale(2); /* Zoom in for detail view */
+}
+
+/* Remove footer margin when portfolio detail image is present */
+body.portfolio-post .site-footer {
+  margin-top: 0 !important;
+}
+
+/* Desktop - square aspect */
+@media (min-width: 1024px) {
+  .portfolio-detail-image {
+    height: 800px;
+  }
+}
+
+/* Tablet - adjust height */
+@media (max-width: 1024px) {
+  .portfolio-detail-image {
+    height: 80vw;
+  }
+}
+
+/* Mobile - adjust height and zoom */
+@media (max-width: 768px) {
+  .portfolio-detail-image {
+    height: 70vw;
+  }
+  
+  .portfolio-detail-image img {
+    transform: scale(2); /* Same zoom on mobile as desktop */
+  }
+}
+
+/* Portfolio text content only - narrower width */
+body.portfolio-post .container .content {
+  max-width: 700px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Portfolio text content - center aligned */
+body.portfolio-post .container .content h1,
+body.portfolio-post .container .content h2,
+body.portfolio-post .container .content h3,
+body.portfolio-post .container .content h4,
+body.portfolio-post .container .content h5,
+body.portfolio-post .container .content h6,
+body.portfolio-post .container .content p {
+  text-align: center !important;
+}
+
+/* Post header styles for exhibitions, bits, commissions */
+.post-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.post-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: normal;
+}
+
+/* Portfolio post metadata - properly styled and centered */
+body.portfolio-post .post-metadata {
+  display: block !important;
+  font-size: 0.8rem !important;
+  color: #666 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.5rem !important;
+  font-weight: normal !important;
+  text-align: center !important;
+}
+
 /* iPad adjustments */
 @media screen and (max-width: 1024px) {
   .page-layout .container,
   article.prose {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
+  }
+  
+  body.portfolio-post article,
+  body.portfolio-post .content {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -118,6 +240,12 @@ article.prose {
   article.prose {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+  }
+  
+  body.portfolio-post article,
+  body.portfolio-post .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 

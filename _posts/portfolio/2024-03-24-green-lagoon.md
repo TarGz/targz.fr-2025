@@ -14,7 +14,6 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/green-lagoon
 ---
 
-# Green Lagoon
 
 Primordial soup emergence.
 

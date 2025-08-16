@@ -14,7 +14,6 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/monochrome-moire-n-1
 ---
 
-# Monochrome Moiré N°1
 
 
 Moiré has always fascinated me, so I wanted to see how some of my favorite patterns would interact with it. As I played around, I loved how the overlapping shapes created darker areas, giving this pen plotter piece a beautiful depth.![]({{ site.baseurl }}/assets/images/monochrome-moire-n-1-03.webp)

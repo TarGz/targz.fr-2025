@@ -12,7 +12,9 @@ size: "42 x 59.4cm"
 support: "Bristol"
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-20-gold
----![Blended Squares n°20 GOLD]({{ site.baseurl }}/assets/images/blended-squares-n-20-gold-02.webp)
+---
 
-# Blended Squares n°20 GOLD
+
+
+
 

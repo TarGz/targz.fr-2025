@@ -14,7 +14,7 @@ ink: "Black ballpoint,Gold Acrylic"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/the-bitcoin-genesis
 ---
 
-# The Bitcoin genesis
+
 
 January 3, 2009 the first bitcoin bloc is minted by Satoshi Nakamoto
 

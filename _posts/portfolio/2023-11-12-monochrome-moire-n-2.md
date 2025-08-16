@@ -14,7 +14,7 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/monochrome-moire-n-2
 ---
 
-# Monochrome Moiré  N°2
+
 
 
 This was mysecond experiment with moiré, building on what I learned from the first. This time, I tested with more lines and bulkier shapes, pushing the effect further.

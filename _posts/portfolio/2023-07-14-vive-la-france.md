@@ -14,8 +14,6 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/vive-la-france
 ---
 
-# Vive La France
-
 
 This pen plotter art came to life on July 14th, inspired by the iconic tricolor cockade.
 

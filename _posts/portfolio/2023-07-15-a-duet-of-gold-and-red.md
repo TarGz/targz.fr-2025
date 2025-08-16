@@ -14,5 +14,5 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/a-duet-of-gold-and-red
 ---
 
-# A Duet Of Gold And Red
+
 

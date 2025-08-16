@@ -14,7 +14,7 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/particle-asymmetry
 ---
 
-# Particle Asymmetry
+
 
 Atomic bits balanced into order.
 

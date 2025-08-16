@@ -14,7 +14,7 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/color-wheel-chaos
 ---
 
-# Color Wheel Chaos
+
 
 The struggle of too many choices
 

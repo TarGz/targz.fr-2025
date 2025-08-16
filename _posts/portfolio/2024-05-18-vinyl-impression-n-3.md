@@ -14,5 +14,3 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/vinyl-impression-n-3
 ---
 
-# Vinyl Impression N°3
-

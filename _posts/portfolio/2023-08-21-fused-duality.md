@@ -14,6 +14,6 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/fused-duality
 ---
 
-# Fused Duality
+
 
 2023-08-21 - 59x84cm - Bristol Paper & Non Archival Ink

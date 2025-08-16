@@ -14,5 +14,5 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/chromatic-nbsp-interplay-n-7
 ---
 
-# Chromatic Interplay N°7
+
 

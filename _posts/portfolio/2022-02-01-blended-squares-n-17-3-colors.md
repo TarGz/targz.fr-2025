@@ -14,5 +14,5 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-17-3-colors
 ---
 
-# Blended Squares n°17 3 colors
+
 

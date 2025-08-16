@@ -14,7 +14,7 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/dye-with-me
 ---
 
-# Dye With Me
+
 
 A blend of fault
 

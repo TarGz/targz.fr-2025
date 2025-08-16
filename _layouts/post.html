@@ -2,6 +2,29 @@
 layout: base
 ---
 
+{% if page.category == "portfolio" %}
+<!-- Portfolio layout with full-width image -->
+{% include breadcrumb.html %}
+
+{% if page.image %}
+<figure class="portfolio-hero-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
+</figure>
+{% endif %}
+
+<div class="content">
+    <div class="post-header">
+        <h1>{{ page.title }}
+            <span class="post-metadata">
+                {{ page.date | date: "%B %d, %Y" }}{% if page.size %} • {{ page.size }}{% endif %}{% if page.support %} • {{ page.support }}{% endif %}{% if page.ink %} • {{ page.ink }}{% endif %}
+            </span>
+        </h1>
+    </div>
+    {{ content }}
+</div>
+
+{% else %}
+<!-- Other categories layout -->
 <div style="padding: 0; margin: 0;">
     {% include breadcrumb.html %}
     
@@ -13,20 +36,6 @@ layout: base
 
     <div class="content">
         {% if page.category == "exhibitions" or page.category == "bits" or page.category == "commissions" %}
-        <style>
-        .post-header {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .post-header h1 {
-            margin-bottom: 0.5rem;
-        }
-        .post-subtitle {
-            font-size: 0.9rem;
-            color: #666;
-            font-weight: normal;
-        }
-        </style>
         <div class="post-header">
             <h1>{{ page.title }}</h1>
             <p class="post-subtitle">
@@ -39,29 +48,8 @@ layout: base
                 {% endif %}
             </p>
         </div>
-        {% elsif page.category == "portfolio" %}
-        <style>
-        .post-metadata {
-            display: block;
-            font-size: 0.8rem;
-            color: #666;
-            margin-top: 0.5rem;
-            margin-bottom: 1.5rem;
-            font-weight: normal;
-        }
-        </style>
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const h1 = document.querySelector('.content h1');
-            if (h1) {
-                const metadata = document.createElement('span');
-                metadata.className = 'post-metadata';
-                metadata.innerHTML = '{{ page.date | date: "%B %d, %Y" }}{% if page.size %} • {{ page.size }}{% endif %}{% if page.support %} • {{ page.support }}{% endif %}{% if page.ink %} • {{ page.ink }}{% endif %}';
-                h1.appendChild(metadata);
-            }
-        });
-        </script>
         {% endif %}
         {{ content }}
     </div>
 </div>
+{% endif %}

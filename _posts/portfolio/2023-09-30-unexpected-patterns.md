@@ -14,7 +14,7 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/unexpected-patterns
 ---
 
-# Unexpected Patterns
+
 
 
 The accidental pattern emerges from the unexpected and have been plotted during 6 hours on my custom plotter.

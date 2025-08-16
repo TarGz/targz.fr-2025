@@ -14,7 +14,6 @@ ink: "Acrylic"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/plasma-convection-center
 ---
 
-# Plasma Convection Center
 
 The dance of charged matter
 

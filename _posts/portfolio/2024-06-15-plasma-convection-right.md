@@ -14,7 +14,6 @@ ink: "Acrylic"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/plasma-convection-right
 ---
 
-# Plasma Convection Right
 
 The dance of charged matter
 

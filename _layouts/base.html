@@ -9,6 +9,13 @@
       {{ content }}
     </main>
 
+    {% if page.category == "portfolio" and page.image %}
+    <!-- Portfolio detail image outside container -->
+    <figure class="portfolio-detail-image">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }} - Detail View" />
+    </figure>
+    {% endif %}
+
     {%- include footer.html -%}
   </body>
 </html>

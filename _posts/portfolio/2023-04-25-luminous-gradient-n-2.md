@@ -14,5 +14,5 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/luminous-gradient-n-2
 ---
 
-# Luminous Gradient n°2
+
 

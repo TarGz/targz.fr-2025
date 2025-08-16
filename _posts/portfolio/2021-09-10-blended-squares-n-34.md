@@ -14,5 +14,5 @@ ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-34
 ---
 
-# Blended Squares n°34
+
 
