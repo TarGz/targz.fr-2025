@@ -57,17 +57,17 @@ This is the source code for Targz's artistic portfolio website, featuring:
 
 4. Run the development server:
    ```bash
-   bundle exec jekyll serve
-   # Or with live reload:
-   bundle exec jekyll serve --livereload
-
-
-   Clean cache 
-
+   # Use the provided script:
+   ./startlocaldev.sh
+   
+   # Or manually:
+   bundle exec jekyll serve --port 4001 --livereload
+   
+   # Clean cache if needed:
    bundle exec jekyll clean
    ```
 
-5. Open your browser to `http://localhost:4000`
+5. Open your browser to `http://localhost:4001`
 
 ## Project Structure
 
