@@ -8,11 +8,6 @@ tags: [exhibition, video-art, global]
 image: /assets/images/aplotinthewild-preview.webp
 ---
 
-# A Plot in the Wild
-May 25-31, 2025
-
-**Global Video Art Exhibition**  
-25 cities across 7 countries
 
 
 Part of Project / Forward: 2049, this global video art exhibition takes art out of galleries and into public spaces. The project features artists from Australia, Indonesia, India, Nigeria, Norway, Spain, and the United States.

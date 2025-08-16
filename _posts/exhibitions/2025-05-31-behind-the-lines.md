@@ -8,9 +8,6 @@ tags: [exhibition, installation, process]
 image: /assets/images/behindthelines-lodeve-preview.webp
 ---
 
-# Behind The Lines
-2025 - Lodève France
-
 
 
 A transparent glass installation lets visitors watch the pen plotter draw in real time. The process, usually hidden, is fully visible, from the algorithms guiding each move to the choices shaping the final image. What emerges is both mechanical and deliberate, a slow unfolding of lines on glass.

@@ -11,8 +11,7 @@ redirect_from:
   - /blended-squares-exhibition
 ---
 
-# Blended Squares Exhibition
-November 10, 2021
+
 
 ![Blended Squares Exhibition Overview]({{ '/assets/images/Blended_squares_exhibition-preview.webp' | relative_url }})
 

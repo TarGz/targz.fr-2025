@@ -9,11 +9,6 @@ image: /assets/images/grandpalais2025-preview.5.webp
 imageold: /assets/images/grandpalais2025-preview.webp
 ---
 
-# Grand Palais
-March 9, 2025
-
-**Constructivism Group Exhibition**  
-Grand Palais, Paris
 
 
 Bringing generative, pen-plotted art to the Grand Palais felt both surreal and deeply meaningful. This iconic Parisian venue, with its magnificent glass roof and Beaux-Arts architecture, provided a stunning backdrop for contemporary computational art.
