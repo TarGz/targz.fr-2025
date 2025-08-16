@@ -30,6 +30,9 @@ kramdown:
     block:
       line_numbers: false
 
+# Analytics
+google_analytics: G-P0H24WCQG3
+
 # SEO settings
 logo: /assets/images/targz.webp
 twitter:
