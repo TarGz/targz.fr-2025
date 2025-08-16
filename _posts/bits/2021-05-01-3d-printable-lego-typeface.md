@@ -26,7 +26,7 @@ I have been fan of Lego and pixel art since my childwood so I decided to create 
 I started designing "Lego" chars by hand using 123Design but that rapidly became a nigthmare because a Lego brick is quite complexe. I also wanted to be abble to generate all font char at once. But a least I had a first working POC:
 
 
-<div class="uk-grid" data-uk-grid-margin="">
+<div class="image-columns-3">
     <div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
         <img src="{{ '/assets/images/brickolage/square04.webp' | relative_url }}" class="uk-responsive-width">
     </div>
@@ -69,7 +69,7 @@ do
 Using any existing font is a great source of creativity, thanks to my OpenScad script I was abble to generate any font but I wanted to generate bricks that fit prefectly with Lego sizes and constraints. Chars width & heigth need to be proportional to the lego knobs spacing. That's where I starded design two font face ["Brick font"](#x5-font-named-brickfont) and ["Brickolage"](#x8-font-brickolage).
 
 #### *Long Shot*
-<div class="uk-grid" data-uk-grid-margin="">
+<div class="image-columns-3">
     <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1">
         <img src="{{ '/assets/images/brickolage/long-shot/01.webp' | relative_url }}" class="uk-responsive-width">
     </div>
@@ -83,7 +83,7 @@ Using any existing font is a great source of creativity, thanks to my OpenScad s
 
 
 #### *Phosphate*
-<div class="uk-grid" data-uk-grid-margin="">
+<div class="image-columns-3">
     <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1">
         <img src="{{ '/assets/images/brickolage/Phosphate/01.webp' | relative_url }}" class="uk-responsive-width">
     </div>
@@ -97,7 +97,7 @@ Using any existing font is a great source of creativity, thanks to my OpenScad s
 
 
 #### *Birds of paradise*
-<div class="uk-grid" data-uk-grid-margin="">
+<div class="image-columns-3">
     <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1">
         <img src="{{ '/assets/images/brickolage/birds-of-paradise/01.webp' | relative_url }}" class="uk-responsive-width">
     </div>
@@ -112,12 +112,11 @@ Using any existing font is a great source of creativity, thanks to my OpenScad s
 
 
 
-### CREATING A "LEGO" FONT-FACE
 
 #### *3X5 FONT NAMED BRICKFONT*
 
 
-<div class="uk-grid" data-uk-grid-margin="" id="BRICKFONT">
+<div class="image-columns-3">
     <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1">
         <img src="{{ '/assets/images/brickolage/brickfont/01.webp' | relative_url }}" class="uk-responsive-width">
     </div>
@@ -132,7 +131,7 @@ Using any existing font is a great source of creativity, thanks to my OpenScad s
 
 #### *4X8 FONT BRICKOLAGE*
 
-<div class="uk-grid" data-uk-grid-margin="" id="BRICKOLAGE">
+<div class="image-columns-3">
     <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1">
         <img src="{{ '/assets/images/brickolage/brickolage/01.webp' | relative_url }}" class="uk-responsive-width">
     </div>

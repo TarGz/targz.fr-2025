@@ -7,7 +7,7 @@ keywords: "digital art, keep calm, experimental art, creative coding"
 date: 2012-03-7
 category: bits
 tags: [digital-art, experimental]
-image: /assets/images/keep_calm_001.png?reload
+image: /assets/images/keep_calm_001.webp
 redirect_from:
   - /keep-calm/
   - /keep-calm

@@ -2,10 +2,11 @@
 layout: base
 ---
 
-{% if page.category == "portfolio" %}
-<!-- Portfolio layout with full-width image -->
+<!-- Breadcrumbs for all posts -->
 {% include breadcrumb.html %}
 
+{% if page.category == "portfolio" %}
+<!-- Portfolio layout with full-width image -->
 {% if page.image %}
 <figure class="portfolio-hero-image">
     <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
@@ -26,7 +27,6 @@ layout: base
 {% else %}
 <!-- Other categories layout -->
 <div style="padding: 0; margin: 0;">
-    {% include breadcrumb.html %}
     
     {% if page.image and page.category != "bits" and page.category != "exhibitions" and page.category != "commissions" %}
     <figure style="text-align: center; margin: 0.5rem 0 1rem 0">

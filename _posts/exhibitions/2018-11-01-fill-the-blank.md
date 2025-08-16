@@ -14,12 +14,11 @@ redirect_from:
 
 
 Interactive installation using Billund Mono Sans font, engaging viewers in the creative process. This exhibition transforms typography into a participatory experience, where visitors contribute to the completion of letterforms and textual compositions.
+The project explores the boundaries between predetermined structure and user input, creating a collaborative artwork that evolves throughout the exhibition period.
 
 ![Typography Installation]({{ '/assets/images/Fill_The_Blank-1.webp' | relative_url }})
 
 ![Interactive Element]({{ '/assets/images/Fill_The_Blank-2.webp' | relative_url }})
-
-The project explores the boundaries between predetermined structure and user input, creating a collaborative artwork that evolves throughout the exhibition period.
 
 ![Font Details]({{ '/assets/images/Fill_The_Blank-3.webp' | relative_url }})
 

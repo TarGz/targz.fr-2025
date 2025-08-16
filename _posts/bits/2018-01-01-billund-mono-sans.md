@@ -13,9 +13,7 @@ redirect_from:
   - /billund-mono-sans
 ---
 
-Created: November 7, 2022 10:25 AM
-Categorie: personnal, practice
-date: March 5, 2017
+
 
 A 'Lego' brick font I end up desinging 
 

@@ -10,9 +10,6 @@ tags: [digital-art, experimental]
 image: /assets/images/a_tale_from_the_book_of_christmas_2020_001.webp
 ---
 
-Created: November 13, 2022 2:03 PM
-Categorie: commission
-date: November 13, 2020
 
 An illustration for the movie poster *A Tale From the Book of Christmas* by Joshua Scattergood
 
