@@ -6,6 +6,9 @@ category: exhibitions
 location: "Worldwide"
 tags: [exhibition, video-art, global]
 image: /assets/images/aplotinthewild-preview.webp
+redirect_from:
+  - /a-plot-in-the-wild
+  - /a-plot-in-the-wild/
 ---
 
 
