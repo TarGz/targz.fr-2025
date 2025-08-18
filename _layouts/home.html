@@ -26,7 +26,11 @@ layout: base
                                  repeatCount="indefinite"/>
                     </circle>
                 </svg>
-                <img src="{{ post.image | relative_url }}" 
+                <img srcset="{{ post.image | replace: '-preview.webp', '-mobile.webp' | relative_url }} 400w,
+                             {{ post.image | replace: '-preview.webp', '-tablet.webp' | relative_url }} 600w,
+                             {{ post.image | relative_url }} 704w"
+                     sizes="(max-width: 480px) 400px, (max-width: 768px) 600px, 704px"
+                     src="{{ post.image | relative_url }}" 
                      alt="{{ post.title }}"
                      loading="lazy"
                      decoding="async"

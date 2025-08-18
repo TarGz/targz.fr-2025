@@ -37,6 +37,32 @@ jobs:
       env:
         JEKYLL_ENV: production
         
+    - name: Install ImageMagick
+      run: sudo apt-get update && sudo apt-get install -y imagemagick
+      
+    - name: Generate responsive images
+      run: |
+        echo "Generating responsive images..."
+        find ./_site/assets/images -name "*-preview.webp" -type f | while read image; do
+          if [[ ! "$image" =~ -mobile\.webp$ ]] && [[ ! "$image" =~ -tablet\.webp$ ]]; then
+            # Generate mobile version (400x400)
+            mobile_name="${image//-preview.webp/-mobile.webp}"
+            if [[ ! -f "$mobile_name" ]]; then
+              magick "$image" -resize 400x400^ -gravity center -extent 400x400 "$mobile_name"
+              echo "✓ Created mobile: $(basename $mobile_name)"
+            fi
+            
+            # Generate tablet version (600x600)
+            tablet_name="${image//-preview.webp/-tablet.webp}"
+            if [[ ! -f "$tablet_name" ]]; then
+              magick "$image" -resize 600x600^ -gravity center -extent 600x600 "$tablet_name"
+              echo "✓ Created tablet: $(basename $tablet_name)"
+            fi
+          fi
+        done
+        
+        echo "Responsive images generated!"
+        
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
