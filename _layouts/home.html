@@ -26,8 +26,15 @@ layout: base
                                  repeatCount="indefinite"/>
                     </circle>
                 </svg>
-                {% assign mobile_image = post.image | replace: '-preview.webp', '-mobile.webp' %}
-                {% assign tablet_image = post.image | replace: '-preview.webp', '-tablet.webp' %}
+                {% comment %}Generate responsive image paths by replacing extensions{% endcomment %}
+                {% if post.image contains '-preview.webp' %}
+                  {% assign mobile_image = post.image | replace: '-preview.webp', '-mobile.webp' %}
+                  {% assign tablet_image = post.image | replace: '-preview.webp', '-tablet.webp' %}
+                {% else %}
+                  {% assign image_base = post.image | remove: '.webp' %}
+                  {% assign mobile_image = image_base | append: '-mobile.webp' %}
+                  {% assign tablet_image = image_base | append: '-tablet.webp' %}
+                {% endif %}
                 <img srcset="{{ mobile_image | relative_url }} 400w,
                              {{ tablet_image | relative_url }} 600w,
                              {{ post.image | relative_url }} 704w"
