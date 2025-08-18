@@ -27,14 +27,19 @@ layout: base
                                  repeatCount="indefinite"/>
                     </circle>
                 </svg>
-                {% comment %}Generate responsive image paths by replacing extensions{% endcomment %}
+                {% comment %}Generate responsive image paths in subfolders{% endcomment %}
                 {% if post.image contains '-preview.webp' %}
-                  {% assign mobile_image = post.image | replace: '-preview.webp', '-mobile.webp' %}
-                  {% assign tablet_image = post.image | replace: '-preview.webp', '-tablet.webp' %}
+                  {% assign base_name = post.image | replace: '-preview.webp', '' | replace: '/assets/images/', '' %}
+                  {% assign mobile_image = '/assets/images/mobile/' | append: base_name | append: '.webp' %}
+                  {% assign tablet_image = '/assets/images/tablet/' | append: base_name | append: '.webp' %}
+                {% elsif post.image contains '_preview.webp' %}
+                  {% assign base_name = post.image | replace: '_preview.webp', '' | replace: '/assets/images/', '' %}
+                  {% assign mobile_image = '/assets/images/mobile/' | append: base_name | append: '.webp' %}
+                  {% assign tablet_image = '/assets/images/tablet/' | append: base_name | append: '.webp' %}
                 {% else %}
-                  {% assign image_base = post.image | remove: '.webp' %}
-                  {% assign mobile_image = image_base | append: '-mobile.webp' %}
-                  {% assign tablet_image = image_base | append: '-tablet.webp' %}
+                  {% assign base_name = post.image | replace: '.webp', '' | replace: '/assets/images/', '' %}
+                  {% assign mobile_image = '/assets/images/mobile/' | append: base_name | append: '.webp' %}
+                  {% assign tablet_image = '/assets/images/tablet/' | append: base_name | append: '.webp' %}
                 {% endif %}
                 <picture onload="this.nextElementSibling.style.display='none';">
                     <source media="(max-width: 576px)" srcset="{{ mobile_image | relative_url }}">
