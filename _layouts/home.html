@@ -4,6 +4,7 @@ layout: base
 <br/>
 <br/>
 <br/>
+
 <hgroup style="text-align: center">
     <h2>Hello, I'm Targz</h2>
     <p>A pen plotting artist inspired by Op Art</p>
@@ -35,18 +36,18 @@ layout: base
                   {% assign mobile_image = image_base | append: '-mobile.webp' %}
                   {% assign tablet_image = image_base | append: '-tablet.webp' %}
                 {% endif %}
-                <img srcset="{{ mobile_image | relative_url }} 400w,
-                             {{ tablet_image | relative_url }} 600w,
-                             {{ post.image | relative_url }} 704w"
-                     sizes="(max-width: 576px) 400px, (max-width: 992px) 600px, 704px"
-                     src="{{ post.image | relative_url }}" 
-                     alt="{{ post.title }}"
-                     loading="lazy"
-                     decoding="async"
-                     width="704"
-                     height="990"
-                     onload="this.style.opacity='1'; this.previousElementSibling.style.display='none';"
-                     style="opacity: 0; transition: opacity 0.3s ease-in-out; position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" />
+                <picture onload="this.nextElementSibling.style.display='none';">
+                    <source media="(max-width: 576px)" srcset="{{ mobile_image | relative_url }}">
+                    <source media="(max-width: 992px)" srcset="{{ tablet_image | relative_url }}">
+                    <img src="{{ post.image | relative_url }}" 
+                         alt="{{ post.title }}"
+                         loading="lazy"
+                         decoding="async"
+                         width="704"
+                         height="990"
+                         onload="this.style.opacity='1'; this.parentElement.previousElementSibling.style.display='none';"
+                         style="opacity: 0; transition: opacity 0.3s ease-in-out; position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                </picture>
                 <p>
                     {{ post.title }}
                     <span class="subtitle">{{ post.date | date: "%Y" }}{% if post.size %} • {{ post.size }}{% endif %}{% if post.support %} • {{ post.support }}{% endif %}{% if post.ink %} • {{ post.ink }}{% endif %}</span>
