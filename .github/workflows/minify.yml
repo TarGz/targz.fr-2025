@@ -37,18 +37,33 @@ jobs:
       env:
         JEKYLL_ENV: production
         
-    - name: Debug - List files
-      run: |
-        echo "Files in _site:"
-        find ./_site -name "*.html" | head -10
-        echo "Total HTML files:"
-        find ./_site -name "*.html" | wc -l
-        
-    - name: Minify CSS, JS and HTML files
-      uses: nizarmah/auto-minify@v2.1
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
       with:
-        directory: './_site'
-        output: './_site'
+        node-version: '18'
+        
+    - name: Install HTML minifier
+      run: npm install -g html-minifier-terser
+      
+    - name: Minify HTML files
+      run: |
+        find ./_site -name "*.html" -type f | while read file; do
+          echo "Minifying: $file"
+          html-minifier-terser \
+            --collapse-whitespace \
+            --remove-redundant-attributes \
+            --remove-script-type-attributes \
+            --remove-style-link-type-attributes \
+            --use-short-doctype \
+            --minify-css true \
+            --minify-js true \
+            --output "$file" "$file"
+        done
+        
+    - name: Verify minification
+      run: |
+        echo "Checking a sample file:"
+        head -3 ./_site/index.html
         
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
