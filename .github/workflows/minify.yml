@@ -42,9 +42,26 @@ jobs:
       with:
         node-version: '18'
         
-    - name: Install HTML minifier
-      run: npm install -g html-minifier-terser
+    - name: Install minifiers
+      run: |
+        npm install -g html-minifier-terser
+        npm install -g clean-css-cli
+        npm install -g uglify-js
       
+    - name: Minify CSS files
+      run: |
+        find ./_site -name "*.css" -type f | while read file; do
+          echo "Minifying CSS: $file"
+          cleancss -o "$file" "$file"
+        done
+        
+    - name: Minify JS files
+      run: |
+        find ./_site -name "*.js" -type f | while read file; do
+          echo "Minifying JS: $file"
+          uglifyjs "$file" -o "$file" -c -m || echo "Skipped $file (might be already minified)"
+        done
+        
     - name: Minify HTML files
       run: |
         find ./_site -name "*.html" -type f | while read file; do
