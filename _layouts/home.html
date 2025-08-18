@@ -38,7 +38,7 @@ layout: base
                 <img srcset="{{ mobile_image | relative_url }} 400w,
                              {{ tablet_image | relative_url }} 600w,
                              {{ post.image | relative_url }} 704w"
-                     sizes="(max-width: 480px) 400px, (max-width: 768px) 600px, 704px"
+                     sizes="(max-width: 576px) 400px, (max-width: 992px) 600px, 704px"
                      src="{{ post.image | relative_url }}" 
                      alt="{{ post.title }}"
                      loading="lazy"
