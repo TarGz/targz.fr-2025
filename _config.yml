@@ -19,16 +19,29 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-# Markdown processing
-markdown: kramdown
+# Sass/SCSS settings
+sass:
+  style: compressed
+
+# Markdown and HTML optimization
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
+  input: GFM
+
+# Exclude from processing
+exclude:
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Markdown processing
+markdown: kramdown
 
 # Analytics
 google_analytics: G-P0H24WCQG3
