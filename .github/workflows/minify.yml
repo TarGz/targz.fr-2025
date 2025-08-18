@@ -37,6 +37,13 @@ jobs:
       env:
         JEKYLL_ENV: production
         
+    - name: Debug - List files
+      run: |
+        echo "Files in _site:"
+        find ./_site -name "*.html" | head -10
+        echo "Total HTML files:"
+        find ./_site -name "*.html" | wc -l
+        
     - name: Minify CSS, JS and HTML files
       uses: nizarmah/auto-minify@v2.1
       with:
