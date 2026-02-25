@@ -27,20 +27,18 @@ layout: base
                                  repeatCount="indefinite"/>
                     </circle>
                 </svg>
-                {% comment %}Generate responsive image paths in subfolders{% endcomment %}
-                {% if post.image contains '-preview.webp' %}
-                  {% assign base_name = post.image | replace: '-preview.webp', '' | replace: '/assets/images/', '' %}
-                  {% assign mobile_image = '/assets/images/mobile/' | append: base_name | append: '.webp' %}
-                  {% assign tablet_image = '/assets/images/tablet/' | append: base_name | append: '.webp' %}
-                {% elsif post.image contains '_preview.webp' %}
-                  {% assign base_name = post.image | replace: '_preview.webp', '' | replace: '/assets/images/', '' %}
-                  {% assign mobile_image = '/assets/images/mobile/' | append: base_name | append: '.webp' %}
-                  {% assign tablet_image = '/assets/images/tablet/' | append: base_name | append: '.webp' %}
+                {% comment %}Generate responsive image paths — extract just the filename (last path segment) {% endcomment %}
+                {% assign img_parts = post.image | split: '/' %}
+                {% assign img_filename = img_parts | last %}
+                {% if img_filename contains '-preview.webp' %}
+                  {% assign base_name = img_filename | replace: '-preview.webp', '' %}
+                {% elsif img_filename contains '_preview.webp' %}
+                  {% assign base_name = img_filename | replace: '_preview.webp', '' %}
                 {% else %}
-                  {% assign base_name = post.image | replace: '.webp', '' | replace: '/assets/images/', '' %}
-                  {% assign mobile_image = '/assets/images/mobile/' | append: base_name | append: '.webp' %}
-                  {% assign tablet_image = '/assets/images/tablet/' | append: base_name | append: '.webp' %}
+                  {% assign base_name = img_filename | replace: '.webp', '' %}
                 {% endif %}
+                {% assign mobile_image = '/assets/images/mobile/' | append: base_name | append: '.webp' %}
+                {% assign tablet_image = '/assets/images/tablet/' | append: base_name | append: '.webp' %}
                 <picture onload="this.nextElementSibling.style.display='none';">
                     <source media="(max-width: 576px)" srcset="{{ mobile_image | relative_url }}">
                     <source media="(max-width: 992px)" srcset="{{ tablet_image | relative_url }}">
@@ -55,7 +53,7 @@ layout: base
                 </picture>
                 <p>
                     {{ post.title }}
-                    <span class="subtitle">{{ post.date | date: "%Y" }}{% if post.size %} • {{ post.size }}{% endif %}{% if post.support %} • {{ post.support }}{% endif %}{% if post.ink %} • {{ post.ink }}{% endif %}</span>
+                    <span class="subtitle">{{ post.date | date: "%Y" }}{% if post.ink %} • {{ post.ink }}{% endif %}</span>
                 </p>
             </div>
         </a>

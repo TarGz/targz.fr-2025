@@ -17,36 +17,28 @@ layout: base
     <div class="post-header">
         <h1>{{ page.title }}
             <span class="post-metadata">
-                {{ page.date | date: "%B %d, %Y" }}{% if page.size %} • {{ page.size }}{% endif %}{% if page.support %} • {{ page.support }}{% endif %}{% if page.ink %} • {{ page.ink }}{% endif %}
+                {{ page.date | date: "%B %d, %Y" }}{% if page.ink != "" and page.ink %} • {{ page.ink }}{% endif %}
             </span>
         </h1>
     </div>
 
-    {% if page.type or page.reference or page.plotter or page.pen or page.ink_type or page.paper_weight or page.frame %}
+    {% assign has_ink = false %}{% if page.ink != "" and page.ink %}{% assign has_ink = true %}{% endif %}
+    {% assign has_pen = false %}{% if page.pen != "" and page.pen %}{% assign has_pen = true %}{% endif %}
+    {% assign has_frame = false %}{% if page.frame != "" and page.frame %}{% assign has_frame = true %}{% endif %}
+    {% if has_ink or has_pen or has_frame %}
     <div class="product-specs">
-        {% if page.type %}<div class="spec-row"><span class="spec-label">Type</span><span class="spec-value">{{ page.type }}</span></div>{% endif %}
-        {% if page.size %}<div class="spec-row"><span class="spec-label">Size</span><span class="spec-value">{{ page.size }}</span></div>{% endif %}
-        {% if page.reference %}<div class="spec-row"><span class="spec-label">Reference</span><span class="spec-value">{{ page.reference }}</span></div>{% endif %}
-        {% if page.plotter %}<div class="spec-row"><span class="spec-label">Plotter</span><span class="spec-value">{{ page.plotter }}</span></div>{% endif %}
-        {% if page.pen %}<div class="spec-row"><span class="spec-label">Pen</span><span class="spec-value">{{ page.pen }}</span></div>{% endif %}
-        {% if page.ink_type %}<div class="spec-row"><span class="spec-label">Ink type</span><span class="spec-value">{{ page.ink_type }}</span></div>{% endif %}
-        {% if page.first_path_ink %}<div class="spec-row"><span class="spec-label">1st path ink</span><span class="spec-value">{{ page.first_path_ink }}</span></div>{% endif %}
-        {% if page.second_path_ink %}<div class="spec-row"><span class="spec-label">2nd path ink</span><span class="spec-value">{{ page.second_path_ink }}</span></div>{% endif %}
-        {% if page.third_path_ink %}<div class="spec-row"><span class="spec-label">3rd path ink</span><span class="spec-value">{{ page.third_path_ink }}</span></div>{% endif %}
-        {% if page.paper %}<div class="spec-row"><span class="spec-label">Paper</span><span class="spec-value">{{ page.paper }}</span></div>{% endif %}
-        {% if page.paper_weight %}<div class="spec-row"><span class="spec-label">Paper Weight</span><span class="spec-value">{{ page.paper_weight }}</span></div>{% endif %}
-        {% if page.frame %}<div class="spec-row"><span class="spec-label">Frame</span><span class="spec-value">{{ page.frame }}</span></div>{% endif %}
-        {% if page.edition %}<div class="spec-row"><span class="spec-label">Edition</span><span class="spec-value">{{ page.edition }}</span></div>{% endif %}
-        {% if page.medium %}<div class="spec-row"><span class="spec-label">Medium</span><span class="spec-value">{{ page.medium }}</span></div>{% endif %}
+        {% if has_ink %}<div class="spec-row"><span class="spec-label">Ink</span><span class="spec-value">{{ page.ink }}</span></div>{% endif %}
+        {% if has_pen %}<div class="spec-row"><span class="spec-label">Pen</span><span class="spec-value">{{ page.pen }}</span></div>{% endif %}
+        {% if has_frame %}<div class="spec-row"><span class="spec-label">Frame</span><span class="spec-value">{{ page.frame }}</span></div>{% endif %}
     </div>
     {% endif %}
 
-    {% if page.price %}
+    {% if page.price != "" and page.price %}
     <div class="product-action">
         {% if page.stock == 0 %}
             <p class="product-price">&euro;{{ page.price }}</p>
             <p class="product-sold-out">Sold out</p>
-        {% elsif page.stripe_url %}
+        {% elsif page.stripe_url != "" and page.stripe_url %}
             <p class="product-price">&euro;{{ page.price }}</p>
             <p class="buy-link">
                 <a href="{{ page.stripe_url }}" target="_blank" rel="noopener">Acquire this piece</a>

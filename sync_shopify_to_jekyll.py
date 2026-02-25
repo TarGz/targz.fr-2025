@@ -128,19 +128,8 @@ def determine_availability(product):
 
 # Labels to look for in Shopify body_html (case-insensitive)
 SPEC_PATTERNS = [
-    ("type", r"(?:^|\n)\s*Type\s*:\s*(.+)"),
-    ("reference", r"(?:^|\n)\s*Ref(?:erence)?\s*:\s*(.+)"),
-    ("plotter", r"(?:^|\n)\s*Plotter\s*:\s*(.+)"),
     ("pen", r"(?:^|\n)\s*Pen\s*:\s*(.+)"),
-    ("ink_type", r"(?:^|\n)\s*Ink\s*type\s*:\s*(.+)"),
-    ("first_path_ink", r"(?:^|\n)\s*(?:1st\s*path\s*ink|INK\s*1|ink\s*1)\s*:\s*(.+)"),
-    ("second_path_ink", r"(?:^|\n)\s*(?:2nd\s*path\s*ink|INK\s*2|ink\s*2)\s*:\s*(.+)"),
-    ("third_path_ink", r"(?:^|\n)\s*(?:3rd\s*path\s*ink|INK\s*3|ink\s*3)\s*:\s*(.+)"),
-    ("paper", r"(?:^|\n)\s*Paper\s*:\s*(.+)"),
-    ("paper_weight", r"(?:^|\n)\s*Paper\s*(?:Weight|WEight)\s*:\s*(.+)"),
     ("frame", r"(?:^|\n)\s*Frame\s*:\s*(.+)"),
-    ("edition", r"(?:^|\n)\s*Edition\s*:\s*(.+)"),
-    ("medium", r"(?:^|\n)\s*Medium\s*:\s*(.+)"),
 ]
 
 
