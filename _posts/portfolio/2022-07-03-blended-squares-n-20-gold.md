@@ -12,6 +12,16 @@ size: "42 x 59.4cm"
 support: "Bristol"
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-20-gold
+shopify_id: 8717140689235
+price: "200"
+stock: 0
+reference: "021-C_LxL_CxC2xL_CxC-1"
+plotter: "Custom made Pen Plotter"
+pen: "Pump Marker with 4 mm Round tip"
+paper: "FABRIANO BLACK BLACK"
+paper_weight: "300g/m²"
+frame: "Unframed"
+edition: "5, numbered and signed"
 ---
 
 

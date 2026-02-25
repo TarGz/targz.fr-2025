@@ -10,3 +10,6 @@ node_modules
 vendor/bundle/
 .jekyll-metadata
 .jekyll-metadata
+.env
+.venv
+shopify_stripe_mapping.json

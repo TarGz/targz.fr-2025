@@ -12,6 +12,15 @@ size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/monochrome-moire-n-1
+shopify_id: 8717120930131
+price: "200"
+stock: 0
+reference: "2023-09-30_BS-LN6FZHBY-DASHED"
+plotter: "Custom made Pen Plotter"
+pen: "Molotow pump marker 1mm"
+paper: "Fabriano White White"
+paper_weight: "300g/m2 / 100lbs"
+frame: "Unframed"
 ---
 
 

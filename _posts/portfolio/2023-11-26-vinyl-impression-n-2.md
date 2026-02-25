@@ -12,6 +12,17 @@ size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/vinyl-impression-n-2
+shopify_id: 8717251871059
+price: "200"
+stock: 0
+reference: "2023-11-26_BS-LPFGW51Y"
+plotter: "Custom made Pen Plotter"
+pen: "Parallel pen 2.4mm"
+ink_type: "Ecoline Watercolor"
+paper: "Cartridge Studio Gerstaecker by Clairefontaine"
+paper_weight: "250g/m² / 90lbs"
+frame: "Unframed"
+edition: "2 (signed a numbered)"
 ---
 
 

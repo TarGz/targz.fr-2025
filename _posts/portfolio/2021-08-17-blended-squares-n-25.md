@@ -12,6 +12,16 @@ size: "42x59.4cm"
 support: "Bristol"
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-25
+shopify_id: 8724450050387
+price: "150"
+stock: 0
+reference: "025-LxL_C_CxC_L-1 - Z4 A2"
+plotter: "Custom made Pen Plotter"
+pen: "Parallel pen 3.8mm"
+first_path_ink: "Ecoline watercolor Skyblue 578 - 90°"
+second_path_ink: "Ecoline watercolor Magenta 337 - 135°"
+paper: "FABRIANO WHITE WHITE 300g/m²"
+frame: "Not framed"
 ---
 
 

@@ -229,6 +229,96 @@ body.portfolio-post .post-metadata {
   text-align: center !important;
 }
 
+/* Buy link on portfolio posts */
+.buy-link {
+  text-align: center;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.buy-link a {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #000 !important;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  transition: opacity 0.3s ease;
+}
+
+.buy-link a:hover {
+  opacity: 0.5;
+}
+
+/* Product specs section */
+.product-specs {
+  max-width: 500px;
+  margin: 0 auto 1.5rem auto;
+  padding: 0;
+}
+
+.spec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  font-size: 0.8rem;
+}
+
+.spec-row:last-child {
+  border-bottom: none;
+}
+
+.spec-label {
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.7rem;
+}
+
+.spec-value {
+  color: #444;
+  text-align: right;
+}
+
+/* Product price and action */
+.product-action {
+  text-align: center;
+  margin: 1.5rem auto;
+  max-width: 500px;
+}
+
+.product-price {
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.product-sold-out {
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .product-specs {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  .product-action {
+    max-width: 100%;
+  }
+}
+
 /* iPad adjustments */
 @media screen and (max-width: 1024px) {
   .page-layout .container,
@@ -789,36 +879,6 @@ article .compact-code pre {
 .slide-nav-list a:hover {
   opacity: 0.7;
   color: white !important;
-}
-
-/* Shop button specific styling - only for shop link, not news */
-.slide-nav-list a[href="https://shop.targz.fr"] {
-  background: white !important;
-  color: black !important;
-  border-radius: 4px;
-}
-
-/* Add more space before Shop button */
-.slide-nav-list a:last-child {
-  margin-left: 0.3rem;
-}
-
-.slide-nav-list a[href="https://shop.targz.fr"]:hover {
-  background: #f5f5f5 !important;
-  color: black !important;
-  opacity: 1;
-}
-
-/* Mobile - smaller padding for Shop button */
-@media (max-width: 768px) {
-  .slide-nav-list a[href="https://shop.targz.fr"] {
-    padding: 0.25rem 0.75rem;
-  }
-  
-  /* Add margin below Shop button */
-  .slide-nav-list a:last-child {
-    margin-bottom: 1.5rem;
-  }
 }
 
 /* Push content down when nav is active */

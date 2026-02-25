@@ -12,6 +12,17 @@ size: "59x84cm"
 support: "Bristol"
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/monochrome-moire-n-2
+stripe_url: "PASTE_YOUR_STRIPE_PAYMENT_LINK_HERE"
+price: "400"
+shopify_id: 8717287358803
+stock: 1
+type: "Hand-Signed, Unique Original"
+reference: "2023-11-12_BS-LOVJ45WK"
+plotter: "Custom made Pen Plotter"
+pen: "Staedtler pigment liner 1mm"
+paper: "Cartridge Studio Gerstaecker by Clairefontaine"
+paper_weight: "250g/m² / 90lbs"
+frame: "Unframed"
 ---
 
 

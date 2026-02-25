@@ -12,6 +12,16 @@ size: "59 x 84cm"
 support: "Bristol"
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/luminous-gradient-n-3
+shopify_id: 8717363937619
+price: "400"
+stock: 0
+reference: "2023-04-27_BS-LGZH3CLY"
+plotter: "Custom made Pen Plotter"
+pen: "Pump Marker with 4 mm Round tip"
+paper: "Cartridge Studio Gerstaecker by Clairefontaine"
+paper_weight: "250g/m² / 90lbs"
+frame: "Unframed"
+edition: "1, numbered and signed"
 ---
 
 

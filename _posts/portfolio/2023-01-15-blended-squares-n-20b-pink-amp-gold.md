@@ -12,6 +12,18 @@ size: "59 x 84cm"
 support: "Bristol"
 ink: "Acrylic"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-squares-n-20b-pink-amp-gold
+shopify_id: 8717365903699
+price: "400"
+stock: 1
+type: "One of 4 Unique Originals (signed a numbered 1-4)"
+reference: "021-C_LxL_CxC2xL_CxC-1"
+plotter: "Custom made Pen Plotter"
+pen: "Pump Marker with 4 mm Round tip"
+first_path_ink: "Molotow alcohol-based GOLD"
+second_path_ink: "Molotow alcohol-based PINK"
+paper: "Paint On Noir Clairefontaine"
+paper_weight: "250g/m² / 90lbs"
+frame: "Not framed"
 ---
 
 
