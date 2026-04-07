@@ -1,6 +1,15 @@
-const VERSION = "1.2.1";
+const VERSION = "1.3.0";
 
 const CHANGELOG = [
+  {
+    version: "1.3.0",
+    date: "2026-04-07",
+    changes: [
+      "Add new portfolio artwork: Crops (2025-10-20)",
+      "Add new portfolio artwork: Fragmentation (2025-10-21)",
+      "Remove shop fields from new_artwork.py post template (shopify_id, stripe_url, price, stock)"
+    ]
+  },
   {
     version: "1.2.1",
     date: "2026-04-07",
