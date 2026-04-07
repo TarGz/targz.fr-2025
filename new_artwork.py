@@ -8,6 +8,7 @@ Scans portfolio_drop/ for folders named YYYY-MM-DD-artwork-name/, then for each:
   3. Names them: {slug}-preview.webp, {slug}-02.webp, {slug}-03.webp, ...
   4. Creates the markdown post with frontmatter and image references
   5. Generates mobile (576px) and tablet (992px) variants of the preview
+  6. Removes the processed folder from portfolio_drop/
 
 Usage:
     python3 new_artwork.py                     # Process all folders in portfolio_drop/
@@ -22,6 +23,7 @@ import argparse
 import glob
 import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -276,6 +278,13 @@ def process_folder(image_folder, dry_run=False):
 
     print("\n  Creating post:")
     create_post(title, slug, date_slug, filenames, post_date=folder_date, dry_run=dry_run)
+
+    # Clean up: remove processed folder from portfolio_drop/
+    if not dry_run:
+        shutil.rmtree(image_folder)
+        print(f"\n  Cleaned up: {image_folder}")
+    else:
+        print(f"\n  Would clean up: {image_folder}")
 
     return True
 

@@ -1,6 +1,14 @@
-const VERSION = "1.3.0";
+const VERSION = "1.3.1";
 
 const CHANGELOG = [
+  {
+    version: "1.3.1",
+    date: "2026-04-07",
+    changes: [
+      "Auto-clean portfolio_drop/ folders after processing in new_artwork.py",
+      "Update CLAUDE.md workflow docs to reflect cleanup step"
+    ]
+  },
   {
     version: "1.3.0",
     date: "2026-04-07",

@@ -32,7 +32,7 @@ Use `portfolio_drop/` workflow:
 
 1. Drop a folder named `YYYY-MM-DD-slug/` into `portfolio_drop/` with images inside
 2. Run `python3 new_artwork.py` (or `--dry-run` to preview)
-3. The script converts images to webp (1200px), generates mobile (576px) and tablet (992px) responsive variants, and creates the markdown post
+3. The script converts images to webp (1200px), generates mobile (576px) and tablet (992px) responsive variants, creates the markdown post, and removes the processed folder from portfolio_drop/
 
 ## Scripts
 
