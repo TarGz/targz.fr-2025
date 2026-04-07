@@ -1,6 +1,13 @@
-const VERSION = "1.1.0";
+const VERSION = "1.1.1";
 
 const CHANGELOG = [
+  {
+    version: "1.1.1",
+    date: "2026-04-07",
+    changes: [
+      "Fix responsive image path generation in home layout for new subfolder structure"
+    ]
+  },
   {
     version: "1.1.0",
     date: "2026-04-07",
