@@ -8,12 +8,9 @@ date: 2024-02-06
 category: portfolio
 image: /assets/images/left-and-right-space-noodle-preview.webp
 shopify_id: 8723336200531
-price: "200"
-stock: 1
 pen: "Pilot Parallel pen 2.4mm"
 frame: "Unframed"
 original_url: ""
-stripe_url: ""
 ink: ""
 ---
 

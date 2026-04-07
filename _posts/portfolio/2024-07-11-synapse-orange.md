@@ -8,12 +8,9 @@ date: 2024-07-11
 category: portfolio
 image: /assets/images/synapse-orange-preview.webp
 shopify_id: 9333823668563
-price: "400"
-stock: 1
 pen: "Ecoline Pen"
 frame: "Unframed"
 original_url: ""
-stripe_url: ""
 ink: ""
 ---
 

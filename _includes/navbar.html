@@ -1,7 +1,11 @@
 {%- assign current_page_url = page.url | relative_url -%}
 
 <div id="slide-nav-overlay" class="slide-nav-overlay">
-  <div class="container slide-nav-container">
+  <button id="nav-close" class="nav-close" aria-label="Close menu">
+    <div class="close-line"></div>
+    <div class="close-line"></div>
+  </button>
+  <div class="slide-nav-container">
     <div class="slide-nav-list">
       <a href="{{ '/' | relative_url }}">Pen Plotting</a>
       <a href="{{ '/exhibitions/' | relative_url }}">Exhibitions</a>
@@ -9,69 +13,54 @@
       <a href="{{ '/bits/' | relative_url }}">Bits</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
       <a href="https://www.reddit.com/user/_targz_/submitted/">News</a>
+      <a href="https://shop.targz.fr">Shop</a>
     </div>
   </div>
 </div>
 
 <nav>
-  <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
-    <a href="{{ '/' | relative_url }}" style="text-decoration: none;">
-      <img src="{{ '/assets/images/targz.webp' | relative_url }}" alt="Targz artist logo" style="height: 2rem; width: auto;">
+  <div class="nav-bar">
+    <a href="{{ '/' | relative_url }}" class="nav-logo">
+      <img src="{{ '/assets/images/targz.webp' | relative_url }}" alt="Targz" />
     </a>
-    
-    <button id="burger-menu" style="background: none; border: none; cursor: pointer; padding: 0.5rem; display: flex; flex-direction: column; gap: 4px; margin-left: auto; margin-right: 0.5rem;">
-      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s; transform-origin: center;"></div>
-      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s; transform-origin: center;"></div>
-      <div class="burger-line" style="width: 20px; height: 2px; background: black; transition: 0.3s; transform-origin: center;"></div>
-    </button>
+
+    <div class="nav-right">
+      <a href="https://shop.targz.fr" class="nav-shop-btn" title="Shop original pen plots">Shop</a>
+      <button id="burger-menu" class="nav-burger" aria-label="Menu">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </button>
+    </div>
   </div>
 </nav>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const burgerMenu = document.getElementById('burger-menu');
+  const navClose = document.getElementById('nav-close');
   const slideNavOverlay = document.getElementById('slide-nav-overlay');
   const body = document.body;
-  const burgerLines = burgerMenu.querySelectorAll('.burger-line');
-  
-  function toggleBurgerIcon(isActive) {
-    if (isActive) {
-      // Transform to X
-      burgerLines[0].style.transform = 'rotate(45deg) translate(3px, 3px)';
-      burgerLines[1].style.opacity = '0';
-      burgerLines[2].style.transform = 'rotate(-45deg) translate(3px, -3px)';
-    } else {
-      // Transform back to burger
-      burgerLines[0].style.transform = 'rotate(0) translate(0, 0)';
-      burgerLines[1].style.opacity = '1';
-      burgerLines[2].style.transform = 'rotate(0) translate(0, 0)';
-    }
-  }
-  
+
   function openMenu() {
     slideNavOverlay.classList.add('active');
     body.classList.add('nav-active');
-    toggleBurgerIcon(true);
   }
-  
+
   function closeMenu() {
     slideNavOverlay.classList.remove('active');
     body.classList.remove('nav-active');
-    toggleBurgerIcon(false);
   }
-  
+
   if (burgerMenu && slideNavOverlay) {
     burgerMenu.addEventListener('click', function(e) {
       e.preventDefault();
-      
-      // Toggle the navigation
-      const isActive = slideNavOverlay.classList.contains('active');
-      
-      if (isActive) {
-        closeMenu();
-      } else {
-        openMenu();
-      }
+      openMenu();
+    });
+
+    navClose.addEventListener('click', function(e) {
+      e.preventDefault();
+      closeMenu();
     });
 
     // Close menu when clicking on a link
@@ -81,10 +70,10 @@ document.addEventListener('DOMContentLoaded', function() {
         closeMenu();
       });
     });
-    
-    // Close menu when clicking outside
-    document.addEventListener('click', function(event) {
-      if (!burgerMenu.contains(event.target) && !slideNavOverlay.contains(event.target)) {
+
+    // Click anywhere on overlay (not on a link) closes the menu
+    slideNavOverlay.addEventListener('click', function(event) {
+      if (!event.target.closest('a')) {
         closeMenu();
       }
     });

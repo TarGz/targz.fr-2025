@@ -8,11 +8,8 @@ date: 2024-02-02
 category: portfolio
 image: /assets/images/chromatic-interplay-n3-preview.webp
 shopify_id: 8717342900563
-price: "200"
-stock: 0
 pen: "Parallel pen 2,4mm"
 original_url: ""
-stripe_url: ""
 ink: ""
 frame: ""
 ---

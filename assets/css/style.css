@@ -20,10 +20,73 @@ a:hover {
   text-decoration: none !important;
 }
 
-/* Navigation positioning */
+/* Navigation bar — BURGER left | LOGO center | SHOP right */
 nav {
   position: relative;
   z-index: 1000;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-burger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nav-burger .burger-line {
+  width: 20px;
+  height: 2px;
+  background: black;
+  transition: 0.3s;
+  transform-origin: center;
+}
+
+.nav-logo {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.nav-logo img {
+  height: 2rem;
+  width: auto;
+  display: block;
+}
+
+.nav-shop-btn {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff !important;
+  background: #000 !important;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.65rem;
+  transition: opacity 0.3s ease;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.nav-shop-btn:hover {
+  opacity: 0.7;
 }
 
 
@@ -229,96 +292,6 @@ body.portfolio-post .post-metadata {
   text-align: center !important;
 }
 
-/* Buy link on portfolio posts */
-.buy-link {
-  text-align: center;
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
-}
-
-.buy-link a {
-  display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #000 !important;
-  border-bottom: 1px solid #000;
-  padding-bottom: 2px;
-  transition: opacity 0.3s ease;
-}
-
-.buy-link a:hover {
-  opacity: 0.5;
-}
-
-/* Product specs section */
-.product-specs {
-  max-width: 500px;
-  margin: 0 auto 1.5rem auto;
-  padding: 0;
-}
-
-.spec-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 0.4rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  font-size: 0.8rem;
-}
-
-.spec-row:last-child {
-  border-bottom: none;
-}
-
-.spec-label {
-  font-weight: 600;
-  color: #000;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-size: 0.7rem;
-}
-
-.spec-value {
-  color: #444;
-  text-align: right;
-}
-
-/* Product price and action */
-.product-action {
-  text-align: center;
-  margin: 1.5rem auto;
-  max-width: 500px;
-}
-
-.product-price {
-  font-size: 1.4rem;
-  font-weight: 300;
-  letter-spacing: 0.02em;
-  margin-bottom: 0.5rem;
-  color: #000;
-}
-
-.product-sold-out {
-  font-size: 0.85rem;
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #999;
-  margin: 0;
-}
-
-@media (max-width: 768px) {
-  .product-specs {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-  .product-action {
-    max-width: 100%;
-  }
-}
-
 /* iPad adjustments */
 @media screen and (max-width: 1024px) {
   .page-layout .container,
@@ -442,14 +415,7 @@ article.post img {
   font-size: 0.875rem;
 }
 
-/* Navigation */
-nav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 0;
-}
-
+/* Legacy nav list (unused, kept for safety) */
 nav ul {
   display: flex;
   gap: 1rem;
@@ -463,21 +429,6 @@ nav a {
   padding: 0.5rem 1rem;
   border-radius: var(--pico-border-radius);
   transition: background-color 0.3s ease;
-}
-
-/* Remove padding from logo link */
-nav .container > a,
-nav .container > a:first-child {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-/* Add padding to logo link below 576px */
-@media (max-width: 575px) {
-  nav .container > a,
-  nav .container > a:first-child {
-    padding-left: 1rem !important;
-  }
 }
 
 /* Remove hover effects from logo and nav links */
@@ -796,40 +747,58 @@ article .compact-code pre {
 /* Slide-down navigation overlay */
 .slide-nav-overlay {
   position: fixed;
-  top: -100px;
+  top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
-  background-image: url('../images/headertargz.webp?v2');
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/headerbg2.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 500;
-  transition: top 0.3s ease-in-out;
+  z-index: 1100;
+  transform: translateY(-100%);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .slide-nav-overlay.active {
-  top: -100px;
+  transform: translateY(0);
 }
 
-/* Mobile responsive - taller menu */
-@media (max-width: 768px) {
-  .slide-nav-overlay {
-    height: 250px;
-    top: -250px;
-    padding: 4rem 0;
-  }
-  
-  .slide-nav-overlay.active {
-    top: -250px;
-  }
+/* Close button inside overlay */
+.nav-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  z-index: 10;
+}
+
+.nav-close .close-line {
+  width: 20px;
+  height: 2px;
+  background: white;
+}
+
+.nav-close .close-line:first-child {
+  transform: rotate(45deg) translate(1px, 1px);
+}
+
+.nav-close .close-line:last-child {
+  transform: rotate(-45deg) translate(1px, -1px);
 }
 
 .slide-nav-container {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -838,60 +807,46 @@ article .compact-code pre {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 0.1rem;
+  flex-direction: column;
+  gap: 0.25rem;
   align-items: center;
+  justify-content: center;
 }
-
-/* Mobile - stack items vertically with even spacing */
-@media (max-width: 768px) {
-  .slide-nav-container {
-    justify-content: center;
-    padding: 1rem;
-  }
-  
-  .slide-nav-list {
-    flex-direction: column;
-    gap: 0.1rem;
-    justify-content: center;
-  }
-}
-
-/* No longer needed since we're using divs instead of ul/li */
 
 .slide-nav-list a {
-  color: white !important;
+  color: rgba(255, 255, 255, 0.7) !important;
   text-decoration: none;
-  font-size: 0.6rem;
-  padding: 0.1rem 0.5rem;
-  transition: opacity 0.3s ease;
+  font-size: 1rem;
+  padding: 0.6rem 2rem;
+  transition: color 0.3s ease;
   text-transform: uppercase;
-  font-weight: normal;
-}
-
-/* Mobile - bigger links with reduced vertical spacing */
-@media (max-width: 768px) {
-  .slide-nav-list a {
-    padding: 0.2rem 2.5rem;
-    font-size: 0.9rem;
-  }
+  font-weight: 800;
+  letter-spacing: 0.15em;
 }
 
 .slide-nav-list a:hover {
-  opacity: 0.7;
-  color: white !important;
+  color: #fff !important;
 }
 
-/* Push content down when nav is active */
-body.nav-active {
-  transform: translateY(100px);
-  transition: transform 0.3s ease-in-out;
+/* Shop link in overlay — inverted: white bg, black text */
+.slide-nav-list a[href="https://shop.targz.fr"] {
+  color: #000 !important;
+  background: #fff !important;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
 }
 
-/* Mobile - push content down more for taller menu */
-@media (max-width: 768px) {
-  body.nav-active {
-    transform: translateY(250px);
-  }
+.slide-nav-list a[href="https://shop.targz.fr"]:hover {
+  color: #000 !important;
+  background: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* When menu is open: hide nav bar, no body transform */
+body.nav-active nav {
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* Footer Styles - Real black background */

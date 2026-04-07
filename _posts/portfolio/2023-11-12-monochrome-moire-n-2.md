@@ -5,13 +5,10 @@ seo-title: "Monochrome Moiré  N°2 - Algorithmic Pen Plotted Art | Targz"
 description: "Monochrome Moiré  N°2: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
 date: 2023-11-12
 category: portfolio
-image: /assets/images/portfolio/monochrome-moire-n-2/monochrome-moire-n-2-preview.webp
+image: /assets/images/portfolio/2023-11-12-monochrome-moire-n-2/monochrome-moire-n-2-preview.webp
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/monochrome-moire-n-2
-stripe_url: "PASTE_YOUR_STRIPE_PAYMENT_LINK_HERE"
-price: "400"
 shopify_id: 8717287358803
-stock: 1
 pen: "Staedtler pigment liner 1mm"
 frame: "Unframed"
 ---
@@ -23,6 +20,6 @@ This was mysecond experiment with moiré, building on what I learned from the fi
 
  
 
-![]({{ site.baseurl }}/assets/images/portfolio/monochrome-moire-n-2/monochrome-moire-n-2-03.webp)
+![]({{ site.baseurl }}/assets/images/portfolio/2023-11-12-monochrome-moire-n-2/monochrome-moire-n-2-03.webp)
 
 ![]({{ site.baseurl }}/assets/images/monochrome-moire-n-2-04.webp)

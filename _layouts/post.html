@@ -22,33 +22,6 @@ layout: base
         </h1>
     </div>
 
-    {% assign has_ink = false %}{% if page.ink != "" and page.ink %}{% assign has_ink = true %}{% endif %}
-    {% assign has_pen = false %}{% if page.pen != "" and page.pen %}{% assign has_pen = true %}{% endif %}
-    {% assign has_frame = false %}{% if page.frame != "" and page.frame %}{% assign has_frame = true %}{% endif %}
-    {% if has_ink or has_pen or has_frame %}
-    <div class="product-specs">
-        {% if has_ink %}<div class="spec-row"><span class="spec-label">Ink</span><span class="spec-value">{{ page.ink }}</span></div>{% endif %}
-        {% if has_pen %}<div class="spec-row"><span class="spec-label">Pen</span><span class="spec-value">{{ page.pen }}</span></div>{% endif %}
-        {% if has_frame %}<div class="spec-row"><span class="spec-label">Frame</span><span class="spec-value">{{ page.frame }}</span></div>{% endif %}
-    </div>
-    {% endif %}
-
-    {% if page.price != "" and page.price %}
-    <div class="product-action">
-        {% if page.stock == 0 %}
-            <p class="product-price">&euro;{{ page.price }}</p>
-            <p class="product-sold-out">Sold out</p>
-        {% elsif page.stripe_url != "" and page.stripe_url %}
-            <p class="product-price">&euro;{{ page.price }}</p>
-            <p class="buy-link">
-                <a href="{{ page.stripe_url }}" target="_blank" rel="noopener">Acquire this piece</a>
-            </p>
-        {% else %}
-            <p class="product-price">&euro;{{ page.price }}</p>
-        {% endif %}
-    </div>
-    {% endif %}
-
     {{ content }}
 </div>
 
