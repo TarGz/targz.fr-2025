@@ -13,3 +13,5 @@ vendor/bundle/
 .env
 .venv
 shopify_stripe_mapping.json
+portfolio_drop/*
+!portfolio_drop/.gitkeep

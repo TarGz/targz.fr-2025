@@ -72,23 +72,44 @@ This is the source code for Targz's artistic portfolio website, featuring:
 ## Project Structure
 
 ```
-├── _posts/           # Published blog posts
-│   ├── portfolio/    # Artwork posts
-│   ├── bits/         # Experiments
-│   ├── exhibitions/  # Show documentation
-│   └── commissions/  # Custom projects
-├── _drafts/          # Unpublished draft posts & templates
-├── _layouts/         # Jekyll layout templates
-├── _includes/        # Reusable HTML components
-├── _plugins/         # Jekyll plugins (responsive images)
+├── _posts/                # Published blog posts
+│   ├── portfolio/         # Artwork posts
+│   ├── bits/              # Experiments
+│   ├── exhibitions/       # Show documentation
+│   └── commissions/       # Custom projects
+├── _drafts/               # Unpublished draft posts & templates
+├── _layouts/              # Jekyll layout templates
+├── _includes/             # Reusable HTML components
+├── _plugins/              # Jekyll plugins (responsive images)
 ├── assets/
-│   ├── images/       # Artwork images and assets
-│   │   ├── mobile/   # Auto-generated mobile images
-│   │   └── tablet/   # Auto-generated tablet images
-│   └── css/          # Custom stylesheets
-├── _config.yml       # Jekyll configuration
-├── startlocaldev.sh  # Local development script
-└── startlocaldev-draft.sh  # Local development with drafts
+│   ├── images/
+│   │   ├── portfolio/     # Portfolio images (dated subfolders)
+│   │   ├── exhibitions/   # Exhibition images (dated subfolders)
+│   │   ├── commissions/   # Commission images (dated subfolders)
+│   │   ├── bits/          # Bits images (dated subfolders)
+│   │   ├── mobile/        # Mobile responsive variants (mirrors above structure)
+│   │   └── tablet/        # Tablet responsive variants (mirrors above structure)
+│   └── css/               # Custom stylesheets
+├── portfolio_drop/        # Drop folder for new portfolio artworks (gitignored)
+├── new_artwork.py         # Script to process portfolio_drop/ images
+├── _config.yml            # Jekyll configuration
+├── startlocaldev.sh       # Local development script
+└── startlocaldev-draft.sh # Local development with drafts
+```
+
+### Image Directory Convention
+
+All images live in dated subfolders matching the post filename:
+
+```
+assets/images/portfolio/2025-02-08-dye-with-me/
+    dye-with-me-preview.webp    # Preview (homepage grid)
+    dye-with-me-02.webp         # Additional images
+    dye-with-me-03.webp
+assets/images/mobile/portfolio/2025-02-08-dye-with-me/
+    dye-with-me.webp            # 576px mobile variant
+assets/images/tablet/portfolio/2025-02-08-dye-with-me/
+    dye-with-me.webp            # 992px tablet variant
 ```
 
 ## Content Categories
@@ -99,69 +120,89 @@ This is the source code for Targz's artistic portfolio website, featuring:
 - **Commissions** (`category: commissions`) - Custom projects and collaborations
 - **Updates** (`category: updates`) - News and project updates
 
-## Creating New Posts
+## Adding New Portfolio Artworks
 
-### Working with Drafts
+The fastest way to add new portfolio artworks:
 
-#### Quick Start for Drafts
+### 1. Drop images into `portfolio_drop/`
 
-1. **Copy the appropriate template** from `_drafts/TEMPLATE-[category]-post.md`
-2. **Save it in `_drafts/`** with any name: `your-title-here.md` (no date needed for drafts)
-3. **Update the front matter** (the content between `---` markers)
-4. **Add your images** to `/assets/images/`
-5. **Preview locally** using `./startlocaldev-draft.sh` to see drafts
-6. **When ready to publish**, move to `_posts/[category]/` with proper date prefix
+Create a folder named `YYYY-MM-DD-slug/` inside `portfolio_drop/` and put your images in it:
 
-#### Testing Drafts Locally
-
-```bash
-# Start local server WITH draft posts visible
-./startlocaldev-draft.sh
-
-# Or manually:
-bundle exec jekyll serve --port 4001 --livereload --drafts
+```
+portfolio_drop/
+  2025-03-01-new-piece/
+    image1.jpg
+    image2.png
+    image3.tiff
 ```
 
-Drafts will appear with today's date when viewing locally.
+- Images are sorted by filename. The **first one becomes the preview** (homepage grid).
+- Supported formats: jpg, jpeg, png, tiff, tif, webp, heic, bmp.
+- The slug becomes the title (e.g., `new-piece` → "New Piece").
 
-#### Publishing a Draft
+### 2. Run the script
 
-When your draft is ready:
-1. Move it from `_drafts/` to the appropriate `_posts/[category]/` folder
-2. Rename it with date prefix: `YYYY-MM-DD-your-title.md`
-3. Commit and push to publish
+```bash
+# Preview what will happen (no files written)
+python3 new_artwork.py --dry-run
 
-### Image Requirements
+# Process all folders
+python3 new_artwork.py
+```
 
-#### Main Images
-- **Preview image** (for homepage grid): Name it `your-artwork-preview.webp`
-  - Recommended size: 704x990px (portrait orientation)
-  - This will be automatically resized for mobile/tablet
-  
-#### Responsive Images (Generated Automatically)
-The Jekyll plugin automatically creates responsive versions:
-- Mobile: 400px width (saved in `/assets/images/mobile/`)
-- Tablet: 600px width (saved in `/assets/images/tablet/`)
+The script will:
+- Convert all images to **1200px-wide webp** (quality 82)
+- Name them `{slug}-preview.webp`, `{slug}-02.webp`, `{slug}-03.webp`, ...
+- Generate **mobile** (576px) and **tablet** (992px) responsive variants of the preview
+- Create the markdown post in `_posts/portfolio/` with frontmatter and image references
 
-#### Image Optimization Tips
-- Use `.webp` format for best performance
-- Compress images before uploading
-- Keep file sizes under 500KB when possible
+### 3. Fill in the post details
+
+Open the generated `_posts/portfolio/YYYY-MM-DD-slug.md` and fill in the optional fields (description, ink, pen, price, etc.).
+
+### Requirements
+
+- macOS `sips` (built-in) for image resizing
+- `cwebp` for webp conversion: `brew install webp`
+
+---
+
+## Creating Other Posts
+
+For exhibitions, commissions, and bits, create posts manually.
 
 ### Post Templates
 
-#### Portfolio Post
+#### Portfolio Post (auto-generated by `new_artwork.py`)
 ```markdown
 ---
-layout: portfolio
+layout: post
 title: "Your Artwork Title"
+seo-title: "Your Artwork Title - Algorithmic Pen Plotted Art | Targz"
+description: ""
 date: YYYY-MM-DD
 category: portfolio
-image: /assets/images/your-artwork-preview.webp
-detail_image: /assets/images/your-artwork-detail.webp
-size: "50 x 70 cm"
-support: "Bristol Paper 180g"
-ink: "Pigment Liner"
+image: /assets/images/portfolio/YYYY-MM-DD-slug/slug-preview.webp
+ink: ""
+pen: ""
+frame: ""
+stripe_url: ""
+price: ""
+stock: ""
+---
+
+![]({{ site.baseurl }}/assets/images/portfolio/YYYY-MM-DD-slug/slug-02.webp)
+```
+
+#### Exhibition Post
+```markdown
+---
+layout: post
+title: "Exhibition Name"
+date: YYYY-MM-DD
+category: exhibitions
+image: /assets/images/exhibitions/YYYY-MM-DD-slug/slug-preview.webp
+location: "Gallery Name, City"
 ---
 Your content here...
 ```
@@ -173,33 +214,7 @@ layout: post
 title: "Experiment Name"
 date: YYYY-MM-DD
 category: bits
-image: /assets/images/your-bit-preview.webp
----
-Your content here...
-```
-
-#### Exhibition Post
-```markdown
----
-layout: post
-title: "Exhibition Name"
-date: YYYY-MM-DD
-category: exhibitions
-image: /assets/images/exhibition-preview.webp
-location: "Gallery Name, City"
----
-Your content here...
-```
-
-#### Commission Post
-```markdown
----
-layout: post
-title: "Project Name"
-date: YYYY-MM-DD
-category: commissions
-image: /assets/images/commission-preview.webp
-client: "Client Name"
+image: /assets/images/bits/YYYY-MM-DD-slug/slug-preview.webp
 ---
 Your content here...
 ```
@@ -207,31 +222,24 @@ Your content here...
 ### Front Matter Fields
 
 **Required fields:**
-- `layout`: Use `portfolio` for portfolio posts, `post` for others
+- `layout`: `post` for all categories
 - `title`: The title of your piece
 - `date`: Publication date in YYYY-MM-DD format
 - `category`: One of: portfolio, bits, exhibitions, commissions
 - `image`: Path to preview image
 
-**Optional fields:**
-- `detail_image`: Full resolution detail shot (portfolio)
-- `size`: Artwork dimensions (portfolio)
-- `support`: Paper/material type (portfolio)
-- `ink`: Pen/ink type used (portfolio)
-- `price`: Artwork price (portfolio)
-- `status`: "available" or "sold" (portfolio)
-- `location`: Gallery/venue location (exhibitions)
-- `client`: Client name (commissions)
-- `tags`: Array of tags like ["geometric", "moire", "abstract"]
+**Optional fields (portfolio):**
+- `seo-title`: Custom SEO title
+- `description`: Post description
+- `ink`: Ink type used
+- `pen`: Pen type used
+- `frame`: Frame details
+- `stripe_url`: Stripe payment link
+- `price`: Artwork price
+- `stock`: Stock status
 
-### Writing Content
-
-Use standard Markdown syntax:
-- `## Heading 2` for section headers
-- `**bold text**` for emphasis
-- `![Image Alt Text](/assets/images/image.webp)` for images
-- `` `code` `` for inline code
-- ` ```language ... ``` ` for code blocks
+**Optional fields (exhibitions):**
+- `location`: Gallery/venue location
 
 ### Publishing
 

@@ -1,6 +1,15 @@
-const VERSION = "1.1.1";
+const VERSION = "1.1.2";
 
 const CHANGELOG = [
+  {
+    version: "1.1.2",
+    date: "2026-04-07",
+    changes: [
+      "Update README with new image directory convention and project structure",
+      "Add portfolio_drop/ to .gitignore",
+      "Remove .jekyll-metadata from tracking"
+    ]
+  },
   {
     version: "1.1.1",
     date: "2026-04-07",
