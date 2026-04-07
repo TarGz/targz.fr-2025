@@ -7,14 +7,14 @@ keywords: "pen plotting commission, plasma convection tryptch, custom algorithmi
 date: 2024-02-10
 category: commissions
 tags: [commission, pen-plotting]
-image: /assets/images/ALL2.webp
+image: /assets/images/commissions/2024-02-10-plasma-convection-tryptch/ALL2.webp
 ---
 
 Plasma Convection is a commissioned original pen plot triptych. Its vibrant, flowing patterns draw inspiration from the energy convection processes of the sun.
 
 
 <div class="grid">
-<img src="{{ '/assets/images/plasma_convection_left_preview.webp' | relative_url }}" alt="PACKSHOT_CROPED.webp" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+<img src="{{ '/assets/images/commissions/2024-02-10-plasma-convection-tryptch/plasma_convection_left_preview.webp' | relative_url }}" alt="PACKSHOT_CROPED.webp" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 <img src="{{ '/assets/images/plasma-convection-center-preview.webp' | relative_url }}" alt="PACKSHOT_CROPED3.webp" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 <img src="{{ '/assets/images/plasma-convection-right-preview.webp' | relative_url }}" alt="PACKSHOT_CROPED2.webp" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 </div>

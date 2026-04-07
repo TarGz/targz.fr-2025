@@ -5,8 +5,8 @@ date: 2025-03-09
 category: exhibitions
 location: "Paris France"
 tags: [exhibition, paris, constructivism]
-image: /assets/images/grandpalais2025-preview.5.webp
-imageold: /assets/images/grandpalais2025-preview.webp
+image: /assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.5.webp
+imageold: /assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.webp
 ---
 
 
@@ -23,12 +23,12 @@ One of the highlights of this experience was the incredible artists I had the ch
 
 
 
-<!-- ![Exhibition Space]({{ '/assets/images/grandpalais2025-preview.1.webp' | relative_url }}) -->
-![Gallery View]({{ '/assets/images/grandpalais2025-preview.2.webp' | relative_url }})
+<!-- ![Exhibition Space]({{ '/assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.1.webp' | relative_url }}) -->
+![Gallery View]({{ '/assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.2.webp' | relative_url }})
 
 <div class="image-columns-2">
-  <img src="{{ '/assets/images/grandpalais2025-3.webp' | relative_url }}" alt="the constructivism group" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
-  <img src="{{ '/assets/images/grandpalais2025-preview.4.webp' | relative_url }}" alt="Rebecca Chou in front of her peice" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+  <img src="{{ '/assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-3.webp' | relative_url }}" alt="the constructivism group" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
+  <img src="{{ '/assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.4.webp' | relative_url }}" alt="Rebecca Chou in front of her peice" style="width: 100%; max-width: 800px; margin: 1rem 0;" />
 
 </div>
 
@@ -44,4 +44,4 @@ Beyond the people, the setting itself was breathtaking. Seeing my plotted lines 
 
 This exhibition was more than just a show it was a validation of the medium I’ve chosen to explore. Generative art, pen plotting, and algorithmic design have a voice in contemporary art, even in the most traditional settings. I left the Grand Palais not just with memories, but with a renewed drive to push my practice even further.
 
-![Final View]({{ '/assets/images/grandpalais2025-preview.5.webp' | relative_url }})
+![Final View]({{ '/assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.5.webp' | relative_url }})

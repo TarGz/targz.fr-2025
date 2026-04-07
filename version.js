@@ -1,6 +1,15 @@
-const VERSION = "1.0.0";
+const VERSION = "1.1.0";
 
 const CHANGELOG = [
+  {
+    version: "1.1.0",
+    date: "2026-04-07",
+    changes: [
+      "Restructure all images into dated category subfolders (bits, commissions, exhibitions, portfolio)",
+      "Update image paths in all bits, commissions, and exhibitions posts",
+      "Move mobile/tablet responsive variants into matching subfolder structure"
+    ]
+  },
   {
     version: "1.0.0",
     date: "2026-04-07",
