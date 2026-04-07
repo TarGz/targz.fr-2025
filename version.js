@@ -1,6 +1,14 @@
-const VERSION = "1.1.2";
+const VERSION = "1.1.3";
 
 const CHANGELOG = [
+  {
+    version: "1.1.3",
+    date: "2026-04-07",
+    changes: [
+      "Simplify dev server flags (remove --incremental --verbose)",
+      "Remove orphaned synapses_canvas video file"
+    ]
+  },
   {
     version: "1.1.2",
     date: "2026-04-07",
