@@ -1,6 +1,14 @@
-const VERSION = "1.1.3";
+const VERSION = "1.2.0";
 
 const CHANGELOG = [
+  {
+    version: "1.2.0",
+    date: "2026-04-07",
+    changes: [
+      "Add all portfolio images in dated subfolder structure (42 artwork folders)",
+      "Add tablet responsive variants for bits, commissions, exhibitions, portfolio"
+    ]
+  },
   {
     version: "1.1.3",
     date: "2026-04-07",
