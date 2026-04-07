@@ -15,3 +15,5 @@ vendor/bundle/
 shopify_stripe_mapping.json
 portfolio_drop/*
 !portfolio_drop/.gitkeep
+*.csv
+*_report.txt

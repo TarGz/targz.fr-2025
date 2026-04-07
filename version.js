@@ -1,6 +1,14 @@
-const VERSION = "1.2.0";
+const VERSION = "1.2.1";
 
 const CHANGELOG = [
+  {
+    version: "1.2.1",
+    date: "2026-04-07",
+    changes: [
+      "Add utility scripts: new_artwork.py, check_404_urls.py, organize_images.py, restructure_images.py",
+      "Gitignore temporary report files (*.csv, *_report.txt)"
+    ]
+  },
   {
     version: "1.2.0",
     date: "2026-04-07",
