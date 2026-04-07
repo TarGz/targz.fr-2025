@@ -35,4 +35,4 @@ For licensing, commissions, or purchase inquiries: visit [targz.fr](https://targ
 
 ## Technical
 
-This site is built with Jekyll and deployed on GitHub Pages. For development documentation, see [CONTRIBUTING.md](CONTRIBUTING.md).
+This site is built with Jekyll and deployed on GitHub Pages. 

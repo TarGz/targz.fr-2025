@@ -1,13 +1,22 @@
-const VERSION = "1.5.0";
+const VERSION = "1.5.1";
 
 const CHANGELOG = [
+  {
+    version: "1.5.1",
+    date: "2026-04-07",
+    changes: [
+      "Add llms.txt for LLM discoverability (artist bio, series, exhibitions, techniques)",
+      "Remove noai robots directive — welcome LLM indexing",
+      "Link llms.txt from HTML head for crawler discovery"
+    ]
+  },
   {
     version: "1.5.0",
     date: "2026-04-07",
     changes: [
       "Rewrite README as artist portfolio with copyright and SEO keywords",
       "Move dev documentation to CONTRIBUTING.md",
-      "Add copyright, author, noai, and keyword meta tags to head",
+      "Add copyright, author, and keyword meta tags to head",
       "Strengthen footer copyright to explicitly cover artworks and images"
     ]
   },
