@@ -1,6 +1,14 @@
-const VERSION = "1.3.1";
+const VERSION = "1.4.0";
 
 const CHANGELOG = [
+  {
+    version: "1.4.0",
+    date: "2026-04-07",
+    changes: [
+      "Add new portfolio artworks: Plasama Churn, Y1, Y2",
+      "Replace Synapses Canvas, Crops, Fragmentation preview images with correct framed versions"
+    ]
+  },
   {
     version: "1.3.1",
     date: "2026-04-07",
