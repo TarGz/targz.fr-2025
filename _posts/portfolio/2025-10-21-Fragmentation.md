@@ -6,7 +6,7 @@ description: ""
 date: 2025-10-21
 category: portfolio
 image: /assets/images/portfolio/2025-10-21-Fragmentation/Fragmentation-preview.webp
-ink: ""
+ink: "Non Archival Ink"
 pen: ""
 frame: ""
 ---

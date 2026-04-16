@@ -6,7 +6,7 @@ description: ""
 date: 2025-02-02
 category: portfolio
 image: /assets/images/portfolio/2025-02-02-synapses_canvas/synapses_canvas-preview.webp
-ink: ""
+ink: "Acrylic"
 pen: ""
 frame: ""
 original_url: ""
