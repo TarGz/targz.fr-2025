@@ -1,6 +1,14 @@
-const VERSION = "1.5.1";
+const VERSION = "1.6.0";
 
 const CHANGELOG = [
+  {
+    version: "1.6.0",
+    date: "2026-04-16",
+    changes: [
+      "Add Art Capital 2026 exhibition post (Comparaison, Grand Palais)",
+      "Add responsive images for Art Capital 2026 (preview, dome, setup)"
+    ]
+  },
   {
     version: "1.5.1",
     date: "2026-04-07",
