@@ -1,6 +1,15 @@
-const VERSION = "1.6.0";
+const VERSION = "1.7.0";
 
 const CHANGELOG = [
+  {
+    version: "1.7.0",
+    date: "2026-05-20",
+    changes: [
+      "Rewrite artist statement on about page",
+      "Add community shoutout and resource links (Drawingbots, vpype, grbl, Bantam Tools)",
+      "Add link to bits exploration page"
+    ]
+  },
   {
     version: "1.6.0",
     date: "2026-04-16",

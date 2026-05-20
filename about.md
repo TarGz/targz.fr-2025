@@ -18,29 +18,45 @@ image: /assets/images/about-targz.webp
 <br>
 
 
-<!-- ![A picture of Targz]({{ '/assets/images/about-targz.webp' | relative_url }}) -->
+<!-- ![A picture of Targz the pen plotter artist]({{ '/assets/images/about-targz.webp' | relative_url }}) -->
 
- I'm exploring the mix of digital and physical worlds through coding and analog pen plotter techniques.
- 
- 
-###### Starting Point
-My passion for Lego, my taste for geometric shapes, and my career in creative programming have led me to generative art. The pioneers of Op Art and pen plotting, such as Vera Molnar and Bridget Riley, have greatly inspired and influenced the direction of my work.
+ I've always been a geek, playing with computers, Lego, and tools... but I never thought it could have an artistic dimension.
+
+
+Those nerdy passions, my taste for geometric shapes and my career in creative programming eventually led me to generative art and all sort of [exploration](/bits/). Later on I discovered the pioneers of Op Art and pen plotting, such as Vera Molnar and Bridget Riley, and everything clicked.
 
 ###### Practice
-My practice is strongly influenced by my love for abstract art. This interest is not only about the appearance but especially about how my brain finds meaning in abstract forms, a process likely akin to pareidolia.
-In constant search, I evolve my techniques in pursuit of that moment when I can no longer not see the image emerging from the abstract.
-In parallel, since 2019, I have been sharing my work by documenting my process and producing immersive videos. These videos, shared on TikTok and Instagram, have met with some success, contributing to increasing my visibility and online reputation.
+At some point of my creative process, I discovered that I have some weird skill of seeing things in abstract shapes that apparently not everyone sees, a process likely akin to pareidolia.
+
+Since then I tried to surprise myself, I never know if or when I would "see" something, but I'm seeking it, and each time a new "thing" appears it always brings a huge emotion, like this "thing" have been revealed to me, like it was waiting, I had no idea it could exist, but then in a blink it is there, and it can't be unseen....
+
+
+I've explored a lot of different generative algorithms in the process.
+I've been oscillating between very abstract things, like shapes that don't even represent an object or an idea but more an emotion or a feeling, to much more literal things like portraits. The subject changes, but the question stays the same: what am I seeing in there?
+
 
 ###### Technique
-To create my works, I use my own code (JavaScript, Processing) and a custom-made pen plotter. Seeking a balance between randomness and deliberate design, my work involves transferring my digital creations into the analog world through the choice of media, materials, and colors.
+To bring my vision to life I build my own generative tools (JavaScript, Processing) and a custom-made pen plotter.
 
-> Version Française
+The design of the plotter and the pieces it produces are deeply intertwined. Generated works are just points in space, and to transcribe that vision onto paper I go through pens or brushes, each with their own capabilities and constraints. That's where I push my machine to handle those specificities and reach the final result.
 
-Je suis Targz (prononcé “Tar-gz”), un artiste qui explore le mélange des mondes digital et analogique. Ma passion pour les Lego, mon goût pour les formes géométriques, et ma carrière dans la programmation créative m’ont conduit à l’art génératif. Les pionnières de l’Op Art et du pen plotting, comme Vera Molnar et Bridget Riley ont beaucoup inspiré et influencé l’orientation de mon travail.
+This can range from tuning the machine, to designing pen holders specific to each technique, all the way down to the motion control software.
+This approach is a long process with many steps, each piece has potentially required months of adaptation, trial and error.
 
-##Pratique
-Ma pratique est fortement influencée par mon amour pour l’art abstrait. Cet intérêt ne concerne pas seulement l’apparence, mais surtout la façon dont mon cerveau trouve un sens dans des formes abstraites, un processus sans doute proche de la paréidolie. En perpétuelle recherche, je fais évoluer mes techniques à la recherche de ce moment où je ne peux plus ne pas voir l’image qui émerge de l’abstrait.
-En parallèle, depuis 2019, je partage mon travail en documentant mon processus et en produisant des vidéos immersives. Ces vidéos, diffusées sur TikTok et Instagram, ont rencontré un certain succès, ce qui a contribué à accroître ma visibilité et ma notoriété en ligne.
+It's something that is hard to document and explain. My generative tools, algorithms, machine tweaks, and gcode are the equivalent of drawing techniques, brushes, and inks for other artists.
 
-###### Technique
-Pour créer mes œuvres, j’utilise mon propre code (Javascript, Processing) et un traceur (Pen Plotter) fabriqué sur mesure. À la recherche d’un équilibre entre le hasard et la conception délibérée, mon travail implique de transférer mes créations digitales dans le monde analogique au travers du choix des médias, des matériaux et des couleurs.
+###### Showing the work
+All of this has taken me to places I wouldn't have expected, like Art Capital at the Grand Palais. Sharing the work is both deeply satisfying and absolutely terrifying, every single time. But what I love most is the discussions it generates, the critics, the encounters. My technique acts as a filter, it tends to push away people with a narrow view on art and bring in the most amazingly interesting ones.
+
+A huge shout out to the pen plotter community. Kind, helpful, deeply involved, endlessly creative, always sharing art and tips, and collectively incapable of not buying every single art supply that exists on earth. I love you guys.
+
+
+I never formally studied any of this. No art school, no engineering degree, no programming courses. Everything I know comes from the community, open source tools, and open-minded people willing to share. A non-exhaustive list of what actually make it possible:
+
+- [Bantam Tools](https://www.bantamarts.com/) — The best machine and community supporter
+- [penplotart](https://www.instagram.com/penplotart/) — an Instagram account aggregating the best of the pen plot art community
+- [Drawingbots](https://drawingbots.net/) — the go-to resource for everything pen plotter related
+- [Drawingbots Discord](https://discord.gg/fEhQJ7Pq) — where the community actually hangs out
+- [vpype](https://github.com/abey79/vpype) — a powerful open source pipeline for processing and optimizing vector files before sending them to the plotter
+- [grbl](https://github.com/gnea/grbl) — the open source CNC firmware that many DIY plotters run on
+
