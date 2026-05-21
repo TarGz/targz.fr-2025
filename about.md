@@ -46,15 +46,15 @@ It's something that is hard to document and explain. My generative tools, algori
 ###### Showing the work
 All of this has taken me to places I wouldn't have expected, like Art Capital at the Grand Palais. Sharing the work is both deeply satisfying and absolutely terrifying, every single time. But what I love most is the discussions it generates, the critics, the encounters. My technique acts as a filter, it tends to push away people with a narrow view on art and bring in the most amazingly interesting ones.
 
-
+###### My Training
 I never formally studied any of this. No art school, no engineering degree, no programming courses. Everything I know comes from the community, open source tools, and open-minded people willing to share. 
 
 A huge shout out to the pen plotter community. Kind, helpful, deeply involved, endlessly creative, always sharing art and tips, and collectively incapable of not buying every single art supply that exists on earth. I love you guys.
 
-A non-exhaustive list of what actually make it possible:
+A non-exhaustive list tools and peoples that have make my work possible
 
 - [Bantam Tools](https://www.bantamarts.com/) — The best machine and community supporter
-- [penplotart](https://www.instagram.com/penplotart/) — an Instagram account aggregating the best of the pen plot art community
+- [Penplotart](https://www.instagram.com/penplotart/) — an Instagram account aggregating the best of the pen plot art community
 - [Drawingbots](https://drawingbots.net/) — the go-to resource for everything pen plotter related
 - [Drawingbots Discord](https://discord.gg/fEhQJ7Pq) — where the community actually hangs out
 - [vpype](https://github.com/abey79/vpype) — a powerful open source pipeline for processing and optimizing vector files before sending them to the plotter
