@@ -1,6 +1,14 @@
-const VERSION = "1.7.0";
+const VERSION = "1.7.1";
 
 const CHANGELOG = [
+  {
+    version: "1.7.1",
+    date: "2026-05-23",
+    changes: [
+      "Auto-generate llms.txt from Jekyll posts on every build via _plugins/generate_llms.rb",
+      "Remove static llms.txt (now managed by generator)"
+    ]
+  },
   {
     version: "1.7.0",
     date: "2026-05-20",
