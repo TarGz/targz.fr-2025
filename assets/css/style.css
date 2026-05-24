@@ -360,11 +360,33 @@ article.post img {
   margin-bottom: var(--pico-typography-spacing-vertical);
 }
 
+/* Two-column content layout (text + images mixed) */
+.post-columns-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--pico-spacing);
+  margin-bottom: var(--pico-typography-spacing-vertical);
+  align-items: start;
+}
+
+.post-columns-2 img {
+  width: 100% !important;
+  display: block !important;
+  margin: 0 0 var(--pico-spacing) 0 !important;
+  border-radius: calc(var(--pico-border-radius) * 2);
+}
+
+.col-text {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 /* Responsive columns - stack on mobile using Pico breakpoints */
 @media (max-width: 768px) {
   .image-columns-2,
   .image-columns-3,
-  .image-columns-4 {
+  .image-columns-4,
+  .post-columns-2 {
     grid-template-columns: 1fr;
   }
 }
@@ -386,6 +408,11 @@ article.post img {
   display: block !important;
   margin: 0 !important;
   border-radius: calc(var(--pico-border-radius) * 2);
+}
+
+/* Square variant - no forced aspect ratio crop */
+.image-columns-2.square img {
+  aspect-ratio: 1/1 !important;
 }
 
 

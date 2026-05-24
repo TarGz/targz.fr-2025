@@ -1,6 +1,16 @@
-const VERSION = "1.7.2";
+const VERSION = "1.8.0";
 
 const CHANGELOG = [
+  {
+    version: "1.8.0",
+    date: "2026-05-24",
+    changes: [
+      "Add Rouen National Arts 2026 exhibition post (Biennale RNA, Halle aux Toiles)",
+      "Add Matilda's series: Y¹ Nettie Stevens, Y² Lise Meitner",
+      "Add post-columns-2 and col-text CSS classes for image+text two-column layout",
+      "Add image-columns-2 square variant for 1:1 aspect ratio"
+    ]
+  },
   {
     version: "1.7.2",
     date: "2026-05-24",
