@@ -8,7 +8,8 @@ const CHANGELOG = [
       "Add Rouen National Arts 2026 exhibition post (Biennale RNA, Halle aux Toiles)",
       "Add Matilda's series: Y¹ Nettie Stevens, Y² Lise Meitner",
       "Add post-columns-2 and col-text CSS classes for image+text two-column layout",
-      "Add image-columns-2 square variant for 1:1 aspect ratio"
+      "Add image-columns-2 square variant for 1:1 aspect ratio",
+      "Add Y1 and Y2 artwork images and preview for RNA 2026 post"
     ]
   },
   {
