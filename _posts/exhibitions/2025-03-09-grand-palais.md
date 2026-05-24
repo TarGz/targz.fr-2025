@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Grand Palais"
+title: "Comparaison 2025"
 date: 2025-03-09
 category: exhibitions
 location: "Paris France"
 tags: [exhibition, paris, constructivism]
-image: /assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.5.webp
-imageold: /assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.webp
+image: /assets/images/exhibitions/2025-03-09-grand-palais/preview.webp
 ---
 
 

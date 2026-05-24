@@ -1,6 +1,16 @@
-const VERSION = "1.8.0";
+const VERSION = "1.8.1";
 
 const CHANGELOG = [
+  {
+    version: "1.8.1",
+    date: "2026-05-24",
+    changes: [
+      "Rename Grand Palais 2025 post title to Comparaison 2025, update preview image",
+      "Rename Art Capital 2026 post title to Comparaison 2026, update preview image",
+      "Add Lines By Lines CAYO exhibition photos (IMG_8280-8514)",
+      "Add preview images for Comparaison 2025, Comparaison 2026, Lines By Lines CAYO"
+    ]
+  },
   {
     version: "1.8.0",
     date: "2026-05-24",

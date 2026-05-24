@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Art Capital 2026"
+title: "Comparaison 2026"
 date: 2026-02-11
 category: exhibitions
 location: "Paris France"
 tags: [exhibition, paris, pen-plotting, constructivism, comparaison, art-capital]
 description: "Pen plotting at Comparaison 2026, inside the Constructivism group at the Grand Palais."
-image: /assets/images/exhibitions/2026-02-11-art-capital/artcapital2026-preview.webp
+image: /assets/images/exhibitions/2026-02-11-art-capital/artcapital2026-preview2.webp
 ---
 
 Comparaison 2026. Grand Palais. Constructivism group, led by Hernan Jara.
