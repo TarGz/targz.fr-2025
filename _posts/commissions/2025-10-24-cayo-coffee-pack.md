@@ -14,7 +14,7 @@ project_type: "Label Design"
 
 A collaboration with CAYO Coffee Roasters, Paris Treize. A special edition label for their Jubanto Ethiopia blend.
 
-![targz × CAYO Jubanto Ethiopia coffee bag]({{ '/assets/images/commissions/2025-10-24-cayo-coffee-pack/cayo-pack-preview.webp' | relative_url }})
+![targz × CAYO Jubanto Ethiopia coffee bag]({{ '/assets/images/commissions/2025-10-24-cayo-coffee-pack/packfull.jpg' | relative_url }})
 
 ![targz × CAYO label design]({{ '/assets/images/commissions/2025-10-24-cayo-coffee-pack/cayo-pack-label.webp' | relative_url }})
 
