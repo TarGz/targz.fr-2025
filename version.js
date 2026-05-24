@@ -1,6 +1,15 @@
-const VERSION = "1.7.1";
+const VERSION = "1.7.2";
 
 const CHANGELOG = [
+  {
+    version: "1.7.2",
+    date: "2026-05-24",
+    changes: [
+      "Add Lines By Lines exhibition post (CAYO Paris Treize, October 2025)",
+      "Add CAYO Coffee Pack commission post",
+      "Add exhibition and commission images with responsive webp conversion"
+    ]
+  },
   {
     version: "1.7.1",
     date: "2026-05-23",
