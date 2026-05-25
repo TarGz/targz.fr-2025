@@ -35,4 +35,29 @@ For licensing, commissions, or purchase inquiries: visit [targz.fr](https://targ
 
 ## Technical
 
-This site is built with Jekyll and deployed on GitHub Pages. 
+This site is built with Jekyll and deployed on GitHub Pages.
+
+## Run locally
+
+**First time on a new Mac:**
+
+```bash
+./install.sh
+```
+
+Installs Homebrew Ruby, bundler, and all gems into `vendor/bundle/`. Takes 1–2 minutes. Requires [Homebrew](https://brew.sh).
+
+**Then start the site** — open a **new** terminal (so the new PATH is picked up), then:
+
+```bash
+bundle exec jekyll serve --port 4001 --livereload
+```
+
+Visit [http://localhost:4001](http://localhost:4001).
+
+**Stuck on the same terminal where you ran `install.sh`?** Either open a new one, or run:
+
+```bash
+source ~/.zshrc
+```
+
