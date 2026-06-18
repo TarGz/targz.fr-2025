@@ -1,6 +1,13 @@
-const VERSION = "1.9.0";
+const VERSION = "1.9.1";
 
 const CHANGELOG = [
+  {
+    version: "1.9.1",
+    date: "2026-06-18",
+    changes: [
+      "Fix spelling and grammar in about.md"
+    ]
+  },
   {
     version: "1.9.0",
     date: "2026-05-25",
