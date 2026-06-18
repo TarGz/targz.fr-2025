@@ -1,6 +1,14 @@
-const VERSION = "1.8.1";
+const VERSION = "1.9.0";
 
 const CHANGELOG = [
+  {
+    version: "1.9.0",
+    date: "2026-05-25",
+    changes: [
+      "Add install.sh bootstrap script (Homebrew Ruby + bundler + vendored gems)",
+      "Document local install/run flow in README"
+    ]
+  },
   {
     version: "1.8.1",
     date: "2026-05-24",

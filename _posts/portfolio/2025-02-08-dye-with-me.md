@@ -8,7 +8,7 @@ category: portfolio
 image: /assets/images/portfolio/2025-02-08-dye-with-me/dye-with-me-preview.webp
 ink: "Non Archival Ink"
 original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/dye-with-me
-shopify_id: ""
+shopify_id: 10607681831251
 pen: ""
 frame: ""
 ---
