@@ -1,6 +1,16 @@
-const VERSION = "1.9.1";
+const VERSION = "1.10.0";
 
 const CHANGELOG = [
+  {
+    version: "1.10.0",
+    date: "2026-07-05",
+    changes: [
+      "Add The Last Brain Cell portfolio post with responsive images",
+      "Add Pillow fallback to new_artwork.py when cwebp is not installed",
+      "Document the artwork contribution workflow in README and CLAUDE.md",
+      "Remove invalid-dated draft duplicate (2026-06-31-the-last-brain-cells)"
+    ]
+  },
   {
     version: "1.9.1",
     date: "2026-06-18",

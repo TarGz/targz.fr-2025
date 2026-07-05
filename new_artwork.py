@@ -80,7 +80,36 @@ def get_image_width(path):
 
 
 def convert_to_webp(src, dst, max_width):
-    """Resize and convert an image to webp."""
+    """Resize and convert an image to webp. Uses cwebp if available, else Pillow."""
+    if shutil.which("cwebp"):
+        return convert_with_cwebp(src, dst, max_width)
+    return convert_with_pillow(src, dst, max_width)
+
+
+def convert_with_pillow(src, dst, max_width):
+    """Fallback when cwebp is not installed."""
+    try:
+        from PIL import Image
+    except ImportError:
+        print("  ERROR: neither cwebp nor Pillow is available. Run: brew install webp")
+        return False
+    try:
+        img = Image.open(src)
+        if img.width > max_width:
+            new_height = round(img.height * max_width / img.width)
+            img = img.resize((max_width, new_height), Image.LANCZOS)
+        if img.mode not in ("RGB", "RGBA"):
+            img = img.convert("RGB")
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        img.save(dst, "WEBP", quality=WEBP_QUALITY, method=6)
+        return True
+    except Exception as e:
+        print(f"  ERROR Pillow: {e}")
+        return False
+
+
+def convert_with_cwebp(src, dst, max_width):
+    """Resize and convert an image to webp using sips + cwebp."""
     with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
         tmp_path = tmp.name
 

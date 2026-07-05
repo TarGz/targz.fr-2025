@@ -61,3 +61,29 @@ Visit [http://localhost:4001](http://localhost:4001).
 source ~/.zshrc
 ```
 
+## Contributing: adding a new artwork
+
+The whole pipeline (webp conversion, responsive variants, post creation) is automated by `new_artwork.py`.
+
+**Dependencies:** `cwebp` (install with `brew install webp`) and `sips` (built into macOS).
+
+1. **Drop the images.** Create a folder named `YYYY-MM-DD-slug/` inside `portfolio_drop/` and put the source images in it (png, jpg, tiff, heic, bmp, webp all work). Images are sorted by filename and the first one becomes the preview/thumbnail, so prefix them `1-`, `2-`, `3-` to control the order. The slug becomes the post title ("2026-07-05-The-Last-Brain-Cell" gives "The Last Brain Cell").
+
+2. **Run the script.**
+
+   ```bash
+   python3 new_artwork.py --dry-run   # preview what will happen
+   python3 new_artwork.py             # do it
+   ```
+
+   The script:
+   - converts each image to webp at 1200px max width into `assets/images/portfolio/{date}-{slug}/`
+   - names them `{slug}-preview.webp`, `{slug}-02.webp`, `{slug}-03.webp`, ...
+   - generates responsive previews in `assets/images/mobile/portfolio/` (576px) and `assets/images/tablet/portfolio/` (992px)
+   - creates the post at `_posts/portfolio/{date}-{slug}.md` with frontmatter and image references
+   - deletes the processed folder from `portfolio_drop/`
+
+3. **Write the article.** Open the generated `.md` and fill in the frontmatter (`description`, `ink`, `pen`, `frame`, and `shopify_id` if the piece is in the shop), then add the body text above the image lines.
+
+4. **Check it locally** with `bundle exec jekyll serve --port 4001 --livereload` before committing.
+

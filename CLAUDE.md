@@ -28,11 +28,15 @@ Categories: portfolio, exhibitions, commissions, bits.
 
 ## Adding New Portfolio Artworks
 
+Requires `cwebp` (from the `webp` package) and macOS `sips` on the PATH.
+
 Use `portfolio_drop/` workflow:
 
-1. Drop a folder named `YYYY-MM-DD-slug/` into `portfolio_drop/` with images inside
-2. Run `python3 new_artwork.py` (or `--dry-run` to preview)
-3. The script converts images to webp (1200px), generates mobile (576px) and tablet (992px) responsive variants, creates the markdown post, and removes the processed folder from portfolio_drop/
+1. Drop a folder named `YYYY-MM-DD-slug/` into `portfolio_drop/` with images inside (png, jpg, tiff, heic, bmp, webp). The slug becomes the post title, title-cased ("The-Last-Brain-Cell" becomes "The Last Brain Cell").
+2. Images are sorted by filename and the first one becomes the preview/thumbnail. Prefix them `1-`, `2-`, `3-` to control the order.
+3. Run `python3 new_artwork.py` (or `--dry-run` to preview)
+4. The script converts images to webp (1200px), generates mobile (576px) and tablet (992px) responsive variants, creates the markdown post in `_posts/portfolio/`, and removes the processed folder from portfolio_drop/
+5. Fill in the generated post by hand: `description`, `ink`, `pen`, `frame`, body text above the image lines, and `shopify_id` if the piece goes to the shop. Never invent technique or material details; leave them empty for the artist to fill.
 
 ## Scripts
 
