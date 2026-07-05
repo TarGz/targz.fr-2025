@@ -1,6 +1,13 @@
-const VERSION = "1.10.0";
+const VERSION = "1.10.1";
 
 const CHANGELOG = [
+  {
+    version: "1.10.1",
+    date: "2026-07-05",
+    changes: [
+      "Restore The Last Brain Cells post and images"
+    ]
+  },
   {
     version: "1.10.0",
     date: "2026-07-05",
