@@ -1,6 +1,16 @@
-const VERSION = "1.10.1";
+const VERSION = "1.11.0";
 
 const CHANGELOG = [
+  {
+    version: "1.11.0",
+    date: "2026-07-16",
+    changes: [
+      "Add 6 archive pieces to portfolio: Harlequeen, Kraken Chromed, Kraken Gold, Octopus, Solenoid Orange, Solenoid Original",
+      "Rename 15 pieces with redirects: Queer Kraken, Petroleum Kraken, Lattice, Chain, Octopus Family, Solenoid Green, Blended Squares, Jelly Man, Paper Clipped, Hawking Radiation, Yoga, Infinite Loop, Young Interferences, Heptapod, Golden Boy",
+      "Delete duplicates: Blended Squares n°17, n°17 3 colors, n°20 GOLD, Unexpected Patterns (redirects to Harlequeen)",
+      "Fix Blended Squares n°34 (Yoga) images that showed n°33 artwork, restored from git history"
+    ]
+  },
   {
     version: "1.10.1",
     date: "2026-07-05",

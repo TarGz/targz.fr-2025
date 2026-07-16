@@ -17,3 +17,4 @@ portfolio_drop/*
 !portfolio_drop/.gitkeep
 *.csv
 *_report.txt
+__pycache__/
