@@ -1,6 +1,13 @@
-const VERSION = "1.11.0";
+const VERSION = "1.11.1";
 
 const CHANGELOG = [
+  {
+    version: "1.11.1",
+    date: "2026-07-16",
+    changes: [
+      "Update Yoga images with final retouched packshot"
+    ]
+  },
   {
     version: "1.11.0",
     date: "2026-07-16",
