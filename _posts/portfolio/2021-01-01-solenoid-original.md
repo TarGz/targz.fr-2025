@@ -7,6 +7,7 @@ date: 2021-01-01
 category: portfolio
 image: /assets/images/portfolio/2021-01-01-solenoid-original/solenoid-original-preview.webp
 ink: "Ecoline watercolor Ultramarine Deep 506, Magenta 337"
+shopify_id: 10717987963219
 pen: "Parallel pen 2.4mm"
 frame: ""
 ---

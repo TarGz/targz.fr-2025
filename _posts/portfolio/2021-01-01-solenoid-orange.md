@@ -7,6 +7,7 @@ date: 2021-01-01
 category: portfolio
 image: /assets/images/portfolio/2021-01-01-solenoid-orange/solenoid-orange-preview.webp
 ink: "Ecoline watercolor Magenta 337, Light Orange 236, Turquoise Green 661"
+shopify_id: 10717988356435
 pen: "Parallel pen 2.4mm"
 frame: ""
 ---

@@ -7,6 +7,7 @@ date: 2023-01-01
 category: portfolio
 image: /assets/images/portfolio/2023-01-01-kraken-gold/kraken-gold-preview.webp
 ink: "Molotow alcohol-based Gold"
+shopify_id: 10717987078483
 pen: "Pump Marker with 4 mm Round tip"
 frame: ""
 ---

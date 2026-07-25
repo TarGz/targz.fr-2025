@@ -7,6 +7,7 @@ date: 2023-01-01
 category: portfolio
 image: /assets/images/portfolio/2023-01-01-kraken-chromed/kraken-chromed-preview.webp
 ink: "Molotow alcohol-based Chrome"
+shopify_id: 10717987307859
 pen: "Pump Marker with 4 mm Round tip"
 frame: ""
 ---

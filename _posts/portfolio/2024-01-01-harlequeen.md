@@ -9,6 +9,7 @@ redirect_from:
   - /portfolio/2023/09/30/unexpected-patterns.html
 image: /assets/images/portfolio/2024-01-01-harlequeen/harlequeen-preview.webp
 ink: "Molotow Black Acrylic"
+shopify_id: 8717117161811
 pen: "Molotow pump marker 1mm"
 frame: ""
 ---
