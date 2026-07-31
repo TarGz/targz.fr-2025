@@ -24,4 +24,3 @@ The piece will be featured during Art Capital - Comparaison 2025 at the Grand Pa
 ![]({{ site.baseurl }}/assets/images/portfolio/2025-02-02-synapses_canvas/synapses_canvas-06.webp)
 ![]({{ site.baseurl }}/assets/images/portfolio/2025-02-02-synapses_canvas/synapses_canvas-07.webp)
 ![]({{ site.baseurl }}/assets/images/portfolio/2025-02-02-synapses_canvas/synapses_canvas-08.webp)
-![]({{ site.baseurl }}/assets/images/portfolio/2025-02-02-synapses_canvas/synapses_canvas-09.webp)

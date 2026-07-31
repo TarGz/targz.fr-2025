@@ -1,6 +1,17 @@
-const VERSION = "1.11.1";
+const VERSION = "1.12.0";
 
 const CHANGELOG = [
+  {
+    version: "1.12.0",
+    date: "2026-07-31",
+    changes: [
+      "Add Waves & Particles portfolio post with responsive images",
+      "Portfolio posts with 2+ body images now render them as a uniform 2-up grid, single column on mobile",
+      "Remove two dead image references (Monochrome Moiré N°2, Synapses Canvas)",
+      "Add the portfolio deck toolchain: prep_pptx_images.py, build_portfolio_pptx.js, generate_portfolio_pdf.py",
+      "Ignore generated deck outputs (tmp_pptx_imgs/, targz-portfolio.pdf/.pptx) and .psd sources"
+    ]
+  },
   {
     version: "1.11.1",
     date: "2026-07-16",

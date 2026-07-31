@@ -265,6 +265,42 @@ body.portfolio-post .container .content h6 {
   max-width: 100%;
 }
 
+/* Portfolio body gallery - image paragraphs become a uniform 2-up grid.
+   Applied by _layouts/post.html whenever a post has 2+ body images, so every
+   portfolio page gets the same treatment with no per-post markup.
+   Title, text and any other block keeps the full width. */
+body.portfolio-post .content.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--pico-spacing);
+  align-items: start;
+}
+
+body.portfolio-post .content.portfolio-grid > * {
+  grid-column: 1 / -1;
+}
+
+body.portfolio-post .content.portfolio-grid > p:has(img) {
+  grid-column: auto;
+  margin: 0;
+}
+
+/* Fixed tile ratio so mixed packshots, room shots and details all line up */
+body.portfolio-post .content.portfolio-grid p:has(img) img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: calc(var(--pico-border-radius) * 2);
+}
+
+@media (max-width: 768px) {
+  body.portfolio-post .content.portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Post header styles for exhibitions, bits, commissions */
 .post-header {
   text-align: center;

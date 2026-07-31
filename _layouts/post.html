@@ -13,7 +13,9 @@ layout: base
 </figure>
 {% endif %}
 
-<div class="content">
+<!-- 2+ body images turn the content block into a uniform 2-up grid, see .portfolio-grid -->
+{% assign body_images = content | split: "<img" | size | minus: 1 %}
+<div class="content{% if body_images > 1 %} portfolio-grid{% endif %}">
     <div class="post-header">
         <h1>{{ page.title }}
             <span class="post-metadata">

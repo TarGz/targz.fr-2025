@@ -18,3 +18,8 @@ portfolio_drop/*
 *.csv
 *_report.txt
 __pycache__/
+
+tmp_pptx_imgs/
+targz-portfolio.pdf
+targz-portfolio.pptx
+*.psd

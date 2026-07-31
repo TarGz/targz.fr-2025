@@ -22,4 +22,3 @@ This was mysecond experiment with moiré, building on what I learned from the fi
 
 ![]({{ site.baseurl }}/assets/images/portfolio/2023-11-12-monochrome-moire-n-2/monochrome-moire-n-2-03.webp)
 
-![]({{ site.baseurl }}/assets/images/monochrome-moire-n-2-04.webp)
