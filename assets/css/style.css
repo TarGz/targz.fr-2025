@@ -280,18 +280,22 @@ body.portfolio-post .content.portfolio-grid > * {
   grid-column: 1 / -1;
 }
 
+/* Kramdown puts consecutive image lines in a single <p>, so dissolve the
+   wrapper and let every image be its own grid cell. Works whether the post
+   spaces its image lines out or not. */
 body.portfolio-post .content.portfolio-grid > p:has(img) {
-  grid-column: auto;
-  margin: 0;
+  display: contents;
 }
 
 /* Fixed tile ratio so mixed packshots, room shots and details all line up */
-body.portfolio-post .content.portfolio-grid p:has(img) img {
+body.portfolio-post .content.portfolio-grid > p:has(img) img {
   width: 100%;
+  height: auto;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: center;
   display: block;
+  margin: 0 !important;
   border-radius: calc(var(--pico-border-radius) * 2);
 }
 

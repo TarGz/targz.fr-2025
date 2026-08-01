@@ -1,6 +1,13 @@
-const VERSION = "1.12.0";
+const VERSION = "1.12.1";
 
 const CHANGELOG = [
+  {
+    version: "1.12.1",
+    date: "2026-08-01",
+    changes: [
+      "Fix portfolio image grid stacking in a single left column: kramdown wraps consecutive image lines in one paragraph, so the wrapper is now dissolved with display:contents and every image becomes its own grid cell"
+    ]
+  },
   {
     version: "1.12.0",
     date: "2026-07-31",
