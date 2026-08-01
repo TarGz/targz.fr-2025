@@ -3,8 +3,12 @@
 Generate mobile and tablet responsive variants from portfolio preview images.
 
 For each assets/images/portfolio/<slug>/<slug>-preview.webp:
-  → assets/images/mobile/<slug>.webp   (max width: 576px)
-  → assets/images/tablet/<slug>.webp   (max width: 992px)
+  → assets/images/mobile/portfolio/<slug>/<slug>.webp   (max width: 576px)
+  → assets/images/tablet/portfolio/<slug>/<slug>.webp   (max width: 992px)
+
+The nested layout is what _layouts/home.html builds its <source srcset> from:
+it strips "-preview.webp" off the post image and re-roots the rest under
+mobile/ and tablet/. A flat mobile/<slug>.webp is never requested.
 
 Uses sips (macOS built-in) to resize and cwebp to encode.
 Skips if output already exists and is newer than source (unless --force).
@@ -127,8 +131,19 @@ def main():
             skipped += 1
             continue
 
-        mobile_dst = os.path.join(MOBILE_DIR, f"{slug}.webp")
-        tablet_dst = os.path.join(TABLET_DIR, f"{slug}.webp")
+        # Mirror home.html: drop the "-preview"/"_preview" suffix, keep the
+        # portfolio/<slug>/ subpath.
+        base_name = os.path.basename(preview)
+        for suffix in ("-preview.webp", "_preview.webp"):
+            if base_name.endswith(suffix):
+                base_name = base_name[: -len(suffix)]
+                break
+        else:
+            base_name = base_name[: -len(".webp")]
+
+        rel = os.path.join("portfolio", slug, f"{base_name}.webp")
+        mobile_dst = os.path.join(MOBILE_DIR, rel)
+        tablet_dst = os.path.join(TABLET_DIR, rel)
 
         mobile_needed = needs_update(preview, mobile_dst)
         tablet_needed = needs_update(preview, tablet_dst)
@@ -141,7 +156,7 @@ def main():
         print(f"    source: {os.path.basename(preview)}")
 
         if mobile_needed:
-            print(f"    → mobile/{slug}.webp ({MOBILE_WIDTH}px)")
+            print(f"    → mobile/{rel} ({MOBILE_WIDTH}px)")
             if not DRY_RUN:
                 ok = resize_and_encode(preview, mobile_dst, MOBILE_WIDTH)
                 if ok:
@@ -152,7 +167,7 @@ def main():
                 generated += 1
 
         if tablet_needed:
-            print(f"    → tablet/{slug}.webp ({TABLET_WIDTH}px)")
+            print(f"    → tablet/{rel} ({TABLET_WIDTH}px)")
             if not DRY_RUN:
                 ok = resize_and_encode(preview, tablet_dst, TABLET_WIDTH)
                 if ok:

@@ -34,7 +34,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/pico.min.css' | relative_url }}" data-theme="light">
   
   <!-- Custom styles -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v2">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
   {%- include custom_head.html -%}
 </head>

@@ -1,6 +1,22 @@
-const VERSION = "1.13.0";
+const VERSION = "1.14.0";
 
 const CHANGELOG = [
+  {
+    version: "1.14.0",
+    date: "2026-08-01",
+    changes: [
+      "Re-fit the Y1 and Y2 previews to the house geometry: 743px artwork on a 1200px-wide canvas, so the squares stop reading 40% wider than every other piece",
+      "Crop square previews to their own height (1200x1326) and drive the card aspect-ratio from a new preview_height front matter key, instead of padding them out to portrait and leaving a hole in the grid",
+      "Anchor the home caption to the canvas bottom margin (22.5cqw) so the gap between artwork and title is identical at every column width — the fixed 4rem offset collided with the artwork once columns got narrow",
+      "Cap home grid columns at 520px and centre the grid",
+      "Set the home grid gap to 0",
+      "Document the preview image geometry in CLAUDE.md: 1200px canvas, 743px artwork, 323px top and 270px bottom margins, and the preview_height front matter key",
+      "Fix generate_responsive_images.py writing mobile/tablet variants to a flat path the templates never request",
+      "Cache-bust style.css with the build timestamp instead of a fixed ?v2, which was serving stale CSS after every change",
+      "Add TONE_OF_VOICE.md defining the artefact voice for piece descriptions: the shape, then what I see in it",
+      "Add DESCRIPTIONS.md mapping all 63 pieces from their current boilerplate description to the replacement"
+    ]
+  },
   {
     version: "1.13.0",
     date: "2026-08-01",

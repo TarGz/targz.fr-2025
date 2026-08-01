@@ -26,6 +26,46 @@ assets/images/tablet/{category}/{YYYY-MM-DD}-{slug}/
 
 Categories: portfolio, exhibitions, commissions, bits.
 
+## Preview Image Geometry
+
+Every `*-preview.webp` is the artwork floating on a white canvas. The home grid
+gives each card the full column width, so the artwork must occupy the same slice
+of the canvas on every piece or it reads as bigger or smaller than its
+neighbours. **Every number below is mandatory, including the margins** — the
+caption is positioned off the bottom margin, so getting it wrong pushes the title
+onto the artwork.
+
+| | value |
+|---|---|
+| canvas width | **1200 px**, always |
+| canvas height | **323 + artwork height + 270** |
+| background | pure `#fff` at the edges (it is composited onto white) |
+| artwork width | **743 px**, centred on x = 600 |
+| top margin | **323 px** above the artwork |
+| bottom margin | **270 px** below the artwork |
+
+A portrait mockup (artwork 743 × 1094) therefore lands on 1200 × 1687, and a
+square piece on 1200 × 1326 — same width, shorter canvas. Never scale a square up
+to fill a portrait canvas: `Y1`/`Y2` originally shipped 1062 px wide and read 40%
+larger than everything else, and padding them out to portrait height instead left
+a hole in the grid.
+
+Any canvas that is **not** 1200 × 1687 needs `preview_height: <H>` in the post's
+front matter — `_layouts/home.html` uses it for the card's `aspect-ratio`, and
+without it the image gets cropped to portrait by `object-fit: cover`.
+
+To re-fit an off-scale preview: measure the artwork's ink extent, scale by
+`743 / current_artwork_width`, composite onto white so the artwork lands at
+x = 228…971, then crop so exactly 323 px of white sits above it and 270 below.
+
+```bash
+magick -size 1200x<tall> xc:white \( SRC.webp -filter Lanczos -resize <pct>% \) -geometry +<dx>+<dy> -composite -quality 90 OUT.webp
+magick OUT.webp -crop 1200x<323+h+270>+0+<dy> +repage OUT.webp
+```
+
+Then re-run `generate_responsive_images.py` and set `preview_height` if the
+height changed.
+
 ## Adding New Portfolio Artworks
 
 Requires `cwebp` (from the `webp` package) and macOS `sips` on the PATH.
@@ -41,4 +81,8 @@ Use `portfolio_drop/` workflow:
 ## Scripts
 
 - `new_artwork.py` — Scan `portfolio_drop/` and create portfolio posts with responsive images
+- `generate_responsive_images.py` — Rebuild mobile (576px) / tablet (992px) variants from every
+  `portfolio/<slug>/<slug>-preview.webp`. Writes to `mobile|tablet/portfolio/<slug>/<name>.webp`,
+  which is the nested path `_layouts/home.html` builds its `<source srcset>` from. Only touches
+  outputs older than their source unless `--force`.
 - `restructure_images.py` — One-time migration script (already run) to add dates to image folders

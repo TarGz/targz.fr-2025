@@ -653,14 +653,20 @@ article .compact-code pre {
 /* Home page grid */
 .home-grid {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
+  grid-template-columns: minmax(0, var(--home-grid-column-max));
+  justify-content: center;
+  align-items: start;
+  gap: 0rem;
   margin-block-start: 2rem;
+  /* Cap each column so previews stop growing on wide screens. The preview
+     canvas is 1200px with the artwork ~743px wide, so a 520px column renders
+     the artwork around 320px. */
+  --home-grid-column-max: 520px;
 }
 
 @media (min-width: 768px) {
   .home-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, var(--home-grid-column-max)));
   }
 }
 
@@ -680,6 +686,8 @@ article .compact-code pre {
   position: relative;
   display: inline-block;
   width: 100%;
+  /* Lets the caption below position itself off the container's width (cqw). */
+  container-type: inline-size;
 }
 
 .home-item .loading-placeholder {
@@ -776,7 +784,12 @@ article .compact-code pre {
 
 .home-item p {
   position: absolute;
-  bottom: 4rem;
+  /* Every preview canvas is 1200px wide with the artwork ending 270px above the
+     bottom edge — 22.5% of the width, whatever the artwork's proportions. Sitting
+     the caption 5.5rem inside that leaves the same ~23px between artwork and title
+     at every column width, instead of the fixed rem offset that collided with the
+     artwork once columns got narrow. */
+  bottom: calc(22.5cqw - 4rem);
   left: 0;
   right: 0;
   margin: 0;
@@ -786,27 +799,6 @@ article .compact-code pre {
   text-transform: uppercase;
   text-align: center;
   background: transparent;
-}
-
-/* Tablet range - middle position */
-@media (min-width: 769px) and (max-width: 1283px) {
-  .home-item p {
-    bottom: 1rem;
-  }
-}
-
-/* iPad specific - lower position */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .home-item p {
-    bottom: 0.5rem;
-  }
-}
-
-/* Mobile - keep titles lower */
-@media (max-width: 768px) {
-  .home-item p {
-    bottom: 1rem;
-  }
 }
 
 .home-item a p {
