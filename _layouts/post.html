@@ -6,25 +6,36 @@ layout: base
 {% include breadcrumb.html %}
 
 {% if page.category == "portfolio" %}
-<!-- Portfolio layout with full-width image -->
-{% if page.image %}
-<figure class="portfolio-hero-image">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
-</figure>
-{% endif %}
+<!-- Portfolio layout: hero packshot at half width, title and intro alongside it.
+     Body text always precedes the image block, so the content splits on the first
+     image paragraph: everything before it is the intro, the rest is the gallery. -->
+{% assign intro = content | split: "<p><img" | first %}
+{% assign gallery = content | remove_first: intro %}
 
-<!-- 2+ body images turn the content block into a uniform 2-up grid, see .portfolio-grid -->
-{% assign body_images = content | split: "<img" | size | minus: 1 %}
-<div class="content{% if body_images > 1 %} portfolio-grid{% endif %}">
-    <div class="post-header">
-        <h1>{{ page.title }}
-            <span class="post-metadata">
-                {{ page.date | date: "%B %d, %Y" }}{% if page.ink != "" and page.ink %} • {{ page.ink }}{% endif %}
-            </span>
-        </h1>
+<div class="portfolio-hero">
+    {% if page.image %}
+    <figure class="portfolio-hero-image">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
+    </figure>
+    {% endif %}
+
+    <div class="portfolio-hero-text">
+        <div class="post-header">
+            <h1>{{ page.title }}
+                <span class="post-metadata">
+                    {{ page.date | date: "%B %d, %Y" }}{% if page.ink != "" and page.ink %} • {{ page.ink }}{% endif %}
+                </span>
+            </h1>
+        </div>
+
+        {{ intro }}
     </div>
+</div>
 
-    {{ content }}
+<!-- 2+ body images turn the gallery block into a uniform 2-up grid, see .portfolio-grid -->
+{% assign body_images = gallery | split: "<img" | size | minus: 1 %}
+<div class="content{% if body_images > 1 %} portfolio-grid{% endif %}">
+    {{ gallery }}
 </div>
 
 {% else %}

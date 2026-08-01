@@ -166,9 +166,17 @@ article.prose {
   padding-right: 200px !important;
 }
 
-/* Portfolio hero image - make it wider than text content */
+/* Portfolio hero - packshot on the left half, title and intro text on the right */
+body.portfolio-post .portfolio-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin: 2rem auto 3rem;
+}
+
 body.portfolio-post .portfolio-hero-image {
-  margin: 2rem auto;
+  margin: 0;
   max-width: 100%;
   text-align: center;
 }
@@ -178,6 +186,39 @@ body.portfolio-post .portfolio-hero-image img {
   height: auto;
   display: block;
   border-radius: calc(var(--pico-border-radius) * 2);
+}
+
+/* Text column reads left-aligned, unlike the old centred header */
+body.portfolio-post .portfolio-hero-text .post-header {
+  text-align: left !important;
+  max-width: none;
+  margin: 0 0 1rem 0;
+}
+
+body.portfolio-post .portfolio-hero-text .post-header h1,
+body.portfolio-post .portfolio-hero-text .post-metadata {
+  text-align: left !important;
+}
+
+body.portfolio-post .portfolio-hero-text p,
+body.portfolio-post .portfolio-hero-text ul,
+body.portfolio-post .portfolio-hero-text ol {
+  text-align: left;
+  max-width: 46ch;
+}
+
+/* Stack the hero on narrow screens, image first */
+@media (max-width: 768px) {
+  body.portfolio-post .portfolio-hero {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  body.portfolio-post .portfolio-hero-text p,
+  body.portfolio-post .portfolio-hero-text ul,
+  body.portfolio-post .portfolio-hero-text ol {
+    max-width: none;
+  }
 }
 
 /* Portfolio detail image - full width square cropped for close view */

@@ -1,6 +1,16 @@
-const VERSION = "1.12.1";
+const VERSION = "1.13.0";
 
 const CHANGELOG = [
+  {
+    version: "1.13.0",
+    date: "2026-08-01",
+    changes: [
+      "Rework the portfolio hero: packshot at half width on the left, title, date, ink and intro text alongside it on the right",
+      "Split post content on the first image paragraph so the intro sits in the hero and the images stay in the 2-up grid",
+      "Stack the hero image above the text below 768px",
+      "Set Waves & Particles ink to Acrylic"
+    ]
+  },
   {
     version: "1.12.1",
     date: "2026-08-01",

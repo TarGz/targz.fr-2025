@@ -6,7 +6,7 @@ description: "My interpretation of wave particle duality."
 date: 2026-07-31
 category: portfolio
 image: /assets/images/portfolio/2026-07-31-Waves_Particles/Waves_Particles-preview.webp
-ink: ""
+ink: "Acrylic"
 pen: ""
 frame: ""
 ---
