@@ -7,8 +7,10 @@ date: 2026-07-31
 category: portfolio
 image: /assets/images/portfolio/2026-07-31-Waves_Particles/Waves_Particles-preview.webp
 ink: "Acrylic"
-pen: ""
+pen: "Molotow pump marker"
 frame: ""
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 My interpretation of wave particle duality.

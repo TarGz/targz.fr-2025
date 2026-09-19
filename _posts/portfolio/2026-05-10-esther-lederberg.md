@@ -6,6 +6,7 @@ description: "Esther Lederberg: An algorithmic pen plotted portrait by Targz fro
 date: 2026-05-10
 category: portfolio
 image: /assets/images/portfolio/2026-05-10-esther-lederberg/esther-lederberg-preview.webp
+preview_height: 1326
 ink: "Acrylic"
 pen: "Molotow pump marker"
 frame: ""

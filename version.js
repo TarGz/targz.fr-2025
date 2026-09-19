@@ -1,6 +1,14 @@
-const VERSION = "1.16.0";
+const VERSION = "1.16.1";
 
 const CHANGELOG = [
+  {
+    version: "1.16.1",
+    date: "2026-09-19",
+    changes: [
+      "Re-fit Marietta Blau and Esther Lederberg previews to the square house geometry (1200x1326, preview_height)",
+      "Add size, support and pen to Waves & Particles"
+    ]
+  },
   {
     version: "1.16.0",
     date: "2026-09-19",
