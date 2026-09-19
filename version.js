@@ -1,6 +1,15 @@
-const VERSION = "1.16.2";
+const VERSION = "1.16.3";
 
 const CHANGELOG = [
+  {
+    version: "1.16.3",
+    date: "2026-09-19",
+    changes: [
+      "Merge Waves & Particles into Wave Expansion (plotter photo moved over, redirect from the old URL) and remove the Waves & Particles post",
+      "Remove the framed shot from Wave Expansion",
+      "Add exhibition photos to Crops and Fragmentation"
+    ]
+  },
   {
     version: "1.16.2",
     date: "2026-09-19",

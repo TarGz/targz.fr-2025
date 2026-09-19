@@ -15,3 +15,6 @@ support: "Bristol"
 ---
 
 Derivative of Dye With Me. Small rectangular blocks instead of brush paths. Reads like the Windows 98 defrag screen. Sister piece: Crops, same structure in greens.
+
+![]({{ site.baseurl }}/assets/images/portfolio/2025-10-21-Fragmentation/Fragmentation-02.webp)
+![]({{ site.baseurl }}/assets/images/portfolio/2025-10-21-Fragmentation/Fragmentation-03.webp)
