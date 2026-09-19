@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/chromatic-
 shopify_id: 8717319012691
 pen: "Parallel pen 2.4mm"
 frame: ""
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 

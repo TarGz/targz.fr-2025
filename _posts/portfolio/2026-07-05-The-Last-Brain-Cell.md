@@ -9,6 +9,8 @@ image: /assets/images/portfolio/2026-07-05-The-Last-Brain-Cell/The-Last-Brain-Ce
 ink: "Acrylic"
 pen: "Pump marker"
 frame: "no frame"
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 A packed Voronoi field, hundreds of cells sharing walls, each one carrying its own inner contours. Reads like brain tissue under a microscope. Somewhere in there, one cell still does all the work.

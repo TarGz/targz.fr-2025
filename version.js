@@ -1,6 +1,18 @@
-const VERSION = "1.14.0";
+const VERSION = "1.15.0";
 
 const CHANGELOG = [
+  {
+    version: "1.15.0",
+    date: "2026-09-19",
+    changes: [
+      "Add ARN Shot portfolio post with responsive images",
+      "Add size and support (Bristol/Canvas) front matter to all portfolio posts",
+      "Normalize portfolio ink values (Non Archival Ink, Acrylic, Archival Ink, Metallic Acrylic)",
+      "Show year, size, support and ink in the portfolio list, and size on artwork pages",
+      "Add size and support fields to the new_artwork.py post template",
+      "Sync CLAUDE.md with global versioning rules and document the new fields"
+    ]
+  },
   {
     version: "1.14.0",
     date: "2026-08-01",

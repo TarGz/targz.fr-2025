@@ -6,10 +6,12 @@ description: "Solenoid Orange: An algorithmic pen plotted artwork by Targz. A2 (
 date: 2021-01-01
 category: portfolio
 image: /assets/images/portfolio/2021-01-01-solenoid-orange/solenoid-orange-preview.webp
-ink: "Ecoline watercolor Magenta 337, Light Orange 236, Turquoise Green 661"
+ink: "Non Archival Ink"
 shopify_id: 10717988356435
 pen: "Parallel pen 2.4mm"
 frame: ""
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---
 
 - Edition: 1

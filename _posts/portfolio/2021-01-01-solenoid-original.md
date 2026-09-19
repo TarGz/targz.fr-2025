@@ -6,10 +6,12 @@ description: "Solenoid Original: An algorithmic pen plotted artwork by Targz. A2
 date: 2021-01-01
 category: portfolio
 image: /assets/images/portfolio/2021-01-01-solenoid-original/solenoid-original-preview.webp
-ink: "Ecoline watercolor Ultramarine Deep 506, Magenta 337"
+ink: "Non Archival Ink"
 shopify_id: 10717987963219
 pen: "Parallel pen 2.4mm"
 frame: ""
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---
 
 - Edition: 1

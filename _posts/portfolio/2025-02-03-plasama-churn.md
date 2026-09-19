@@ -9,6 +9,8 @@ image: /assets/images/portfolio/2026-02-01-plasama-churn/plasama-churn-preview.w
 ink: "Acrylic"
 pen: ""
 frame: ""
+size: "50x70cm"
+support: "Bristol"
 ---
 
 

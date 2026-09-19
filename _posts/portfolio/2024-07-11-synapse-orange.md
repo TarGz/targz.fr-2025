@@ -10,8 +10,10 @@ image: /assets/images/synapse-orange-preview.webp
 shopify_id: 9333823668563
 pen: "Ecoline Pen"
 frame: "Unframed"
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 original_url: ""
-ink: ""
+ink: "Non Archival Ink"
 ---
 
 For better or worse

@@ -10,8 +10,10 @@ image: /assets/images/chromatic-interplay-n4-preview.webp
 shopify_id: 8717292110163
 pen: "Parallel pen 2,4mm"
 frame: "Unframed"
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 original_url: ""
-ink: ""
+ink: "Non Archival Ink"
 ---
 
 An Exploration of Color Moiré. This Pen Plotter Art piece is a generative art piece created using my own P5.js code, this artwork is part of a series of patterns called Chromatic Interplay. Each iteration of Chromatic Interplay is plotted multiple times, employing different colors and pen angles.

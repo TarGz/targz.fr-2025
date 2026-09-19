@@ -13,6 +13,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/a-duet-of-
 shopify_id: 8717330219347
 pen: "Pump Marker with 4 mm & 2mm Round tip"
 frame: "Unframed"
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---
 
 

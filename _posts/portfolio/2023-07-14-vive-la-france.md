@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/vive-la-fr
 shopify_id: 8717333102931
 pen: "Pump Marker with 4 mm Round tip"
 frame: ""
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 

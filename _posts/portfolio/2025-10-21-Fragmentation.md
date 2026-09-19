@@ -10,6 +10,8 @@ ink: "Non Archival Ink"
 shopify_id: 10607682060627
 pen: ""
 frame: ""
+size: "75x105cm"
+support: "Bristol"
 ---
 
 Derivative of Dye With Me. Small rectangular blocks instead of brush paths. Reads like the Windows 98 defrag screen. Sister piece: Crops, same structure in greens.

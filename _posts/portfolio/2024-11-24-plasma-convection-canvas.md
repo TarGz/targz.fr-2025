@@ -10,8 +10,10 @@ image: /assets/images/portfolio/2024-11-24-plasma-convection-canvas/plasma-conve
 shopify_id: 9620232077651
 pen: "Molotov Pump Marker"
 frame: "Floater frame"
+size: "73x50cm"
+support: "Canvas"
 original_url: ""
-ink: ""
+ink: "Acrylic"
 ---
 
 Acrylic plotted on premium canvas

@@ -13,4 +13,6 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-sq
 shopify_id: ""
 pen: ""
 frame: ""
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---

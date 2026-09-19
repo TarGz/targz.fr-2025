@@ -11,6 +11,8 @@ original_url: ""
 shopify_id: ""
 pen: ""
 frame: ""
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---
 
 

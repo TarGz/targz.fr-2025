@@ -9,6 +9,27 @@
 - Every commit must include a version bump in `version.js`
 - Follow semver: Major (breaking changes), Minor (new features), Fix/Patch (bug fixes)
 - Always update the CHANGELOG array in `version.js` with the current date and list of changes
+- Version and changelog are maintained in `version.js`
+- On every commit, always update `version.js`:
+  - Bump the `VERSION` constant following semver (XX.YY.ZZ)
+  - Add a new entry at the top of the `CHANGELOG` array with version, date, and list of changes
+
+**Semver rules:**
+- **XX** (Major) - Breaking changes, major new features, architectural changes
+- **YY** (Minor) - New features, enhancements, non-breaking changes
+- **ZZ** (Fix) - Bug fixes, small tweaks, performance improvements
+
+Examples:
+- Fix: 1.7.0 → 1.7.1
+- New feature: 1.7.1 → 1.8.0
+- Breaking change: 1.8.0 → 2.0.0
+
+## Instructions Sync
+
+At the start of each conversation, compare this global CLAUDE.md with the project-local CLAUDE.md (in the project root). Then:
+1. Copy any rules from this global file that are missing in the local file
+2. If a rule exists in both but differs, ask the user which version to keep
+3. If the local file has rules not present here, leave them (they are project-specific)
 
 ## Project Rules
 
@@ -76,7 +97,7 @@ Use `portfolio_drop/` workflow:
 2. Images are sorted by filename and the first one becomes the preview/thumbnail. Prefix them `1-`, `2-`, `3-` to control the order.
 3. Run `python3 new_artwork.py` (or `--dry-run` to preview)
 4. The script converts images to webp (1200px), generates mobile (576px) and tablet (992px) responsive variants, creates the markdown post in `_posts/portfolio/`, and removes the processed folder from portfolio_drop/
-5. Fill in the generated post by hand: `description`, `ink`, `pen`, `frame`, body text above the image lines, and `shopify_id` if the piece goes to the shop. Never invent technique or material details; leave them empty for the artist to fill.
+5. Fill in the generated post by hand: `description`, `ink`, `pen`, `frame`, `size`, `support` (Bristol or Canvas), body text above the image lines, and `shopify_id` if the piece goes to the shop. Never invent technique or material details; leave them empty for the artist to fill.
 
 ## Scripts
 

@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/fused-dual
 shopify_id: 8717321961811
 pen: "Ecoline brush 2.5mm"
 frame: ""
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 

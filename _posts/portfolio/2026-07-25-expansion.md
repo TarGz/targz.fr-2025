@@ -6,9 +6,11 @@ description: "Expansion: An algorithmic pen plotted artwork by Targz. A2 (42 x 5
 date: 2026-07-25
 category: portfolio
 image: /assets/images/portfolio/2026-07-25-expansion/expansion-preview.webp
-ink: "Molotow Black Acrylic"
+ink: "Acrylic"
 pen: "Molotow pump marker 1mm"
 frame: ""
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---
 
 Humanity expanding to its own death.

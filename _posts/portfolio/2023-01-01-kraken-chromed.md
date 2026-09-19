@@ -6,10 +6,12 @@ description: "Kraken Chromed: An algorithmic pen plotted artwork by Targz. A2 (4
 date: 2023-01-01
 category: portfolio
 image: /assets/images/portfolio/2023-01-01-kraken-chromed/kraken-chromed-preview.webp
-ink: "Molotow alcohol-based Chrome"
+ink: "Metallic Acrylic"
 shopify_id: 10717987307859
 pen: "Pump Marker with 4 mm Round tip"
 frame: ""
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---
 
 - Edition: 1

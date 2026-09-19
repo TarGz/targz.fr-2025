@@ -11,5 +11,7 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/vinyl-impr
 shopify_id: ""
 pen: ""
 frame: ""
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 

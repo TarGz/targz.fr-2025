@@ -58,7 +58,7 @@ layout: base
                 </picture>
                 <p>
                     {{ post.title }}
-                    <span class="subtitle">{{ post.date | date: "%Y" }}{% if post.ink %} • {{ post.ink }}{% endif %}</span>
+                    <span class="subtitle">{{ post.date | date: "%Y" }}{% if post.size and post.size != "" %} • {{ post.size | split: " (" | first }}{% endif %}{% if post.support and post.support != "" %} • {{ post.support }}{% endif %}{% if post.ink %} • {{ post.ink }}{% endif %}</span>
                 </p>
             </div>
         </a>

@@ -9,6 +9,8 @@ image: /assets/images/portfolio/2025-02-02-synapses_canvas/synapses_canvas-previ
 ink: "Acrylic"
 pen: ""
 frame: ""
+size: "A1 (59.4 x 84.1 cm)"
+support: "Canvas"
 original_url: ""
 shopify_id: ""
 ---

@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/dye-with-m
 shopify_id: 10607681831251
 pen: ""
 frame: ""
+size: "75x100cm"
+support: "Bristol"
 ---
 
 

@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/particle-a
 shopify_id: 8777474802003
 pen: "Ecoline Pen"
 frame: "Unframed"
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 

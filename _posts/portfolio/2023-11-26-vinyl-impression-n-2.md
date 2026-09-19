@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/vinyl-impr
 shopify_id: 8717251871059
 pen: "Parallel pen 2.4mm"
 frame: "Unframed"
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 

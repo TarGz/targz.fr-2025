@@ -10,8 +10,10 @@ image: /assets/images/chromatic-interplay-n3-preview.webp
 shopify_id: 8717342900563
 pen: "Parallel pen 2.4mm"
 original_url: ""
-ink: "Ecoline watercolor"
+ink: "Non Archival Ink"
 frame: "Unframed"
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---
 
 Four pen passes, four ink colors. The parallel pen turned to a different angle each pass. The overlap makes a moiré.

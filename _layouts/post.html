@@ -23,7 +23,7 @@ layout: base
         <div class="post-header">
             <h1>{{ page.title }}
                 <span class="post-metadata">
-                    {{ page.date | date: "%B %d, %Y" }}{% if page.ink != "" and page.ink %} • {{ page.ink }}{% endif %}
+                    {{ page.date | date: "%B %d, %Y" }}{% if page.ink != "" and page.ink %} • {{ page.ink }}{% endif %}{% if page.size != "" and page.size %} • {{ page.size }}{% endif %}
                 </span>
             </h1>
         </div>

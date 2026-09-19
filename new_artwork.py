@@ -239,6 +239,8 @@ image: /assets/images/portfolio/{date_slug}/{slug}-preview.webp
 ink: ""
 pen: ""
 frame: ""
+size: ""
+support: ""
 ---
 
 

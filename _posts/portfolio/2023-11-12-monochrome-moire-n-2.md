@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/monochrome
 shopify_id: 8717287358803
 pen: "Staedtler pigment liner 1mm"
 frame: "Unframed"
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 

@@ -10,8 +10,10 @@ image: /assets/images/chromatic-interplay-n5-preview.webp
 shopify_id: 8717213172051
 pen: "Parallel pen 2,4mm"
 frame: "Unframed"
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 original_url: ""
-ink: ""
+ink: "Non Archival Ink"
 ---
 
 An Exploration of Color Moiré.

@@ -6,10 +6,12 @@ description: "Kraken Gold: An algorithmic pen plotted artwork by Targz. A2 (42 x
 date: 2023-01-01
 category: portfolio
 image: /assets/images/portfolio/2023-01-01-kraken-gold/kraken-gold-preview.webp
-ink: "Molotow alcohol-based Gold"
+ink: "Metallic Acrylic"
 shopify_id: 10717987078483
 pen: "Pump Marker with 4 mm Round tip"
 frame: ""
+size: "A2 (42 x 59.4 cm)"
+support: "Bristol"
 ---
 
 - Edition: 5

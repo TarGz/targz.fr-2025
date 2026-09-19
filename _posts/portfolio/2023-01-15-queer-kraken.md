@@ -13,6 +13,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/blended-sq
 shopify_id: 8717365903699
 pen: "Pump Marker with 4 mm Round tip"
 frame: "Not framed"
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 

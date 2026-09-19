@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/color-whee
 shopify_id: 8717259931987
 pen: "Pilot Parallel pen 2.4mm"
 frame: "Unframed"
+size: "A1 (59.4 x 84.1 cm)"
+support: "Bristol"
 ---
 
 

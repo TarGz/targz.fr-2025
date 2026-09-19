@@ -11,6 +11,8 @@ original_url: https://shop.targz.fr/blogs/targz-pen-plotter-portfolio/the-bitcoi
 shopify_id: ""
 pen: ""
 frame: ""
+size: "A3 (29.7 x 42 cm)"
+support: "Bristol"
 ---
 
 
