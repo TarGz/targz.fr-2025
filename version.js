@@ -1,6 +1,14 @@
-const VERSION = "1.16.3";
+const VERSION = "1.17.0";
 
 const CHANGELOG = [
+  {
+    version: "1.17.0",
+    date: "2026-09-19",
+    changes: [
+      "Screen effect on the zoomed detail image of portfolio pages: soft pixel grid, RGB sub-pixel stripes and red/blue channel offset",
+      "Link 9 portfolio posts to their shop products (shopify_id): ARN Shot, Wave Expansion, Marietta Blau, Esther Lederberg, The Last Brain Cell, The Last Brain Cells, Expansion, Y1, Y2"
+    ]
+  },
   {
     version: "1.16.3",
     date: "2026-09-19",

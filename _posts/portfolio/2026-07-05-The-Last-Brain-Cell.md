@@ -7,6 +7,7 @@ date: 2026-07-05
 category: portfolio
 image: /assets/images/portfolio/2026-07-05-The-Last-Brain-Cell/The-Last-Brain-Cell-preview.webp
 ink: "Acrylic"
+shopify_id: 10698949722451
 pen: "Pump marker"
 frame: "no frame"
 size: "A1 (59.4 x 84.1 cm)"

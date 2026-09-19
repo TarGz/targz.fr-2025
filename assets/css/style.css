@@ -234,6 +234,7 @@ body.portfolio-post .portfolio-hero-text ol {
   height: 100vw;
   max-height: 100vh;
   overflow: hidden;
+  isolation: isolate;
 }
 
 .portfolio-detail-image img {
@@ -243,6 +244,42 @@ body.portfolio-post .portfolio-hero-text ol {
   object-position: center;
   display: block;
   transform: scale(2); /* Zoom in for detail view */
+  filter: url(#rgb-split); /* colour channel offset, see _layouts/base.html */
+}
+
+/* RGB sub-pixel stripes, one red/green/blue triplet per grid cell, like an LCD up close */
+.portfolio-detail-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  --subpixel-strength: 0.35;
+  background-image: linear-gradient(to right,
+    rgba(255, 0, 0, var(--subpixel-strength)) 0 33.33%,
+    rgba(0, 255, 0, var(--subpixel-strength)) 33.33% 66.66%,
+    rgba(0, 0, 255, var(--subpixel-strength)) 66.66% 100%);
+  background-size: 6px 6px;
+  background-repeat: repeat; /* Pico sets no-repeat on ::before */
+  mix-blend-mode: multiply;
+}
+
+/* Pixel grid over the zoomed detail: the preview is ~1200px scaled 2x across the
+   viewport, so a fine screen-like grid hides the upscaling softness. */
+.portfolio-detail-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  --pixel-grid-size: 6px;
+  --pixel-grid-line: rgba(0, 0, 0, 0.175);
+  --pixel-grid-blur: 3px; /* line fades in and out, no hard edge */
+  background-image:
+    linear-gradient(to right, transparent 0, var(--pixel-grid-line) calc(var(--pixel-grid-blur) / 2), transparent var(--pixel-grid-blur)),
+    linear-gradient(to bottom, transparent 0, var(--pixel-grid-line) calc(var(--pixel-grid-blur) / 2), transparent var(--pixel-grid-blur));
+  background-size: var(--pixel-grid-size) var(--pixel-grid-size);
+  background-repeat: repeat; /* Pico sets no-repeat on ::after */
 }
 
 /* Remove footer margin when portfolio detail image is present */

@@ -12,6 +12,18 @@
     {% if page.category == "portfolio" and page.image %}
     <!-- Portfolio detail image outside container -->
     <figure class="portfolio-detail-image">
+      <!-- Chromatic aberration: red shifted left, blue shifted right, recombined with screen -->
+      <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <filter id="rgb-split" color-interpolation-filters="sRGB">
+          <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="r"/>
+          <feOffset in="r" dx="-1.5" dy="0" result="r-shift"/>
+          <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="g"/>
+          <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="b"/>
+          <feOffset in="b" dx="1.5" dy="0" result="b-shift"/>
+          <feBlend in="r-shift" in2="g" mode="screen" result="rg"/>
+          <feBlend in="rg" in2="b-shift" mode="screen"/>
+        </filter>
+      </svg>
       <img src="{{ page.image | relative_url }}" alt="{{ page.title }} - Detail View" />
     </figure>
     {% endif %}

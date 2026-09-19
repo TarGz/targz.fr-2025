@@ -7,6 +7,7 @@ date: 2026-07-28
 category: portfolio
 image: /assets/images/portfolio/2026-07-28-wave-expansion/wave-expansion-preview.webp
 ink: "Acrylic"
+shopify_id: 10862635843923
 pen: "Molotow pump marker"
 frame: ""
 size: "A1 (59.4 x 84.1 cm)"

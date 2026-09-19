@@ -7,6 +7,7 @@ date: 2026-07-25
 category: portfolio
 image: /assets/images/portfolio/2026-07-25-expansion/expansion-preview.webp
 ink: "Acrylic"
+shopify_id: 10735379087699
 pen: "Molotow pump marker 1mm"
 frame: ""
 size: "A2 (42 x 59.4 cm)"

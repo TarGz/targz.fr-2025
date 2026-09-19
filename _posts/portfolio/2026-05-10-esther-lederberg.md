@@ -8,6 +8,7 @@ category: portfolio
 image: /assets/images/portfolio/2026-05-10-esther-lederberg/esther-lederberg-preview.webp
 preview_height: 1326
 ink: "Acrylic"
+shopify_id: 10862638104915
 pen: "Molotow pump marker"
 frame: ""
 size: "61x61cm"
