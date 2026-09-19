@@ -1,6 +1,15 @@
-const VERSION = "1.15.0";
+const VERSION = "1.16.0";
 
 const CHANGELOG = [
+  {
+    version: "1.16.0",
+    date: "2026-09-19",
+    changes: [
+      "Add Marietta Blau and Esther Lederberg portraits (Matildas series) with responsive images",
+      "Add Wave Expansion portfolio post with responsive images",
+      "Tighten ARN Shot description"
+    ]
+  },
   {
     version: "1.15.0",
     date: "2026-09-19",
