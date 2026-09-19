@@ -1,6 +1,14 @@
-const VERSION = "1.16.1";
+const VERSION = "1.16.2";
 
 const CHANGELOG = [
+  {
+    version: "1.16.2",
+    date: "2026-09-19",
+    changes: [
+      "Scale home grid columns with the viewport on large screens (clamp 520px to 820px)",
+      "Add two plotter photos to ARN Shot and remove the framed packshot"
+    ]
+  },
   {
     version: "1.16.1",
     date: "2026-09-19",

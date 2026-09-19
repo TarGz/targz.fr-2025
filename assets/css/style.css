@@ -660,8 +660,9 @@ article .compact-code pre {
   margin-block-start: 2rem;
   /* Cap each column so previews stop growing on wide screens. The preview
      canvas is 1200px with the artwork ~743px wide, so a 520px column renders
-     the artwork around 320px. */
-  --home-grid-column-max: 520px;
+     the artwork around 320px. Scales with the viewport on large displays,
+     up to 820px (artwork ~510px). */
+  --home-grid-column-max: clamp(520px, 38vw, 820px);
 }
 
 @media (min-width: 768px) {
