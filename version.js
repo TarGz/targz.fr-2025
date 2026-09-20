@@ -1,6 +1,16 @@
-const VERSION = "1.19.0";
+const VERSION = "1.20.0";
 
 const CHANGELOG = [
+  {
+    version: "1.20.0",
+    date: "2026-09-20",
+    changes: [
+      "Replace the generated template description on 32 more portfolio pieces with Julien's own lines (typos fixed, French translated, nothing added)",
+      "Rewrite the 17 no-body pieces again to keep Julien's wording only, dropping the drafted shape lines",
+      "Rename Color Wheel Chaos to Mother",
+      "Empty description and body for Solenoid Green and Chromatic Interplay N°1, per Julien"
+    ]
+  },
   {
     version: "1.19.0",
     date: "2026-09-20",

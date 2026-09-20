@@ -2,7 +2,7 @@
 layout: post
 title: "Vinyl Impression N°1"
 seo-title: "Vinyl Impression N°1 - Algorithmic Pen Plotted Art | Targz"
-description: "Vinyl Impression N°1: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
+description: "From the Vinyl Impression series, using parallel pens with black and close strokes to give that vinyl disk. This one looks like a drawing disk to me."
 date: 2023-09-30
 category: portfolio
 image: /assets/images/portfolio/2023-09-30-vinyl-impression-n-1/vinyl-impression-n-1-preview.webp
@@ -14,8 +14,5 @@ frame: "Unframed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
-
-Brain waved record.
+From the Vinyl Impression series, using parallel pens with black and close strokes to give that vinyl disk. This one looks like a drawing disk to me.
 

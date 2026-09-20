@@ -2,7 +2,7 @@
 layout: post
 title: "Young Interferences"
 seo-title: "Young Interferences - Algorithmic Pen Plotted Art | Targz"
-description: "Vertical columns of line work, each at a slightly different pitch. Where they meet, colour appears. Repetition with small variations. It feels like light interference to me."
+description: "Repetition, with low variation, gives that vibe and feels like light interference to me."
 date: 2021-11-07
 category: portfolio
 redirect_from:
@@ -16,5 +16,5 @@ frame: ""
 size: "A2 (42 x 59.4 cm)"
 support: "Bristol"
 ---
-Vertical columns of line work, each at a slightly different pitch. Where they meet, colour appears. Repetition with small variations. It feels like light interference to me.
+Repetition, with low variation, gives that vibe and feels like light interference to me.
 

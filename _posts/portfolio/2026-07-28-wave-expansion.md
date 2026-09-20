@@ -2,7 +2,7 @@
 layout: post
 title: "Wave Expansion"
 seo-title: "Wave Expansion - Algorithmic Pen Plotted Art | Targz"
-description: "Wave Expansion: An algorithmic pen plotted artwork by Targz. A1 (59.4 x 84.1 cm), acrylic on Bristol paper. 2026."
+description: "Only space and stupidity are infinite."
 date: 2026-07-28
 category: portfolio
 image: /assets/images/portfolio/2026-07-28-wave-expansion/wave-expansion-preview.webp
@@ -15,6 +15,7 @@ support: "Bristol"
 redirect_from:
   - /portfolio/2026/07/31/Waves_Particles.html
 ---
+Only space and stupidity are infinite.
 
 - Plotter: Custom made pen plotter
 - Paper: Bristol paper

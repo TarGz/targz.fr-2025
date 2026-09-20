@@ -2,7 +2,7 @@
 layout: post
 title: "Chromatic Interplay n°6"
 seo-title: "Chromatic Interplay n°6 - Algorithmic Pen Plotted Art | Targz"
-description: "Chromatic Interplay n°6: An algorithmic pen plotted artwork featuring geometric patterns. 59 x 84cm non archival ink on Bristol paper."
+description: "Tears of Contrast."
 date: 2023-04-29
 category: portfolio
 image: /assets/images/portfolio/2023-04-29-chromatic-interplay-n-6/chromatic-interplay-n-6-preview.webp
@@ -14,8 +14,5 @@ frame: ""
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
-
 Tears of Contrast.
 

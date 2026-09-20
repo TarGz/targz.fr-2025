@@ -2,7 +2,7 @@
 layout: post
 title: "Golden Boy"
 seo-title: "Golden Boy - Algorithmic Pen Plotted Art | Targz"
-description: "One orange mass built from concentric outlines. It's fat, it's golden and it is going nowhere."
+description: "It's fat, it's golden and it is going nowhere."
 date: 2023-07-15
 category: portfolio
 redirect_from:
@@ -16,5 +16,5 @@ frame: "Unframed"
 size: "A2 (42 x 59.4 cm)"
 support: "Bristol"
 ---
-One orange mass built from concentric outlines. It's fat, it's golden and it is going nowhere.
+It's fat, it's golden and it is going nowhere.
 

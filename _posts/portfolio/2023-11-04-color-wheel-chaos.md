@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Color Wheel Chaos"
-seo-title: "Color Wheel Chaos - Algorithmic Pen Plotted Art | Targz"
-description: "Color Wheel Chaos: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
+title: "Mother"
+seo-title: "Mother - Algorithmic Pen Plotted Art | Targz"
+description: "Calm and protecting, enveloping with kindness and love."
 date: 2023-11-04
 category: portfolio
 image: /assets/images/portfolio/2023-11-04-color-wheel-chaos/color-wheel-chaos-preview.webp
@@ -14,8 +14,5 @@ frame: "Unframed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
-
-The struggle of too many choices
+Calm and protecting, enveloping with kindness and love.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Chromatic Interplay N°7"
 seo-title: "Chromatic Interplay N°7 - Algorithmic Pen Plotted Art | Targz"
-description: "Translucent ellipses layered until the colour stops being separable. Three colours, three plotting angles. Flipping the initial shape makes a sort of cross. I see a strange coloured human in it."
+description: "Mixing 3 colors, 3 plotting angles led to this mesmerising piece. The flip of the initial shape creates some sort of cross that looks like a strange colored human to me."
 date: 2023-10-15
 category: portfolio
 image: /assets/images/portfolio/2023-10-15-chromatic-nbsp-interplay-n-7/chromatic-nbsp-interplay-n-7-preview.webp
@@ -14,5 +14,5 @@ frame: "Unframed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-Translucent ellipses layered until the colour stops being separable. Three colours, three plotting angles. Flipping the initial shape makes a sort of cross. I see a strange coloured human in it.
+Mixing 3 colors, 3 plotting angles led to this mesmerising piece. The flip of the initial shape creates some sort of cross that looks like a strange colored human to me.
 

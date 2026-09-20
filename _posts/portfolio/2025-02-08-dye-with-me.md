@@ -2,7 +2,7 @@
 layout: post
 title: "Dye With Me"
 seo-title: "Dye With Me - Algorithmic Pen Plotted Art | Targz"
-description: "Dye With Me: An algorithmic pen plotted artwork featuring geometric patterns. 75 x 100cm non archival ink on Bristol paper."
+description: "This started by me trying to calculate how long this pen could run, drawing parallel lines, then a gradient emerged."
 date: 2025-02-08
 category: portfolio
 image: /assets/images/portfolio/2025-02-08-dye-with-me/dye-with-me-preview.webp
@@ -14,11 +14,6 @@ frame: ""
 size: "75x100cm"
 support: "Bristol"
 ---
-
-
-
-A blend of fault
-
-This pen plotter piece started as a simple test—how long can an Ecoline Brush pen keep going before it dries up? As the ink faded, an unexpected but beautiful gradient appeared. It felt like it needed something more, so I ran a second path with a different color. The way the two layers blended just clicked for me—I loved the result, so I decided to keep it.
+This started by me trying to calculate how long this pen could run, drawing parallel lines, then a gradient emerged.
 
 ![]({{ site.baseurl }}/assets/images/portfolio/2025-02-08-dye-with-me/dye-with-me-03.webp)![]({{ site.baseurl }}/assets/images/portfolio/2025-02-08-dye-with-me/dye-with-me-04.webp)![]({{ site.baseurl }}/assets/images/portfolio/2025-02-08-dye-with-me/dye-with-me-05.webp)

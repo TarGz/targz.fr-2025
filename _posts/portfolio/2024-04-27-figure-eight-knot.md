@@ -2,7 +2,7 @@
 layout: post
 title: "Figure-eight Knot"
 seo-title: "Figure-eight Knot - Algorithmic Pen Plotted Art | Targz"
-description: "Figure-eight Knot: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
+description: "A simple knot can be useful, but most of the time you need a far more complex one."
 date: 2024-04-27
 category: portfolio
 image: /assets/images/portfolio/2024-04-27-figure-eight-knot/figure-eight-knot-preview.webp
@@ -14,6 +14,5 @@ frame: "Unframed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-Spontaneous knotting of the mind
+A simple knot can be useful, but most of the time you need a far more complex one.
 

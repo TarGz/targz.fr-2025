@@ -2,7 +2,7 @@
 layout: post
 title: "Petroleum Kraken"
 seo-title: "Petroleum Kraken - Algorithmic Pen Plotted Art | Targz"
-description: "A dense blue weave with two diamond holes cut clean out of it. The Octopus design in green and blue, which gives it a petroleum feel."
+description: "The Octopus design, but with green and blue, gives a petroleum vibe to it."
 date: 2021-11-07
 category: portfolio
 image: /assets/images/portfolio/2021-11-07-petroleum-kraken/petroleum-kraken-preview.webp
@@ -16,5 +16,5 @@ frame: ""
 size: "A2 (42 x 59.4 cm)"
 support: "Bristol"
 ---
-A dense blue weave with two diamond holes cut clean out of it. The Octopus design in green and blue, which gives it a petroleum feel.
+The Octopus design, but with green and blue, gives a petroleum vibe to it.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Harlequeen"
 seo-title: "Harlequeen - Algorithmic Pen Plotted Art | Targz"
-description: "Harlequeen: An algorithmic pen plotted artwork by Targz. A3 (29.7 x 42 cm), Molotow black acrylic on Fabriano paper. Edition: 2. 2024."
+description: "Mask and face paint can't hide your eyes."
 date: 2024-01-01
 category: portfolio
 redirect_from:
@@ -15,6 +15,7 @@ frame: ""
 size: "A3 (29.7 x 42 cm)"
 support: "Bristol"
 ---
+Mask and face paint can't hide your eyes.
 
 - Edition: 2
 - Plotter: Custom made pen plotter

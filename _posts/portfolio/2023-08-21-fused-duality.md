@@ -2,7 +2,7 @@
 layout: post
 title: "Fused Duality"
 seo-title: "Fused Duality - Algorithmic Pen Plotted Art | Targz"
-description: "Fused Duality: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
+description: "We are different, but in some way we fit."
 date: 2023-08-21
 category: portfolio
 image: /assets/images/portfolio/2023-08-21-fused-duality/fused-duality-preview.webp
@@ -14,7 +14,4 @@ frame: ""
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
-
-2023-08-21 - 59x84cm - Bristol Paper & Non Archival Ink
+We are different, but in some way we fit.

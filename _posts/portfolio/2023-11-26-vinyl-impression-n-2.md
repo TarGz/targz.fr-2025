@@ -2,7 +2,7 @@
 layout: post
 title: "Vinyl Impression N°2"
 seo-title: "Vinyl Impression N°2 - Algorithmic Pen Plotted Art | Targz"
-description: "A few large black ellipses, glossy, at rest. Parallel pens, black, strokes close together, and the disc appears. This one looks like a juggling troubadour to me."
+description: "From the Vinyl Impression series, using parallel pens with black and close strokes to give that vinyl disk. This one looks like a juggling troubadour to me."
 date: 2023-11-26
 category: portfolio
 image: /assets/images/portfolio/2023-11-26-vinyl-impression-n-2/vinyl-impression-n-2-preview.webp
@@ -14,5 +14,5 @@ frame: "Unframed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-A few large black ellipses, glossy, at rest. Parallel pens, black, strokes close together, and the disc appears. This one looks like a juggling troubadour to me.
+From the Vinyl Impression series, using parallel pens with black and close strokes to give that vinyl disk. This one looks like a juggling troubadour to me.
 

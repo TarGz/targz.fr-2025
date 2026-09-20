@@ -2,7 +2,7 @@
 layout: post
 title: "Plasma Convection Left"
 seo-title: "Plasma Convection Left - Algorithmic Pen Plotted Art | Targz"
-description: "Plasma Convection Left: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm acrylic on Bristol paper."
+description: "The dance of charged matter."
 date: 2024-06-15
 category: portfolio
 image: /assets/images/portfolio/2024-06-15-plasma-convection-left/plasma-convection-left-preview.webp
@@ -14,9 +14,6 @@ frame: ""
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
-
 The dance of charged matter
 
 

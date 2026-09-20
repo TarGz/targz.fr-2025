@@ -2,7 +2,7 @@
 layout: post
 title: "Green Lagoon"
 seo-title: "Green Lagoon - Algorithmic Pen Plotted Art | Targz"
-description: "Green Lagoon: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
+description: "Primordial soup emergence."
 date: 2024-03-24
 category: portfolio
 image: /assets/images/portfolio/2024-03-24-green-lagoon/green-lagoon-preview.webp
@@ -14,7 +14,5 @@ frame: "Unframed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
 Primordial soup emergence.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Chromatic Interplay N°1"
 seo-title: "Chromatic Interplay N°1 - Algorithmic Pen Plotted Art | Targz"
-description: "Translucent rounded shapes stacked until every colour in the set has overlapped every other one."
+description: ""
 date: 2023-03-04
 category: portfolio
 image: /assets/images/portfolio/2023-03-04-chromatic-interplay-n-1/chromatic-interplay-n-1-preview.webp
@@ -14,5 +14,3 @@ frame: ""
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-Translucent rounded shapes stacked until every colour in the set has overlapped every other one.
-

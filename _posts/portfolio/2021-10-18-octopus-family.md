@@ -2,7 +2,7 @@
 layout: post
 title: "Octopus Family"
 seo-title: "Octopus Family - Algorithmic Pen Plotted Art | Targz"
-description: "The Octopus knot, repeated until the bands run out of room. Blue and pink. Designed around a central head, with tentacles flowing around it."
+description: "Designed around a central head, tentacles flowing around."
 date: 2021-10-18
 category: portfolio
 redirect_from:
@@ -16,5 +16,5 @@ frame: ""
 size: "A2 (42 x 59.4 cm)"
 support: "Bristol"
 ---
-The Octopus knot, repeated until the bands run out of room. Blue and pink. Designed around a central head, with tentacles flowing around it.
+Designed around a central head, tentacles flowing around.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Queer Kraken"
 seo-title: "Queer Kraken - Algorithmic Pen Plotted Art | Targz"
-description: "Queer Kraken: An algorithmic pen plotted artwork featuring geometric patterns. 59 x 84cm acrylic on Bristol paper."
+description: "Bad ass and queer."
 date: 2023-01-15
 category: portfolio
 image: /assets/images/portfolio/2023-01-15-queer-kraken/queer-kraken-preview.webp
@@ -16,10 +16,6 @@ frame: "Not framed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
-
-
-I really wanted to mix pink and gold acrylic, but it turned out to be trickier than I expected. The inks wouldn’t overlap the way I wanted—they kept blending unpredictably. After a lot of trial and error, I finally got this one I loved.
+Bad ass and queer.
 
 ![]({{ site.baseurl }}/assets/images/portfolio/2023-01-15-queer-kraken/queer-kraken-03.webp)

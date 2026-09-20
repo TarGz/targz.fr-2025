@@ -2,7 +2,7 @@
 layout: post
 title: "Solenoid Green"
 seo-title: "Solenoid Green - Algorithmic Pen Plotted Art | Targz"
-description: "The Solenoid weave in green and pink."
+description: ""
 date: 2021-10-02
 category: portfolio
 redirect_from:
@@ -16,5 +16,3 @@ frame: ""
 size: "A2 (42 x 59.4 cm)"
 support: "Bristol"
 ---
-The Solenoid weave in green and pink.
-
