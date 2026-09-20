@@ -2,7 +2,7 @@
 layout: post
 title: "Plasma Convection Tryptch"
 seo-title: "Plasma Convection Tryptch - Custom Pen Plotting Commission | Targz"
-description: "Plasma Convection is a commissioned original pen plot triptych. Its vibrant, flowing patterns draw inspiration from the energy convection processes of the sun."
+description: "A commissioned pen plotted triptych. Three sheets, 50 x 70 cm. I read the flow as convection on the surface of the sun."
 keywords: "pen plotting commission, plasma convection tryptch, custom algorithmic art, commissioned generative art"
 date: 2024-02-10
 category: commissions
@@ -10,7 +10,7 @@ tags: [commission, pen-plotting]
 image: /assets/images/commissions/2024-02-10-plasma-convection-tryptch/ALL2.webp
 ---
 
-Plasma Convection is a commissioned original pen plot triptych. Its vibrant, flowing patterns draw inspiration from the energy convection processes of the sun.
+A commissioned pen plotted triptych. Three sheets, 50 x 70 cm. I read the flow as convection on the surface of the sun.
 
 
 <div class="grid">

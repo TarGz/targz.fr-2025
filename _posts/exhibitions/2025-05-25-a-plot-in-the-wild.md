@@ -13,9 +13,9 @@ redirect_from:
 
 
 
-Part of Project / Forward: 2049, this global video art exhibition takes art out of galleries and into public spaces. The project features artists from Australia, Indonesia, India, Nigeria, Norway, Spain, and the United States.
-"What I love most about this project is that it takes art out of galleries and brings it directly to people in their everyday environments."
-The exhibition transforms urban landscapes into open-air galleries, making art accessible to everyone regardless of their proximity to traditional art institutions.
+Part of Project / Forward: 2049. Video art on public screens instead of gallery walls, with artists from Australia, Indonesia, India, Nigeria, Norway, Spain and the United States.
+
+My featured work: an early truchet tiling piece from the parallel pen series.
 
 
 <div class="image-columns-2">

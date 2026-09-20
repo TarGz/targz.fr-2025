@@ -2,7 +2,7 @@
 layout: post
 title: "Pen plotter Portrait"
 seo-title: "Pen plotter Portrait - Custom Pen Plotting Commission | Targz"
-description: "A serie of generative art portrait designed to drawn by my AxiDraw pen plotter"
+description: "An early series of pen plotted portraits, drawn from people found on TikTok and Instagram."
 keywords: "pen plotting commission, pen plotter portrait, custom algorithmic art, commissioned generative art"
 date: 2023-03-20
 category: commissions

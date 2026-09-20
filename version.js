@@ -1,6 +1,14 @@
-const VERSION = "1.17.0";
+const VERSION = "1.18.0";
 
 const CHANGELOG = [
+  {
+    version: "1.18.0",
+    date: "2026-09-20",
+    changes: [
+      "Rewrite the 9 worst AI-written exhibition and commission posts from Julien's own facts (Twingo, A Plot in the Wild, Chunk of Maze, Plasma Convection Tryptch, Blended Squares Exhibition, Grand Palais, Bitcoin Genesis, Fill The Blank, Pen plotter Portrait)",
+      "Rewrite The Last Brain Cell and The Last Brain Cells descriptions"
+    ]
+  },
   {
     version: "1.17.0",
     date: "2026-09-19",

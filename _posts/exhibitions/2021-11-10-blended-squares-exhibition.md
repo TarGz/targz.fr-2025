@@ -11,8 +11,7 @@ redirect_from:
   - /blended-squares-exhibition
 ---
 
-Exhibition featuring the Blended Squares series, showcasing poster and pen plotter art. This collection explores the interplay between overlapping geometric forms, creating visual rhythms through systematic color blending and precise mechanical drawing.
-The exhibition highlights the evolution of the Blended Squares series, demonstrating how simple rules can generate complex visual harmonies when executed with mechanical precision.
+Four pieces from the Blended Squares series at Monique, Paris. Two colour truchet tiling, drawn with a parallel pen.
 
 ![Blended Squares Exhibition Overview]({{ '/assets/images/exhibitions/2021-11-10-blended-squares-exhibition/Blended_squares_exhibition-preview.webp' | relative_url }})
 

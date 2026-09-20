@@ -13,8 +13,7 @@ redirect_from:
 ---
 
 
-Interactive installation using Billund Mono Sans font, engaging viewers in the creative process. This exhibition transforms typography into a participatory experience, where visitors contribute to the completion of letterforms and textual compositions.
-The project explores the boundaries between predetermined structure and user input, creating a collaborative artwork that evolves throughout the exhibition period.
+Interactive installation at Ground Control, Paris, built on the Billund Mono Sans font. Visitors complete the letterforms and compose the text, so the piece grows over the run of the show.
 
 ![Typography Installation]({{ '/assets/images/exhibitions/2018-11-01-fill-the-blank/Fill_The_Blank-1.webp' | relative_url }})
 

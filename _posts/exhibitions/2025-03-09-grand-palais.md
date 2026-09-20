@@ -10,7 +10,7 @@ image: /assets/images/exhibitions/2025-03-09-grand-palais/preview.webp
 
 
 
-Bringing generative, pen-plotted art to the Grand Palais felt both surreal and deeply meaningful. This iconic Parisian venue, with its magnificent glass roof and Beaux-Arts architecture, provided a stunning backdrop for contemporary computational art. The exhibition explores the intersection of historical Constructivist principles with modern generative techniques, showcasing how algorithmic processes can create works that resonate with the geometric abstraction and systematic approaches of the early 20th century avant-garde.
+Comparaison 2025, Grand Palais, Paris. I showed the Synapses canvas with the Constructivism group.
 
 ## A Space Steeped in History
 

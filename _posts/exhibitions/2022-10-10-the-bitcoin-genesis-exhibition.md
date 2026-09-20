@@ -11,9 +11,7 @@ image: /assets/images/exhibitions/2022-10-10-the-bitcoin-genesis-exhibition/2023
 
 
 
-Exhibition featuring the Bitcoin Genesis artwork, exploring the intersection of cryptocurrency and generative art. This piece visualizes the genesis block of Bitcoin through algorithmic patterns, creating a physical manifestation of digital currency's foundational moment.
-
-The work bridges the gap between the intangible nature of blockchain technology and the tactile experience of pen-plotted art, offering viewers a unique perspective on the aesthetics of decentralized systems.
+The Bitcoin Genesis at the Norman Rea Gallery, Heslington. January 3, 2009, the first bitcoin block is minted by Satoshi Nakamoto. A3, black ballpoint and gold acrylic on Bristol.
 
 ![Bitcoin Genesis Detail]({{ '/assets/images/exhibitions/2022-10-10-the-bitcoin-genesis-exhibition/2023-01-15-norman-rea2.webp' | relative_url }})
 <!-- ![Bitcoin Genesis Detail]({{ '/assets/images/exhibitions/2022-10-10-the-bitcoin-genesis-exhibition/The_Bitcoin_genesis-1.webp' | relative_url }}) -->
