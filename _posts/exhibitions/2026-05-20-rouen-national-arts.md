@@ -13,8 +13,7 @@ Rouen National Arts 2026. Halle aux Toiles. May 20 - June 14.
 
 <img src="{{ '/assets/images/exhibitions/2026-05-20-rouen-national-arts/preview.jpg' | relative_url }}" alt="Rouen National Arts 2026. Halle aux Toiles. May 20 - June 14.">
 
-For the first time, I'm presenting two pieces (Y¹ and Y²) from my new series Matildas. 
-Up close, the brutal, architectural pattern represents society, power networks, paternalism, and the establishment that tried to erase these women. But step back, and variations within the pattern reveal a portrait of invisible women, women who deserved a Nobel Prize for their discoveries. Barely visible, like ghosts, they are there, but nobody knows their name or their detailed face, they remain a mystery.
+First time presenting my Matildas series, with two pieces, Y¹ and Y², but undercover. I never stated that the pattern was a portrait, and I had a great time when people noticed it and asked who the face was.
 
 The visitor will have to make the effort to discover the story behind each of the two women presented.
 

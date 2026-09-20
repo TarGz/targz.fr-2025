@@ -1,6 +1,15 @@
-const VERSION = "1.20.1";
+const VERSION = "1.21.0";
 
 const CHANGELOG = [
+  {
+    version: "1.21.0",
+    date: "2026-09-20",
+    changes: [
+      "Rewrite Behind The Lines, Plotter Fest and Rouen National Arts 2026 from Julien's own words, replacing the machine-written copy",
+      "Add missing description fields to Behind The Lines and Plotter Fest",
+      "Fix spelling in the E-tech spiral commission (I chose, Vasarely)"
+    ]
+  },
   {
     version: "1.20.1",
     date: "2026-09-20",

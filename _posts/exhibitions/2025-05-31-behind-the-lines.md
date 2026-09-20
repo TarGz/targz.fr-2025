@@ -3,6 +3,7 @@ layout: post
 title: "Behind The Lines"
 date: 2025-05-31
 category: exhibitions
+description: "People always ask if the machine does everything. So for this exhibition I went transparent, literally, and showed what runs behind the drawn lines."
 location: "Lodève France"
 tags: [exhibition, installation, process]
 image: /assets/images/exhibitions/2025-05-31-behind-the-lines/behindthelines-lodeve-preview.webp
@@ -10,7 +11,7 @@ image: /assets/images/exhibitions/2025-05-31-behind-the-lines/behindthelines-lod
 
 
 
-A transparent glass installation lets visitors watch the pen plotter draw in real time. The process, usually hidden, is fully visible, from the algorithms guiding each move to the choices shaping the final image. What emerges is both mechanical and deliberate, a slow unfolding of lines on glass.
+People always ask if the machine does everything. So for this exhibition I went transparent, literally, and showed what runs behind the drawn lines.
 
 ![Glass Installation View]({{ '/assets/images/exhibitions/2025-05-31-behind-the-lines/behindthelines-lodeve-1.webp' | relative_url }})
   <div class="image-columns-2">
