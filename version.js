@@ -1,6 +1,13 @@
-const VERSION = "1.20.0";
+const VERSION = "1.20.1";
 
 const CHANGELOG = [
+  {
+    version: "1.20.1",
+    date: "2026-09-20",
+    changes: [
+      "Rename the Mother post file and add a redirect from the old color-wheel-chaos URL"
+    ]
+  },
   {
     version: "1.20.0",
     date: "2026-09-20",
