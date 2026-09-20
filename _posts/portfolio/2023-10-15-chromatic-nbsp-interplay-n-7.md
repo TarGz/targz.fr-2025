@@ -2,7 +2,7 @@
 layout: post
 title: "Chromatic Interplay N°7"
 seo-title: "Chromatic Interplay N°7 - Algorithmic Pen Plotted Art | Targz"
-description: "Chromatic Interplay N°7: An algorithmic pen plotted artwork featuring geometric patterns. 59x84cm non archival ink on Bristol paper."
+description: "Translucent ellipses layered until the colour stops being separable. Three colours, three plotting angles. Flipping the initial shape makes a sort of cross. I see a strange coloured human in it."
 date: 2023-10-15
 category: portfolio
 image: /assets/images/portfolio/2023-10-15-chromatic-nbsp-interplay-n-7/chromatic-nbsp-interplay-n-7-preview.webp
@@ -14,6 +14,5 @@ frame: "Unframed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
+Translucent ellipses layered until the colour stops being separable. Three colours, three plotting angles. Flipping the initial shape makes a sort of cross. I see a strange coloured human in it.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Petroleum Kraken"
 seo-title: "Petroleum Kraken - Algorithmic Pen Plotted Art | Targz"
-description: "Petroleum Kraken: An algorithmic pen plotted artwork featuring geometric patterns. 42 x 59.4cm non archival ink on Bristol paper."
+description: "A dense blue weave with two diamond holes cut clean out of it. The Octopus design in green and blue, which gives it a petroleum feel."
 date: 2021-11-07
 category: portfolio
 image: /assets/images/portfolio/2021-11-07-petroleum-kraken/petroleum-kraken-preview.webp
@@ -16,3 +16,5 @@ frame: ""
 size: "A2 (42 x 59.4 cm)"
 support: "Bristol"
 ---
+A dense blue weave with two diamond holes cut clean out of it. The Octopus design in green and blue, which gives it a petroleum feel.
+

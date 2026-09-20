@@ -2,7 +2,7 @@
 layout: post
 title: "Hawking Radiation"
 seo-title: "Hawking Radiation - Algorithmic Pen Plotted Art | Targz"
-description: "Hawking Radiation: An algorithmic pen plotted artwork featuring geometric patterns. 59 x 84cm non archival ink on Bristol paper."
+description: "A maze of looping tubes with no exit. Orange, red, blue. Hawking radiation is not visible. This is how I imagined it could look."
 date: 2023-04-27
 category: portfolio
 redirect_from:
@@ -16,6 +16,5 @@ frame: "Unframed"
 size: "A1 (59.4 x 84.1 cm)"
 support: "Bristol"
 ---
-
-
+A maze of looping tubes with no exit. Orange, red, blue. Hawking radiation is not visible. This is how I imagined it could look.
 

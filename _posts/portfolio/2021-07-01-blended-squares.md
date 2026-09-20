@@ -2,7 +2,7 @@
 layout: post
 title: "Blended Squares"
 seo-title: "Blended Squares - Algorithmic Pen Plotted Art | Targz"
-description: "Blended Squares: An algorithmic pen plotted artwork featuring geometric patterns. 42x59.4cm non archival ink on Bristol paper."
+description: "A field of circular swirls packed edge to edge until the squares disappear. Purple and pink. My first try at mixing two parallel pen passes, different colours, different angles. A big moment, it started a long series."
 date: 2021-07-01
 category: portfolio
 redirect_from:
@@ -16,6 +16,5 @@ frame: ""
 size: "A2 (42 x 59.4 cm)"
 support: "Bristol"
 ---
-
-
+A field of circular swirls packed edge to edge until the squares disappear. Purple and pink. My first try at mixing two parallel pen passes, different colours, different angles. A big moment, it started a long series.
 

@@ -1,6 +1,13 @@
-const VERSION = "1.18.0";
+const VERSION = "1.19.0";
 
 const CHANGELOG = [
+  {
+    version: "1.19.0",
+    date: "2026-09-20",
+    changes: [
+      "Replace the generated template description on the 17 portfolio pieces that had no body text, with the shape plus Julien's own line (Yoga, Octopus Family, Hawking Radiation, Blended Squares, Solenoid Green, Petroleum Kraken, Chromatic Interplay N°1 and N°7, Vinyl Impression N°2 and N°3, Chain, Jelly Man, Young Interferences, Golden Boy, Lattice, Dye With Me 2, Infinite Loop)"
+    ]
+  },
   {
     version: "1.18.0",
     date: "2026-09-20",
