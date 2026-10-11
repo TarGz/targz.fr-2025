@@ -10,15 +10,13 @@ image: /assets/images/exhibitions/2025-03-09-grand-palais/preview.webp
 
 
 
-Comparaison 2025, Grand Palais, Paris. I showed the Synapses canvas with the Constructivism group.
+Comparaison 2025, Grand Palais, Paris. I showed [Synapses]({% post_url portfolio/2025-02-02-synapses_canvas %}), plotted in acrylic on canvas, in the Constructivism group: generative code meeting the geometric rules of the early 20th century avant-garde.
 
-## A Space Steeped in History
+The Grand Palais was built for the 1900 Universal Exhibition. Hanging plotted lines in that building felt strange, in a good way.
 
-Walking through the Grand Palais, I couldn't help but feel the weight of its history. Originally built for the 1900 Universal Exhibition, this architectural masterpiece has been home to a vast array of events from scientific fairs to major cultural exhibitions. Over the decades, it has also welcomed generations of artists, each leaving their mark and pushing the boundaries of what art can be. To be part of this legacy, even in my own small way, was humbling.
+## JARA
 
-## Finding My Place Among Masters
-
-One of the highlights of this experience was the incredible artists I had the chance to meet. JARA, the leader of our Constructivism group, welcomed me with open arms and made me feel like I truly belonged. His generosity and leadership set the tone for a space where ideas flowed freely, and artistic boundaries were stretched.
+JARA leads the Constructivism group. He took me in like I had always been part of it, and the rest of the group followed his lead.
 
 
 
@@ -31,16 +29,14 @@ One of the highlights of this experience was the incredible artists I had the ch
 
 </div>
 
-## Conversations That Left a Mark
+## Rebecca Chou
 
-Another defining moment came from my discussions with Rebecca Chou. Her keen eye and constructive feedback challenged me to think differently about my work. It’s not often you find someone who understands your approach yet pushes you to refine it further. Those conversations, along with exchanges with other artists, were some of the most enriching moments of the entire exhibition.
+Rebecca Chou looked hard at my work and told me what she thought. She got what I was doing and still pushed me to refine it. That combination is rare. Those talks, and the ones with the other artists, are what I brought home.
 
-## The Beauty of the Grand Palais
+<!-- TODO Julien: one concrete thing Rebecca said or suggested would make this paragraph. -->
 
-Beyond the people, the setting itself was breathtaking. Seeing my plotted lines displayed under the massive glass dome, within a space that has hosted some of the greatest exhibitions, added another layer of meaning to my work. It was a reminder that art, no matter how it’s created, has a place in history when it challenges perceptions and sparks conversations.
+## Under the glass roof
 
-## Looking Ahead
-
-This exhibition was more than just a show it was a validation of the medium I’ve chosen to explore. Generative art, pen plotting, and algorithmic design have a voice in contemporary art, even in the most traditional settings. I left the Grand Palais not just with memories, but with a renewed drive to push my practice even further.
+My plotted lines, under the glass roof, in a room that has held some of the biggest shows in Paris. Generative art and pen plotting can hang in a traditional contemporary art show. I came back wanting to push the work further.
 
 ![Final View]({{ '/assets/images/exhibitions/2025-03-09-grand-palais/grandpalais2025-preview.5.webp' | relative_url }})

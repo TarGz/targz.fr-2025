@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Targz - Pen Plotting Artist | Algorithmic Op Art & Generative Art
-description: Discover unique pen plotted artworks combining mathematics, algorithms, and traditional Op Art techniques. Hand-crafted generative art on bristol paper.
+description: Targz, pen plotter artist. Algorithmic Op Art written in code and drawn by machine, in ink and acrylic on Bristol paper.
 keywords: pen plotting artist, op art, generative art, algorithmic art, mathematical art, bristol paper, precision plotting, geometric patterns
 image: /assets/images/targz.webp
 ---

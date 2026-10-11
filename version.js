@@ -1,6 +1,19 @@
-const VERSION = "1.21.0";
+const VERSION = "1.22.0";
 
 const CHANGELOG = [
+  {
+    version: "1.22.0",
+    date: "2026-10-11",
+    changes: [
+      "Load Adamina and Open Sans for real: the @font-face rules only lived in main.scss, which no layout links, so the whole site fell back to the system sans",
+      "Set headings in Adamina at regular weight, since Pico ignores --pico-font-family-heading",
+      "Reading column for exhibition, commission and bits posts: text held to 66ch and centred, images keep the full width",
+      "Body text 17px with 1.75 line height, lighter h2/h3 with more space above, uppercase tracked date and location line",
+      "Rewrite the rest of the Grand Palais post in first person (JARA, Rebecca Chou, the glass roof) and link the Synapses canvas",
+      "Link Billund Mono Sans from Fill The Blank",
+      "Rewrite Space Noodle body and the index, commissions and exhibitions meta descriptions without the generic AI phrasing"
+    ]
+  },
   {
     version: "1.21.0",
     date: "2026-09-20",

@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Exhibitions - Pen Plotting Art Shows | Targz
-description: Browse exhibitions featuring algorithmic pen plotted artworks. From solo shows to group exhibitions showcasing Op Art and generative art pieces.
+description: Where Targz pen plotted work has been shown, from Paris and the Grand Palais to New York.
 keywords: pen plotting exhibitions, op art gallery, generative art shows, algorithmic art exhibition, mathematical art display
 permalink: /exhibitions/
 image: /assets/images/targz.webp

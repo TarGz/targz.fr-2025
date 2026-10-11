@@ -16,5 +16,5 @@ original_url: ""
 ink: "Non Archival Ink"
 ---
 
-Crafted through a blend of colors, this piece is an A1 pen plotter's creation, cut into a diptych. Each piece can live alone but also could be displayed as a diptych.
+Plotted on A1 with blended colours, then cut in two. Each half can hang alone, or the two together as a diptych.
 

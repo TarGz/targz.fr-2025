@@ -13,7 +13,7 @@ redirect_from:
 ---
 
 
-Interactive installation at Ground Control, Paris, built on the Billund Mono Sans font. Visitors complete the letterforms and compose the text, so the piece grows over the run of the show.
+Interactive installation at Ground Control, Paris, built on the [Billund Mono Sans]({% post_url bits/2018-01-01-billund-mono-sans %}) font. Visitors complete the letterforms and compose the text, so the piece grows over the run of the show.
 
 ![Typography Installation]({{ '/assets/images/exhibitions/2018-11-01-fill-the-blank/Fill_The_Blank-1.webp' | relative_url }})
 

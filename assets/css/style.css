@@ -1,4 +1,38 @@
 /* Custom styles for Pico CSS theme */
+
+/* Site fonts. These used to live only in main.scss, which no layout links,
+   so every page fell back to the system sans. */
+@font-face {
+  font-family: 'Adamina';
+  src: url('../Adamina/Adamina-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../Open_Sans/static/OpenSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../Open_Sans/static/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Keep the font customizations */
 :root {
   --pico-font-family: 'OpenSans', sans-serif;
@@ -386,17 +420,83 @@ body.portfolio-post .content.portfolio-grid > p:has(img) img {
 /* Post header styles for exhibitions, bits, commissions */
 .post-header {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .post-header h1 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .post-subtitle {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #666;
   font-weight: normal;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Headings in Adamina. Pico ignores --pico-font-family-heading, so set it here. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Adamina', serif;
+  font-weight: 400;
+}
+
+/* Reading column for text posts. Text sits in a ~66 character measure,
+   images keep the full width around it. Direct children only, so the
+   hand-built HTML layouts in old bits posts are left alone. */
+body.exhibitions-post .content > p:not(:has(img)),
+body.exhibitions-post .content > h2,
+body.exhibitions-post .content > h3,
+body.exhibitions-post .content > ul,
+body.exhibitions-post .content > ol,
+body.commissions-post .content > p:not(:has(img)),
+body.commissions-post .content > h2,
+body.commissions-post .content > h3,
+body.commissions-post .content > ul,
+body.commissions-post .content > ol,
+body.bits-post .content > p:not(:has(img)),
+body.bits-post .content > h2,
+body.bits-post .content > h3,
+body.bits-post .content > ul,
+body.bits-post .content > ol {
+  max-width: 66ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.exhibitions-post .content > p,
+body.commissions-post .content > p,
+body.bits-post .content > p,
+body.portfolio-post .content p,
+body.portfolio-post .portfolio-hero-text p {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: #222;
+}
+
+body.exhibitions-post .content > h2,
+body.commissions-post .content > h2,
+body.bits-post .content > h2,
+body.portfolio-post .content h2 {
+  font-size: 1.375rem;
+  line-height: 1.3;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+body.exhibitions-post .content > h3,
+body.commissions-post .content > h3,
+body.bits-post .content > h3,
+body.portfolio-post .content h3 {
+  font-size: 1.125rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Images between paragraphs need air around them */
+body.exhibitions-post .content > p:has(img),
+body.commissions-post .content > p:has(img) {
+  margin: 2.5rem 0;
 }
 
 /* Portfolio post metadata - properly styled and centered */
